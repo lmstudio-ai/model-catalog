@@ -1,0 +1,137 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "datePublished": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "name": {
+          "type": "string"
+        },
+        "resources": {
+          "type": "object",
+          "properties": {
+            "canonicalUrl": {
+              "type": "string",
+              "format": "uri"
+            },
+            "paperUrl": {
+              "type": "string",
+              "format": "uri"
+            },
+            "downloadUrl": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": ["canonicalUrl", "downloadUrl"]
+        },
+        "author": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "blurb": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": ["name", "blurb", "url"]
+        },
+        "numParameters": {
+          "type": "string",
+          "enum": ["7B", "13B", "30B", "65B", "unknown"]
+        },
+        "trainedFor": {
+          "type": "string",
+          "enum": ["chat", "instruct", "code_completion", "other"]
+        },
+        "arch": {
+          "type": "string",
+          "enum": ["llama", "pythia", "gpt_neo_x", "gpt_j", "mpt", "replit", "starcoder", "falcon"]
+        },
+        "description": {
+          "type": "string"
+        },
+        "files": {
+          "type": "object",
+          "properties": {
+            "highlighted": {
+              "type": "object",
+              "properties": {
+                "economical": {
+                  "$ref": "#/definitions/ModelFile"
+                },
+                "most_capable": {
+                  "$ref": "#/definitions/ModelFile"
+                }
+              }
+            },
+            "all": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ModelFile"
+              }
+            }
+          },
+          "required": ["highlighted", "all"]
+        }
+      },
+      "required": ["datePublished", "name", "resources", "author", "numParameters", "trainedFor", "arch", "files"]
+    },
+    "definitions": {
+      "ModelFile": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "sizeBytes": {
+            "type": "number"
+          },
+          "quantization": {
+            "type": "string",
+            "enum": ["q4_0", "q4_1", "q5_0", "q5_1", "q8_0", "Q2_K", "Q3_K_S", "Q3_K_M", "Q3_K_L", "Q4_K_S", "Q4_K_M", "Q5_K_S", "Q5_K_M", "Q6_K", "unknown"]
+          },
+          "format": {
+            "type": "string"
+          },
+          "sha256checksum": {
+            "type": "string"
+          },
+          "publisher": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "socialUrl": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "required": ["name", "socialUrl"]
+          },
+          "respository": {
+            "type": "string"
+          },
+          "repositoryUrl": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["name", "url", "sizeBytes", "quantization", "format", "sha256checksum", "publisher", "respository", "repositoryUrl"]
+      }
+    }
+  }
