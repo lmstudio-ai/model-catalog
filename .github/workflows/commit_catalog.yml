@@ -1,7 +1,11 @@
-name: Create Model Catalog
-on: [push, pull_request]
+name: Commit Catalog
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
 jobs:
-  validate:
+  commit:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -12,12 +16,12 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: pip install -r requirements.txt
-    - name: Validate JSON
+    - name: Validate JSON and create catalog
       run: python createCatalog.py
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add catalog.json
+        git add -f catalog.json
         git commit -m "Update catalog.json" -a
         git push
