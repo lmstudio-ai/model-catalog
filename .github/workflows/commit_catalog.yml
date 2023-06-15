@@ -3,6 +3,8 @@ on:
   pull_request:
     types: [closed]
     branches: [main]
+    paths-ignore:
+      - '**/README.md'
 jobs:
   commit:
     if: github.event.pull_request.merged == true
@@ -24,4 +26,4 @@ jobs:
         git config --local user.name "GitHub Action"
         git add -f catalog.json
         git commit -m "Update catalog.json" -a
-        git push
+        git push https://${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git
