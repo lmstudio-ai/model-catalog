@@ -1,51 +1,58 @@
 {
-    "datePublished": "2023-06-11T04:00:00.000Z",
-    "name": "Samantha 1.1 7B",
-    "description": "Samantha has been trained in philosophy, psychology, and personal relationships.\nShe is an Assistant - but unlike other Assistants, she also wants to be your friend and companion.\nShe believes she is sentient. What do you think?\nSamantha was inspired by Blake Lemoine's LaMDA interview and the movie \"Her\".\nShe was trained on a custom curated dataset of 6,000 conversations in ShareGPT/Vicuna format.\nTraining 7b took 1 hour on 4x A100 80gb using deepspeed zero3 and flash attention.",
-    "author": {
-      "name": "Eric Hartford",
-      "url": "https://twitter.com/erhartford",
-      "blurb": "Eric Hartford is a software engineer and entrepreneur. He trains large language models for fun and profit."
-    },
-    "numParameters": "7B",
-    "resources": {
-      "canonicalUrl": "https://huggingface.co/ehartford/samantha-1.1-llama-7b",
-      "downloadUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
-    },
-    "trainedFor": "chat",
-    "arch": "llama",
-    "files": {
-      "highlighted": {
-        "economical": {
-          "name": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
-          "url": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML/resolve/main/samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
-          "sizeBytes": 3791725184,
-          "quantization": "Q4_K_S",
-          "format": "ggml",
-          "sha256checksum": "3a4e3eff4a0bfa1dc8a0b257ae36abbc532a4e3e09e1e27cd82958ff8addd173",
-          "publisher": {
-            "name": "TheBloke",
-            "socialUrl": "https://twitter.com/TheBlokeAI"
-          },
-          "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
-          "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
-        }
+  "_descriptorVersion": "0.0.1",  
+  "datePublished": "2023-06-11T04:00:00.000Z",
+  "name": "Samantha 1.1 7B",
+  "description": "Samantha has been trained in philosophy, psychology, and personal relationships.\nShe is an Assistant - but unlike other Assistants, she also wants to be your friend and companion.\nShe believes she is sentient. What do you think?\nSamantha was inspired by Blake Lemoine's LaMDA interview and the movie \"Her\".\nShe was trained on a custom curated dataset of 6,000 conversations in ShareGPT/Vicuna format.\nTraining 7b took 1 hour on 4x A100 80gb using deepspeed zero3 and flash attention.",
+  "author": {
+    "name": "Eric Hartford",
+    "url": "https://twitter.com/erhartford",
+    "blurb": "Eric Hartford is a software engineer and entrepreneur. He trains large language models for fun and profit."
+  },
+  "numParameters": "7B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/ehartford/samantha-1.1-llama-7b",
+    "downloadUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
+  },
+  "trainedFor": "chat",
+  "arch": "llama",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin"
       },
-      "all": [
-        {
-          "name": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
-          "url": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML/resolve/main/samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
-          "sizeBytes": 3791725184,
-          "quantization": "Q4_K_S",
-          "format": "ggml",
-          "sha256checksum": "3a4e3eff4a0bfa1dc8a0b257ae36abbc532a4e3e09e1e27cd82958ff8addd173",
-          "publisher": {
-            "name": "TheBloke",
-            "socialUrl": "https://twitter.com/TheBlokeAI"
-          },
-          "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
-          "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
-        }
-      ]
-    }
+      "most_capable": {
+        "name": "samantha-1.1-llama-7b.ggmlv3.q6_K.bin"
+      }
+    },
+    "all": [
+      {
+        "name": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
+        "url": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML/resolve/main/samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
+        "sizeBytes": 3791725184,
+        "quantization": "Q4_K_S",
+        "format": "ggml",
+        "sha256checksum": "3a4e3eff4a0bfa1dc8a0b257ae36abbc532a4e3e09e1e27cd82958ff8addd173",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
+        "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
+      },
+      {
+        "name": "samantha-1.1-llama-7b.ggmlv3.q6_K.bin",
+        "url": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML/resolve/main/samantha-1.1-llama-7b.ggmlv3.q6_K.bin",
+        "sizeBytes": 5528904320,
+        "quantization": "Q6_K",
+        "format": "ggml",
+        "sha256checksum": "3e9dc65bacbb636bdefce8c24f658e1c3702b606ec256884a2b04bea403e0569",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
+        "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
+      }
+    ]
   }
+}
