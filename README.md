@@ -2,7 +2,7 @@
 
 # model-catalog
 
-A collection of standardized JSON descriptors for Large Language Models (LLMs) files.
+A collection of standardized JSON descriptors for Large Language Model (LLM) model files.
 
 #### `<model_name>.json`
 
@@ -20,7 +20,7 @@ See examples: [`guanaco-7b.json`](models/guanaco-7b.json), [`samantha-1.1-llama-
 A Github action picks up `.json` files from the `models/` directory and merges them into one `catalog.json` file.
 The contents of each JSON file is validated by another Github action using a JSON schema.
 
-## Contibution Process
+## Contribution Process
 
 You're invited to help catalog models and improve upon this description format.
 
