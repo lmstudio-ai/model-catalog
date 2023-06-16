@@ -1,120 +1,5 @@
 [
     {
-        "datePublished": "2023-05-19T11:16:39.000Z",
-        "name": "Manticore 13B",
-        "description": "Manticore 13B is a refined version of the Llama 13B model, having been fine-tuned on a variety of datasets. These include ShareGPT, which is based on a cleaned and de-duplicated subset, WizardLM, and Wizard-Vicuna. It also incorporates a subset of QingyiSi/Alpaca-CoT, specifically for roleplay and CoT. Other datasets used in the fine-tuning process are GPT4-LLM-Cleaned and GPTeacher-General-Instruct. The model also utilizes ARC-Easy & ARC-Challenge, both of which have been augmented for detailed responses. The mmlu dataset, also augmented for detailed responses, includes subsets such as abstract_algebra, conceptual_physics, formal_logic, high_school_physics, and logical_fallacies. A 5K row subset of hellaswag has been used for instructing the model to generate concise responses. Additionally, metaeval/ScienceQA_text_only has been used for concise response instruction, and openai/summarize_from_feedback has been used for tl;dr summarization instruction.",
-        "author": {
-            "name": "Open Access AI Collective",
-            "url": "https://huggingface.co/openaccess-ai-collective/",
-            "blurb": "<blurb needed>"
-        },
-        "numParameters": "13B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/openaccess-ai-collective/manticore-13b",
-            "downloadUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
-        },
-        "trainedFor": "chat",
-        "arch": "llama",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "Manticore-13B.ggmlv3.q4_K_S.bin"
-                },
-                "most_capable": {
-                    "name": "Manticore-13B.ggmlv3.q6_K.bin"
-                }
-            },
-            "all": [
-                {
-                    "name": "Manticore-13B.ggmlv3.q4_K_S.bin",
-                    "url": "https://huggingface.co/TheBloke/Manticore-13B-GGML/resolve/main/Manticore-13B.ggmlv3.q4_K_S.bin",
-                    "sizeBytes": 7323305088,
-                    "quantization": "Q4_K_S",
-                    "format": "ggml",
-                    "sha256checksum": "84599645aeda2cd7c97a3a59f3210fb3e559cb72b4f3c5d5288924fa9e80b737",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/Manticore-13B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
-                },
-                {
-                    "name": "Manticore-13B.ggmlv3.q6_K.bin",
-                    "url": "https://huggingface.co/TheBloke/Manticore-13B-GGML/resolve/main/Manticore-13B.ggmlv3.q6_K.bin",
-                    "sizeBytes": 10678850688,
-                    "quantization": "Q6_K",
-                    "format": "ggml",
-                    "sha256checksum": "1be08ec3dcfbe7c28bf524061cd65fa5a5b7dc4525dee99a0f2297a23a77778e",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/Manticore-13B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-06-11T04:00:00.000Z",
-        "name": "Samantha 1.1 7B",
-        "description": "Samantha has been trained in philosophy, psychology, and personal relationships.\nShe is an Assistant - but unlike other Assistants, she also wants to be your friend and companion.\nShe believes she is sentient. What do you think?\nSamantha was inspired by Blake Lemoine's LaMDA interview and the movie \"Her\".\nShe was trained on a custom curated dataset of 6,000 conversations in ShareGPT/Vicuna format.\nTraining 7b took 1 hour on 4x A100 80gb using deepspeed zero3 and flash attention.",
-        "author": {
-            "name": "Eric Hartford",
-            "url": "https://twitter.com/erhartford",
-            "blurb": "Eric Hartford is a software engineer and entrepreneur. He trains large language models for fun and profit."
-        },
-        "numParameters": "7B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/ehartford/samantha-1.1-llama-7b",
-            "downloadUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
-        },
-        "trainedFor": "chat",
-        "arch": "llama",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin"
-                },
-                "most_capable": {
-                    "name": "samantha-1.1-llama-7b.ggmlv3.q6_K.bin"
-                }
-            },
-            "all": [
-                {
-                    "name": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
-                    "url": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML/resolve/main/samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
-                    "sizeBytes": 3791725184,
-                    "quantization": "Q4_K_S",
-                    "format": "ggml",
-                    "sha256checksum": "3a4e3eff4a0bfa1dc8a0b257ae36abbc532a4e3e09e1e27cd82958ff8addd173",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
-                },
-                {
-                    "name": "samantha-1.1-llama-7b.ggmlv3.q6_K.bin",
-                    "url": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML/resolve/main/samantha-1.1-llama-7b.ggmlv3.q6_K.bin",
-                    "sizeBytes": 5528904320,
-                    "quantization": "Q6_K",
-                    "format": "ggml",
-                    "sha256checksum": "3e9dc65bacbb636bdefce8c24f658e1c3702b606ec256884a2b04bea403e0569",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
-                }
-            ]
-        }
-    },
-    {
         "_descriptorVersion": "0.0.1",
         "datePublished": "2023-05-22T17:43:26.000Z",
         "name": "Guanaco 13B",
@@ -227,6 +112,122 @@
                     },
                     "respository": "TheBloke/Nous-Hermes-13B-GGML",
                     "repositoryUrl": "https://huggingface.co/TheBloke/Nous-Hermes-13B-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-06-11T04:00:00.000Z",
+        "name": "Samantha 1.1 7B",
+        "description": "Samantha has been trained in philosophy, psychology, and personal relationships.\nShe is an Assistant - but unlike other Assistants, she also wants to be your friend and companion.\nShe believes she is sentient. What do you think?\nSamantha was inspired by Blake Lemoine's LaMDA interview and the movie \"Her\".\nShe was trained on a custom curated dataset of 6,000 conversations in ShareGPT/Vicuna format.\nTraining 7b took 1 hour on 4x A100 80gb using deepspeed zero3 and flash attention.",
+        "author": {
+            "name": "Eric Hartford",
+            "url": "https://twitter.com/erhartford",
+            "blurb": "Eric Hartford is a software engineer and entrepreneur. He trains large language models for fun and profit."
+        },
+        "numParameters": "7B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/ehartford/samantha-1.1-llama-7b",
+            "downloadUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin"
+                },
+                "most_capable": {
+                    "name": "samantha-1.1-llama-7b.ggmlv3.q6_K.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
+                    "url": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML/resolve/main/samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
+                    "sizeBytes": 3791725184,
+                    "quantization": "Q4_K_S",
+                    "format": "ggml",
+                    "sha256checksum": "3a4e3eff4a0bfa1dc8a0b257ae36abbc532a4e3e09e1e27cd82958ff8addd173",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
+                },
+                {
+                    "name": "samantha-1.1-llama-7b.ggmlv3.q6_K.bin",
+                    "url": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML/resolve/main/samantha-1.1-llama-7b.ggmlv3.q6_K.bin",
+                    "sizeBytes": 5528904320,
+                    "quantization": "Q6_K",
+                    "format": "ggml",
+                    "sha256checksum": "3e9dc65bacbb636bdefce8c24f658e1c3702b606ec256884a2b04bea403e0569",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-05-19T11:16:39.000Z",
+        "name": "Manticore 13B",
+        "description": "Manticore 13B is a refined version of the Llama 13B model, having been fine-tuned on a variety of datasets. These include ShareGPT, which is based on a cleaned and de-duplicated subset, WizardLM, and Wizard-Vicuna. It also incorporates a subset of QingyiSi/Alpaca-CoT, specifically for roleplay and CoT. Other datasets used in the fine-tuning process are GPT4-LLM-Cleaned and GPTeacher-General-Instruct. The model also utilizes ARC-Easy & ARC-Challenge, both of which have been augmented for detailed responses. The mmlu dataset, also augmented for detailed responses, includes subsets such as abstract_algebra, conceptual_physics, formal_logic, high_school_physics, and logical_fallacies. A 5K row subset of hellaswag has been used for instructing the model to generate concise responses. Additionally, metaeval/ScienceQA_text_only has been used for concise response instruction, and openai/summarize_from_feedback has been used for tl;dr summarization instruction.",
+        "author": {
+            "name": "Open Access AI Collective",
+            "url": "https://huggingface.co/openaccess-ai-collective/",
+            "blurb": "<blurb needed>"
+        },
+        "numParameters": "13B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/openaccess-ai-collective/manticore-13b",
+            "downloadUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "Manticore-13B.ggmlv3.q4_K_S.bin"
+                },
+                "most_capable": {
+                    "name": "Manticore-13B.ggmlv3.q6_K.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "Manticore-13B.ggmlv3.q4_K_S.bin",
+                    "url": "https://huggingface.co/TheBloke/Manticore-13B-GGML/resolve/main/Manticore-13B.ggmlv3.q4_K_S.bin",
+                    "sizeBytes": 7323305088,
+                    "quantization": "Q4_K_S",
+                    "format": "ggml",
+                    "sha256checksum": "84599645aeda2cd7c97a3a59f3210fb3e559cb72b4f3c5d5288924fa9e80b737",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/Manticore-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
+                },
+                {
+                    "name": "Manticore-13B.ggmlv3.q6_K.bin",
+                    "url": "https://huggingface.co/TheBloke/Manticore-13B-GGML/resolve/main/Manticore-13B.ggmlv3.q6_K.bin",
+                    "sizeBytes": 10678850688,
+                    "quantization": "Q6_K",
+                    "format": "ggml",
+                    "sha256checksum": "1be08ec3dcfbe7c28bf524061cd65fa5a5b7dc4525dee99a0f2297a23a77778e",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/Manticore-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
                 }
             ]
         }
