@@ -10,11 +10,11 @@ def validate_json(json_data, schema):
     try:
         validate(instance=json_data, schema=schema)
         print("JSON file is valid.")
-        return 0
+        sys.exit(0)
     except ValidationError as v:
         print("JSON file is invalid.")
         print(v)
-        return 42
+        sys.exit(42)
 
 def main(schema_file, json_file):
     with open(schema_file, 'r') as f:
