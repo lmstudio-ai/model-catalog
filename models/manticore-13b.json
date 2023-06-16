@@ -1,57 +1,58 @@
 {
-    "datePublished": "2023-05-19T11:16:39.000Z",
-    "name": "Manticore 13B",
-    "description": "Manticore 13B is a refined version of the Llama 13B model, having been fine-tuned on a variety of datasets. These include ShareGPT, which is based on a cleaned and de-duplicated subset, WizardLM, and Wizard-Vicuna. It also incorporates a subset of QingyiSi/Alpaca-CoT, specifically for roleplay and CoT. Other datasets used in the fine-tuning process are GPT4-LLM-Cleaned and GPTeacher-General-Instruct. The model also utilizes ARC-Easy & ARC-Challenge, both of which have been augmented for detailed responses. The mmlu dataset, also augmented for detailed responses, includes subsets such as abstract_algebra, conceptual_physics, formal_logic, high_school_physics, and logical_fallacies. A 5K row subset of hellaswag has been used for instructing the model to generate concise responses. Additionally, metaeval/ScienceQA_text_only has been used for concise response instruction, and openai/summarize_from_feedback has been used for tl;dr summarization instruction.",
-    "author": {
-      "name": "Open Access AI Collective",
-      "url": "https://huggingface.co/openaccess-ai-collective/",
-      "blurb": "<blurb needed>"
-    },
-    "numParameters": "13B",
-    "resources": {
-      "canonicalUrl": "https://huggingface.co/openaccess-ai-collective/manticore-13b",
-      "downloadUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
-    },
-    "trainedFor": "chat",
-    "arch": "llama",
-    "files": {
-      "highlighted": {
-        "economical": {
-          "name": "Manticore-13B.ggmlv3.q4_K_S.bin"
-        },
-        "most_capable": {
-          "name": "Manticore-13B.ggmlv3.q6_K.bin"
-        }
+  "_descriptorVersion": "0.0.1",
+  "datePublished": "2023-05-19T11:16:39.000Z",
+  "name": "Manticore 13B",
+  "description": "Manticore 13B is a refined version of the Llama 13B model, having been fine-tuned on a variety of datasets. These include ShareGPT, which is based on a cleaned and de-duplicated subset, WizardLM, and Wizard-Vicuna. It also incorporates a subset of QingyiSi/Alpaca-CoT, specifically for roleplay and CoT. Other datasets used in the fine-tuning process are GPT4-LLM-Cleaned and GPTeacher-General-Instruct. The model also utilizes ARC-Easy & ARC-Challenge, both of which have been augmented for detailed responses. The mmlu dataset, also augmented for detailed responses, includes subsets such as abstract_algebra, conceptual_physics, formal_logic, high_school_physics, and logical_fallacies. A 5K row subset of hellaswag has been used for instructing the model to generate concise responses. Additionally, metaeval/ScienceQA_text_only has been used for concise response instruction, and openai/summarize_from_feedback has been used for tl;dr summarization instruction.",
+  "author": {
+    "name": "Open Access AI Collective",
+    "url": "https://huggingface.co/openaccess-ai-collective/",
+    "blurb": "<blurb needed>"
+  },
+  "numParameters": "13B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/openaccess-ai-collective/manticore-13b",
+    "downloadUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
+  },
+  "trainedFor": "chat",
+  "arch": "llama",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "Manticore-13B.ggmlv3.q4_K_S.bin"
       },
-      "all": [
-        {
-          "name": "Manticore-13B.ggmlv3.q4_K_S.bin",
-          "url": "https://huggingface.co/TheBloke/Manticore-13B-GGML/resolve/main/Manticore-13B.ggmlv3.q4_K_S.bin",
-          "sizeBytes": 7323305088,
-          "quantization": "Q4_K_S",
-          "format": "ggml",
-          "sha256checksum": "84599645aeda2cd7c97a3a59f3210fb3e559cb72b4f3c5d5288924fa9e80b737",
-          "publisher": {
-              "name": "TheBloke",
-              "socialUrl": "https://twitter.com/TheBlokeAI"
-          },
-          "respository": "TheBloke/Manticore-13B-GGML",
-          "repositoryUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
+      "most_capable": {
+        "name": "Manticore-13B.ggmlv3.q6_K.bin"
+      }
+    },
+    "all": [
+      {
+        "name": "Manticore-13B.ggmlv3.q4_K_S.bin",
+        "url": "https://huggingface.co/TheBloke/Manticore-13B-GGML/resolve/main/Manticore-13B.ggmlv3.q4_K_S.bin",
+        "sizeBytes": 7323305088,
+        "quantization": "Q4_K_S",
+        "format": "ggml",
+        "sha256checksum": "84599645aeda2cd7c97a3a59f3210fb3e559cb72b4f3c5d5288924fa9e80b737",
+        "publisher": {
+            "name": "TheBloke",
+            "socialUrl": "https://twitter.com/TheBlokeAI"
         },
-        {
-          "name": "Manticore-13B.ggmlv3.q6_K.bin",
-          "url": "https://huggingface.co/TheBloke/Manticore-13B-GGML/resolve/main/Manticore-13B.ggmlv3.q6_K.bin",
-          "sizeBytes": 10678850688,
-          "quantization": "Q6_K",
-          "format": "ggml",
-          "sha256checksum": "1be08ec3dcfbe7c28bf524061cd65fa5a5b7dc4525dee99a0f2297a23a77778e",
-          "publisher": {
-              "name": "TheBloke",
-              "socialUrl": "https://twitter.com/TheBlokeAI"
-          },
-          "respository": "TheBloke/Manticore-13B-GGML",
-          "repositoryUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
-        }
-      ]
-    }
+        "respository": "TheBloke/Manticore-13B-GGML",
+        "repositoryUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
+      },
+      {
+        "name": "Manticore-13B.ggmlv3.q6_K.bin",
+        "url": "https://huggingface.co/TheBloke/Manticore-13B-GGML/resolve/main/Manticore-13B.ggmlv3.q6_K.bin",
+        "sizeBytes": 10678850688,
+        "quantization": "Q6_K",
+        "format": "ggml",
+        "sha256checksum": "1be08ec3dcfbe7c28bf524061cd65fa5a5b7dc4525dee99a0f2297a23a77778e",
+        "publisher": {
+            "name": "TheBloke",
+            "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/Manticore-13B-GGML",
+        "repositoryUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
+      }
+    ]
   }
+}
