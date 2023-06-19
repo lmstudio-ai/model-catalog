@@ -1,0 +1,58 @@
+{
+  "_descriptorVersion": "0.0.1",
+  "datePublished": "2023-06-12T11:16:39.000Z",
+  "name": "Manticore 13B Chat Pyg Guanaco",
+  "description": "Manticore-13b-Chat-Pyg by openaccess-ai-collective with the Guanaco 13b qLoRa by TimDettmers applied through Monero, quantized by mindrage, uncensored",
+  "author": {
+    "name": "mindrage",
+    "url": "https://huggingface.co/mindrage",
+    "blurb": "The model seems to have noticeably benefited from further augmentation with the Guanaco qLora. Its capabilities seem broad, even compared with other Wizard or Manticore models, with expected weaknesses at coding. It is very good at in-context-learning and (in its class) reasoning. It both follows instructions well, and can be used as a chatbot. Refreshingly, it does not seem to insist on aggressively sticking to narratives to justify formerly hallucinated output as much as similar models. It's output seems... eerily smart at times. I believe the model is fully unrestricted/uncensored and will generally not berate."
+  },
+  "numParameters": "13B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML",
+    "downloadUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML"
+  },
+  "trainedFor": "chat",
+  "arch": "llama",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin"
+      },
+      "most_capable": {
+        "name": "Manticore-13B-Chat-Pyg-Guanaco-GGML-q5_K_S.bin"
+      }
+    },
+    "all": [
+      {
+        "name": "Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin",
+        "url": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/blob/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin",
+        "sizeBytes": 6249231488,
+        "quantization": "Q3_K_M",
+        "format": "ggml",
+        "sha256checksum": "ea266b52d6080e7df1b8d98ea290d0b4e261dc9cfe5fc9169abcef0c154831e5",
+        "publisher": {
+          "name": "mindrage",
+          "socialUrl": "https://github.com/mindrages"
+        },
+        "respository": "mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML",
+        "repositoryUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML"
+      },
+      {
+        "name": "Manticore-13B.ggmlv3.q6_K.bin",
+        "url": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/blob/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q5_K_S.bin",
+        "sizeBytes": 8950236288,
+        "quantization": "Q5_K_S",
+        "format": "ggml",
+        "sha256checksum": "00a47eeb6364e1e022a45cfe1232a37fa78e9f040242dba78d34d6df383e32d1",
+        "publisher": {
+          "name": "mindrage",
+          "socialUrl": "https://github.com/mindrages"
+        },
+        "respository": "mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML",
+        "repositoryUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML"
+      }
+    ]
+  }
+}
