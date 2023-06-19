@@ -1,0 +1,58 @@
+{
+  "_descriptorVersion": "0.0.1",  
+  "datePublished": "2023-06-15T09:35:56.000Z",
+  "name": "Airboros-13b-gpt4-1.2",
+  "description": "This qlora fine-tuned 13b parameter LlaMa model uses synthetic training data created via github.com/jondurbin/airoboros. It extends version 1.1, introducing thousands of new training data and an update for \"PLAINFORMAT\" to print code without backticks or explanations. The dataset, available online, focuses on coding, math/reasoning, trivia, role playing, multiple choice, fill-in-the-blank, context-obedient question answering, theory of mind, and general topics. The model was fine-tuned with a qlora fork, updated to use a modified vicuna template compatible with 7b/13b versions. The format involves a preamble/system prompt, followed by \"USER: [prompt] ASSISTANT: \", with the prompt allowing for multiple lines and spaces.",
+  "author": {
+    "name": "Jon Durbin",
+    "url": "https://github.com/jondurbin",
+    "blurb": "Jon Durbin is a Computer Scientist and the author of the Airboros (7B, 13B, 33B, 65B) qlora fine-tuned LlaMa family of models."
+  },
+  "numParameters": "13B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/jondurbin/airoboros-13b-gpt4-1.2",
+    "downloadUrl": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.2-GGML"
+  },
+  "trainedFor": "chat",
+  "arch": "llama",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "airoboros-13b-gpt4-1.2.ggmlv3.q4_K_S.bin"
+      },
+      "most_capable": {
+        "name": "airoboros-13b-gpt4-1.2.ggmlv3.q6_K.bin"
+      }
+    },
+    "all": [
+      {
+        "name": "airoboros-13b-gpt4-1.2.ggmlv3.q4_K_S.bin",
+        "url": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.2-GGML/resolve/main/airoboros-13b-gpt4-1.2.ggmlv3.q4_K_S.bin",
+        "sizeBytes": 7365545088,
+        "quantization": "Q4_K_S",
+        "format": "ggml",
+        "sha256checksum": "c3f993433155ee19aee84c1e8dd151a4b96518ac461d4232cc17f2c0a3335789",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
+        "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
+      },
+      {
+        "name": "airoboros-13b-gpt4-1.2.ggmlv3.q6_K.bin",
+        "url": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.2-GGML/resolve/main/airoboros-13b-gpt4-1.2.ggmlv3.q6_K.bin",
+        "sizeBytes": 10678850688,
+        "quantization": "Q6_K",
+        "format": "ggml",
+        "sha256checksum": "3f8b10a0dbe2f9a813e70ab9f387b775860a8403db575e7c4f647a559d7983db",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/airoboros-13B-gpt4-1.2-GGML",
+        "repositoryUrl": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.2-GGML"
+      }
+    ]
+  }
+}
