@@ -36,8 +36,8 @@
           "name": "TheBloke",
           "socialUrl": "https://twitter.com/TheBlokeAI"
         },
-        "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
-        "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
+        "respository": "TheBloke/airoboros-13B-gpt4-1.2-GGML",
+        "repositoryUrl": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.2-GGML"
       },
       {
         "name": "airoboros-13b-gpt4-1.2.ggmlv3.q6_K.bin",
