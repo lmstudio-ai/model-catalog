@@ -24,7 +24,7 @@ The contents of each JSON file is validated by another Github action using a JSO
 
 You're invited to help catalog models and improve upon this description format.
 
-1. Clone this repo and create a new development branch.
+1. Fork this repo and create a new development branch.
 2. Create a new model JSON file and place it the `models/` directory.
 3. Validate your file against the expected JSON schema using the `validate.py` tool or by running `createCatalog.py`.
 4. Open a PR with your change.
