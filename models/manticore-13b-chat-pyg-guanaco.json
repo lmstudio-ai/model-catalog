@@ -2,11 +2,11 @@
   "_descriptorVersion": "0.0.1",
   "datePublished": "2023-06-12T11:16:39.000Z",
   "name": "Manticore 13B Chat Pyg Guanaco",
-  "description": "Manticore-13b-Chat-Pyg by openaccess-ai-collective with the Guanaco 13b qLoRa by TimDettmers applied through Monero, quantized by mindrage, uncensored",
+  "description": "The model, augmented with Guanaco qLora, shows broad capabilities compared to other models like Wizard or Manticore. It excels in in-context learning and reasoning but may have weaknesses in coding. The model follows instructions, works as a chatbot, and produces intelligent responses. It accepts various prompting styles, including the ###-Variant. The model is generally unrestricted and doesn't berate users. Recommended settings include low temperature, low diversity, and slight repetition penalty.",
   "author": {
-    "name": "mindrage",
-    "url": "https://huggingface.co/mindrage",
-    "blurb": "The model seems to have noticeably benefited from further augmentation with the Guanaco qLora. Its capabilities seem broad, even compared with other Wizard or Manticore models, with expected weaknesses at coding. It is very good at in-context-learning and (in its class) reasoning. It both follows instructions well, and can be used as a chatbot. Refreshingly, it does not seem to insist on aggressively sticking to narratives to justify formerly hallucinated output as much as similar models. It's output seems... eerily smart at times. I believe the model is fully unrestricted/uncensored and will generally not berate."
+    "name": "Open Access AI Collective",
+    "url": "https://huggingface.co/openaccess-ai-collective/",
+    "blurb": "<blurb needed>"
   },
   "numParameters": "13B",
   "resources": {
@@ -40,7 +40,7 @@
         "repositoryUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML"
       },
       {
-        "name": "Manticore-13B.ggmlv3.q6_K.bin",
+        "name": "Manticore-13B.ggmlv3.q5_K_S.bin",
         "url": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/blob/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q5_K_S.bin",
         "sizeBytes": 8950236288,
         "quantization": "Q5_K_S",
