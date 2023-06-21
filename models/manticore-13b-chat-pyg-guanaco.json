@@ -4,9 +4,9 @@
   "name": "Manticore 13B Chat Pyg Guanaco",
   "description": "The model, augmented with Guanaco qLora, shows broad capabilities compared to other models like Wizard or Manticore. It excels in in-context learning and reasoning but may have weaknesses in coding. The model follows instructions, works as a chatbot, and produces intelligent responses. It accepts various prompting styles, including the ###-Variant. The model is generally unrestricted and doesn't berate users. Recommended settings include low temperature, low diversity, and slight repetition penalty.",
   "author": {
-    "name": "",
-    "url": "",
-    "blurb": "<blurb needed>"
+    "name": "Open Access AI Collective",
+    "url": "https://huggingface.co/openaccess-ai-collective/",
+    "blurb": ""
   },
   "numParameters": "13B",
   "resources": {
