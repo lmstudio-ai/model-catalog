@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -30,4 +31,4 @@ jobs:
         git config --local user.name "GitHub Action"
         git add -f catalog.json
         git commit -m "Update catalog.json" -a
-        git push https://${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:main
+        git push https://${{secrets.GH_PAT}}@github.com/${{github.repository}}.git HEAD:main
