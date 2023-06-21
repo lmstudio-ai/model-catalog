@@ -10,7 +10,7 @@
   },
   "numParameters": "13B",
   "resources": {
-    "canonicalUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML",
+    "canonicalUrl": "https://huggingface.co/openaccess-ai-collective/manticore-13b-chat-pyg",
     "downloadUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML"
   },
   "trainedFor": "chat",
