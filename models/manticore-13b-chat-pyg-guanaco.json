@@ -27,7 +27,7 @@
     "all": [
       {
         "name": "Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin",
-        "url": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/blob/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin",
+        "url": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/resolve/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin",
         "sizeBytes": 6249231488,
         "quantization": "Q3_K_M",
         "format": "ggml",
@@ -40,8 +40,8 @@
         "repositoryUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML"
       },
       {
-        "name": "Manticore-13B.ggmlv3.q5_K_S.bin",
-        "url": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/blob/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q5_K_S.bin",
+        "name": "Manticore-13B-Chat-Pyg-Guanaco-GGML-q5_K_S.bin",
+        "url": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/resolve/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q5_K_S.bin",
         "sizeBytes": 8950236288,
         "quantization": "Q5_K_S",
         "format": "ggml",
