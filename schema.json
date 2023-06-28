@@ -51,7 +51,7 @@
       },
       "numParameters": {
         "type": "string",
-        "enum": ["7B", "13B", "30B", "65B", "unknown"]
+        "enum": ["3B", "7B", "13B", "15B", "30B", "65B", "unknown"]
       },
       "trainedFor": {
         "type": "string",
