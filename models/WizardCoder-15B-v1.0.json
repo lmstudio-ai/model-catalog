@@ -30,7 +30,7 @@
         "name": "WizardCoder-15B-1.0.ggmlv3.q4_0.bin",
         "url": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q4_0.bin",
         "sizeBytes": 10746570393,
-        "quantization": "Q4_0",
+        "quantization": "q4_0",
         "format": "ggml",
         "sha256checksum": "b70164bc0b58a472c0987905133735ab3b27e2c439dedf8174a43951c51c3229",
         "publisher": {
@@ -44,7 +44,7 @@
         "name": "WizardCoder-15B-1.0.ggmlv3.q8_0.bin",
         "url": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q8_0.bin",
         "sizeBytes": 20108263065,
-        "quantization": "Q8_0",
+        "quantization": "q8_0",
         "format": "ggml",
         "sha256checksum": "54cd910ab9a21a1abd34a121b0894f116cd9d9abda1ff8369886acb7b9683df5",
         "publisher": {
