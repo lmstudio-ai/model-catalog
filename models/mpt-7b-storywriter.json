@@ -29,7 +29,7 @@
         "name": "mpt-7b-storywriter.ggmlv3.q4_0.bin",
         "url": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML/resolve/main/mpt-7b-storywriter.ggmlv3.q4_0.bin",
         "sizeBytes": 3741665280,
-        "quantization": "Q4_0",
+        "quantization": "q4_0",
         "format": "ggml",
         "sha256checksum": "357a536464982987e49fb2660fe3f3f53226eaa047f42b31f04d21629aab94fb",
         "publisher": {
@@ -43,7 +43,7 @@
         "name": "mpt-7b-storywriter.ggmlv3.q8_0.bin",
         "url": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML/resolve/main/mpt-7b-storywriter.ggmlv3.q8_0.bin",
         "sizeBytes": 7066175488,
-        "quantization": "Q8_0",
+        "quantization": "q8_0",
         "format": "ggml",
         "sha256checksum": "4350ba0c9759bfd1456f039bf2d0f6e6ee4cd97e1ee2bcbfff1e34b4e49e6dc8",
         "publisher": {
