@@ -1,0 +1,58 @@
+{
+  "_descriptorVersion": "0.0.1",  
+  "datePublished": "2023-05-04T23:15:35.000Z",
+  "name": "MPT-7B-StoryWriter",
+  "description": "MPT-7B-StoryWriter-65k+ is a model designed to read and write fictional stories with super long context lengths. It was built by finetuning MPT-7B with a context length of 65k tokens on a filtered fiction subset of the books3 dataset. At inference time, thanks to ALiBi, MPT-7B-StoryWriter-65k+ can extrapolate even beyond 65k tokens. We demonstrate generations as long as 84k tokens on a single node of 8 A100-80GB GPUs in (https://www.mosaicml.com/blog/mpt-7b). This model was trained by MosaicML and follows a modified decoder-only transformer architecture. License: Apache 2.0",
+  "author": {
+    "name": "MosaicML",
+    "url": "https://www.mosaicml.com/",
+    "blurb": "MosaicML is the generative AI platform that empowers enterprises to build their own AI. Our research and engineering teams use cutting-edge scientific research to develop products that make it fast, cost-effective, and easy to train today's most popular machine learning models. MosaicML enables developers to maintain full control over the AI models they build, with model ownership and data privacy built into the platform's design."
+  },
+  "numParameters": "7B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/mosaicml/mpt-7b-storywriter",
+    "downloadUrl": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML"
+  },
+  "trainedFor": "other",
+  "arch": "mpt",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "mpt-7b-storywriter.ggmlv3.q4_0.bin"
+      },
+      "most_capable": {
+        "name": "mpt-7b-storywriter.ggmlv3.q8_0.bin"
+      }
+    },
+    "all": [
+      {
+        "name": "mpt-7b-storywriter.ggmlv3.q4_0.bin",
+        "url": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML/resolve/main/mpt-7b-storywriter.ggmlv3.q4_0.bin",
+        "sizeBytes": 3741665280,
+        "quantization": "Q4_0",
+        "format": "ggml",
+        "sha256checksum": "357a536464982987e49fb2660fe3f3f53226eaa047f42b31f04d21629aab94fb",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/MPT-7B-Storywriter-GGML",
+        "repositoryUrl": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML"
+      },
+      {
+        "name": "mpt-7b-storywriter.ggmlv3.q8_0.bin",
+        "url": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML/resolve/main/mpt-7b-storywriter.ggmlv3.q8_0.bin",
+        "sizeBytes": 7066175488,
+        "quantization": "Q8_0",
+        "format": "ggml",
+        "sha256checksum": "4350ba0c9759bfd1456f039bf2d0f6e6ee4cd97e1ee2bcbfff1e34b4e49e6dc8",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/MPT-7B-Storywriter-GGML",
+        "repositoryUrl": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML"
+      }
+    ]
+  }
+}

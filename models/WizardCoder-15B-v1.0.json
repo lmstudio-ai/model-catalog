@@ -1,0 +1,59 @@
+{
+  "_descriptorVersion": "0.0.1",  
+  "datePublished": "2023-06-14T11:50:53.000Z",
+  "name": "WizardCoder-15B-V1.0",
+  "description": "WizardCoder: Empowering Code Large Language Models with Evol-Instruct. To develop our WizardCoder model, we begin by adapting the Evol-Instruct method specifically for coding tasks. This involves tailoring the prompt to the domain of code-related instructions. Subsequently, we fine-tune the Code LLM, StarCoder, utilizing the newly created instruction-following training set.",
+  "author": {
+    "name": "WizardLM",
+    "url": "https://huggingface.co/WizardLM",
+    "blurb": "WizardLM: An Instruction-following LLM Using Evol-Instruct"
+  },
+  "numParameters": "15B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0",
+    "downloadUrl": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML",
+    "paperUrl": "https://arxiv.org/abs/2306.08568"
+  },
+  "trainedFor": "code_completion",
+  "arch": "starcoder",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "WizardCoder-15B-1.0.ggmlv3.q4_0.bin"
+      },
+      "most_capable": {
+        "name": "WizardCoder-15B-1.0.ggmlv3.q8_0.bin"
+      }
+    },
+    "all": [
+      {
+        "name": "WizardCoder-15B-1.0.ggmlv3.q4_0.bin",
+        "url": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q4_0.bin",
+        "sizeBytes": 10746570393,
+        "quantization": "Q4_0",
+        "format": "ggml",
+        "sha256checksum": "b70164bc0b58a472c0987905133735ab3b27e2c439dedf8174a43951c51c3229",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/WizardCoder-15B-1.0-GGML",
+        "repositoryUrl": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML"
+      },
+      {
+        "name": "WizardCoder-15B-1.0.ggmlv3.q8_0.bin",
+        "url": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q8_0.bin",
+        "sizeBytes": 20108263065,
+        "quantization": "Q8_0",
+        "format": "ggml",
+        "sha256checksum": "54cd910ab9a21a1abd34a121b0894f116cd9d9abda1ff8369886acb7b9683df5",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/WizardCoder-15B-1.0-GGML",
+        "repositoryUrl": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML"
+      }
+    ]
+  }
+}
