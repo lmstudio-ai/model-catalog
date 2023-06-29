@@ -14,7 +14,7 @@
     "downloadUrl": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML",
     "paperUrl": "https://arxiv.org/abs/2306.08568"
   },
-  "trainedFor": "code_completion",
+  "trainedFor": "instruct",
   "arch": "starcoder",
   "files": {
     "highlighted": {
