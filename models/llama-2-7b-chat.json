@@ -1,7 +1,7 @@
 {
   "_descriptorVersion": "0.0.1",  
   "datePublished": "2023-07-18T21:08:14.000Z",
-  "name": "Llama-2-7B-GGML",
+  "name": "Llama-2-7B-Chat-GGML",
   "description": "This is the 7B model from the Llama 2 family of large language models (LLMs), a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. Meta's fine-tuned LLMs, called Llama-2-Chat, are optimized for dialogue use cases. Llama-2-Chat models outperform open-source chat models on most benchmarks we tested, and in Meta's human evaluations for helpfulness and safety, are on par with some popular closed-source models like ChatGPT and PaLM.",
   "author": {
     "name": "Meta AI",
@@ -10,48 +10,49 @@
   },
   "numParameters": "7B",
   "resources": {
-    "canonicalUrl": "https://huggingface.co/meta-llama/Llama-2-7b-hf",
-    "downloadUrl": "https://huggingface.co/TheBloke/Llama-2-7B-GGML"
+    "canonicalUrl": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
+    "paperUrl": "https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/",
+    "downloadUrl": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML"
   },
   "trainedFor": "chat",
   "arch": "llama",
   "files": {
     "highlighted": {
       "economical": {
-        "name": "llama-2-7b.ggmlv3.q4_K_S.bin"
+        "name": "llama-2-7b-chat.ggmlv3.q4_K_S.bin"
       },
       "most_capable": {
-        "name": "llama-2-7b.ggmlv3.q6_K.bin"
+        "name": "llama-2-7b-chat.ggmlv3.q6_K.bin"
       }
     },
     "all": [
       {
-        "name": "llama-2-7b.ggmlv3.q4_K_S.bin",
-        "url": "https://huggingface.co/TheBloke/Llama-2-7B-GGML/resolve/main/llama-2-7b.ggmlv3.q4_K_S.bin",
+        "name": "llama-2-7b-chat.ggmlv3.q4_K_S.bin",
+        "url": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q4_K_S.bin",
         "sizeBytes": 3825517184,
         "quantization": "Q4_K_S",
         "format": "ggml",
-        "sha256checksum": "acaf2b0976608a1ae663e48c50199fc96db038367931a3d1928135d6d8f35651",
+        "sha256checksum": "32b758bf5e4f16fb5944b75d577fbca18c11c57000b41c6cc04bb281632d58f3",
         "publisher": {
           "name": "TheBloke",
           "socialUrl": "https://twitter.com/TheBlokeAI"
         },
-        "respository": "TheBloke/Llama-2-7B-GGML",
-        "repositoryUrl": "https://huggingface.co/TheBloke/Llama-2-7B-GGML"
+        "respository": "TheBloke/Llama-2-7B-Chat-GGML",
+        "repositoryUrl": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML"
       },
       {
-        "name": "llama-2-7b.ggmlv3.q6_K.bin",
-        "url": "https://huggingface.co/TheBloke/Llama-2-7B-GGML/resolve/main/llama-2-7b.ggmlv3.q6_K.bin",
+        "name": "llama-2-7b-chat.ggmlv3.q6_K.bin",
+        "url": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q6_K.bin",
         "sizeBytes": 5528904320,
         "quantization": "Q6_K",
         "format": "ggml",
-        "sha256checksum": "4a729c62010251307772561f86a49b8f9f53e569ef41dbf0f0577dea6e07acc3",
+        "sha256checksum": "24a2097aba9bc63395654515618fb2ceeaea64452147ee5299990b636e4c00ce",
         "publisher": {
           "name": "TheBloke",
           "socialUrl": "https://twitter.com/TheBlokeAI"
         },
-        "respository": "TheBloke/Llama-2-7B-GGML",
-        "repositoryUrl": "https://huggingface.co/TheBloke/Llama-2-7B-GGML"
+        "respository": "TheBloke/Llama-2-7B-Chat-GGML",
+        "repositoryUrl": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML"
       }
     ]
   }
