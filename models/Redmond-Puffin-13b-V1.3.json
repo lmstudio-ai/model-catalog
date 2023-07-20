@@ -1,0 +1,41 @@
+{
+    "_descriptorVersion": "0.0.1",
+    "datePublished": "2023-07-20T09:26:31.000Z",
+    "name": "Redmond-Puffin-13B-V1.3",
+    "description": "Redmond-Puffin-13B is one of the worlds first llama-2 based, fine-tuned language models, leveraging a hand curated set of 3K high quality examples, many of which take full advantage of the 4096 context length of Llama 2. This model was trained for multiple epochs on a dataset of curated GPT-4 examples, most of which are long context conversations between a real human and GPT-4. Additional data came from carefully curated sub sections of datasets such as CamelAI's Physics, Chemistry, Biology and Math. Puffin 13B v1.3 was fine-tuned by Nous Research, with LDJ leading the training and dataset curation, along with significant dataset formation contributions by J-Supha.",
+    "author": {
+      "name": "Nous Research",
+      "url": "https://nousresearch.com",
+      "blurb": "Nous Research is dedicated to advancing the field of natural language processing, in collaboration with the open-source community, through bleeding-edge research and a commitment to symbiotic development.."
+    },
+    "numParameters": "13B",
+    "resources": {
+      "canonicalUrl": "https://huggingface.co/NousResearch/Redmond-Puffin-13B",
+      "downloadUrl": "https://huggingface.co/NousResearch/Redmond-Puffin-13B-GGML"
+    },
+    "trainedFor": "chat",
+    "arch": "llama",
+    "files": {
+      "highlighted": {
+        "economical": {
+          "name": "GGML-Redmond-Puffin-v1.3-13B-Q4_K_M.bin"
+        }
+      },
+      "all": [
+        {
+          "name": "GGML-Redmond-Puffin-v1.3-13B-Q4_K_M.bin",
+          "url": "https://huggingface.co/NousResearch/Redmond-Puffin-13B-GGML/resolve/main/GGML-Redmond-Puffin-v1.3-13B-Q4_K_M.bin",
+          "sizeBytes": 8059366944,
+          "quantization": "Q4_K_M",
+          "format": "ggml",
+          "sha256checksum": "7f48f820d47d91b43fe46f96a54529c64a5292a60f625deba8b6b11194e84a98",
+          "publisher": {
+              "name": "Nous Research",
+              "socialUrl": "https://nousresearch.com"
+          },
+          "respository": "NousResearch/Redmond-Puffin-13B-GGML",
+          "repositoryUrl": "https://huggingface.co/NousResearch/Redmond-Puffin-13B-GGML"
+        }
+      ]
+    }
+  }
