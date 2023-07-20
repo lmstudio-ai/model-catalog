@@ -1,8 +1,8 @@
 {
     "_descriptorVersion": "0.0.1",
     "datePublished": "2023-07-20T09:26:31.000Z",
-    "name": "Redmond-Puffin-13b-V1.3",
-    "description": "Redmond-Puffin-13B is one of the worlds first llama-2 based, fine-tuned language models, leveraging a hand curated set of 3K high quality examples, many of which take full advantage of the 4096 context length of Llama 2. This model was trained for multiple epochs on a dataset of 3,000 carefully curated GPT-4 examples, most of which are long context conversations between a real human and GPT-4. Additional data came from carefully curated sub sections of datasets such as CamelAI's Physics, Chemistry, Biology and Math. Puffin 13B v1.3 was fine-tuned by Nous Research, with LDJ leading the training and dataset curation, along with significant dataset formation contributions by J-Supha.",
+    "name": "Redmond-Puffin-13B-V1.3",
+    "description": "Redmond-Puffin-13B is one of the worlds first llama-2 based, fine-tuned language models, leveraging a hand curated set of 3K high quality examples, many of which take full advantage of the 4096 context length of Llama 2. This model was trained for multiple epochs on a dataset of curated GPT-4 examples, most of which are long context conversations between a real human and GPT-4. Additional data came from carefully curated sub sections of datasets such as CamelAI's Physics, Chemistry, Biology and Math. Puffin 13B v1.3 was fine-tuned by Nous Research, with LDJ leading the training and dataset curation, along with significant dataset formation contributions by J-Supha.",
     "author": {
       "name": "Nous Research",
       "url": "https://nousresearch.com",
