@@ -1,0 +1,58 @@
+{
+    "_descriptorVersion": "0.0.1",
+    "datePublished": "2023-07-22T02:20:14.000Z",
+    "name": "Nous-Hermes-Llama2-13b",
+    "description": "The Nous-Hermes-Llama2-13b is a state-of-the-art language model developed by Nous Research in collaboration with Teknium, Emozilla, and Redmond AI, fine-tuned on over 300,000 instructions. It uses the same dataset as its predecessor, Hermes on Llama-1, to maintain consistency while enhancing capability. This model is known for generating long responses with a lower hallucination rate, free from OpenAI censorship mechanisms. It was fine-tuned using a sequence length of 4096 on an 8x a100 80GB DGX machine. The training dataset is composed of synthetic GPT-4 outputs, including data from diverse sources such as GPTeacher, roleplay v1&2, code instruct datasets, and unpublished Nous Instruct & PDACTL, among others. The model utilizes the Alpaca prompt format for instructions and responses.",
+    "author": {
+      "name": "Nous Research",
+      "url": "https://nousresearch.com",
+      "blurb": "Nous Research is dedicated to advancing the field of natural language processing, in collaboration with the open-source community, through bleeding-edge research and a commitment to symbiotic development.."
+    },
+    "numParameters": "13B",
+    "resources": {
+      "canonicalUrl": "https://huggingface.co/NousResearch/Nous-Hermes-Llama2-13b",
+      "downloadUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
+    },
+    "trainedFor": "chat",
+    "arch": "llama",
+    "files": {
+      "highlighted": {
+        "economical": {
+          "name": "nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin"
+        },
+        "most_capable": {
+          "name": "nous-hermes-llama2-13b.ggmlv3.q8_0.bin"
+        }
+      },
+      "all": [
+        {
+          "name": "nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin",
+          "url": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML/resolve/main/nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin",
+          "sizeBytes": 5874151072,
+          "quantization": "Q4_K_S",
+          "format": "ggml",
+          "sha256checksum": "9e76993f3e8a804b3ee012bc461fbd01e9ff71fbdf8ac9f6f13ccadd5ff51b4e",
+          "publisher": {
+              "name": "TheBloke",
+              "socialUrl": "https://twitter.com/TheBlokeAI"
+          },
+          "respository": "TheBloke/Nous-Hermes-13B-GGML",
+          "repositoryUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
+        },
+        {
+          "name": "nous-hermes-llama2-13b.ggmlv3.q8_0.bin",
+          "url": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML/resolve/main/nous-hermes-llama2-13b.ggmlv3.q8_0.bin",
+          "sizeBytes": 13831378592,
+          "quantization": "q8_0",
+          "format": "ggml",
+          "sha256checksum": "c4e151dd08ffefbbb65cb8db4c2c2e06ab476895ab4549ceed4f47290508ed9f",
+          "publisher": {
+              "name": "TheBloke",
+              "socialUrl": "https://twitter.com/TheBlokeAI"
+          },
+          "respository": "TheBloke/Nous-Hermes-13B-GGML",
+          "repositoryUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
+        }
+      ]
+    }
+  }
