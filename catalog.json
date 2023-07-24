@@ -119,6 +119,64 @@
     },
     {
         "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-07-22T02:20:14.000Z",
+        "name": "Nous-Hermes-Llama2-13b",
+        "description": "The Nous-Hermes-Llama2-13b is a state-of-the-art language model developed by Nous Research in collaboration with Teknium, Emozilla, and Redmond AI, fine-tuned on over 300,000 instructions. It uses the same dataset as its predecessor, Hermes on Llama-1, to maintain consistency while enhancing capability. This model is known for generating long responses with a lower hallucination rate, free from OpenAI censorship mechanisms. It was fine-tuned using a sequence length of 4096 on an 8x a100 80GB DGX machine. The training dataset is composed of synthetic GPT-4 outputs, including data from diverse sources such as GPTeacher, roleplay v1&2, code instruct datasets, and unpublished Nous Instruct & PDACTL, among others. The model utilizes the Alpaca prompt format for instructions and responses.",
+        "author": {
+            "name": "Nous Research",
+            "url": "https://nousresearch.com",
+            "blurb": "Nous Research is dedicated to advancing the field of natural language processing, in collaboration with the open-source community, through bleeding-edge research and a commitment to symbiotic development.."
+        },
+        "numParameters": "13B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/NousResearch/Nous-Hermes-Llama2-13b",
+            "downloadUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin"
+                },
+                "most_capable": {
+                    "name": "nous-hermes-llama2-13b.ggmlv3.q8_0.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin",
+                    "url": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML/resolve/main/nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin",
+                    "sizeBytes": 5874151072,
+                    "quantization": "Q4_K_S",
+                    "format": "ggml",
+                    "sha256checksum": "9e76993f3e8a804b3ee012bc461fbd01e9ff71fbdf8ac9f6f13ccadd5ff51b4e",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/Nous-Hermes-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
+                },
+                {
+                    "name": "nous-hermes-llama2-13b.ggmlv3.q8_0.bin",
+                    "url": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML/resolve/main/nous-hermes-llama2-13b.ggmlv3.q8_0.bin",
+                    "sizeBytes": 13831378592,
+                    "quantization": "q8_0",
+                    "format": "ggml",
+                    "sha256checksum": "c4e151dd08ffefbbb65cb8db4c2c2e06ab476895ab4549ceed4f47290508ed9f",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/Nous-Hermes-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
         "datePublished": "2023-05-22T17:43:26.000Z",
         "name": "Guanaco 13B",
         "description": "Guanaco models are open-source, finetuned chatbots derived from 4-bit QLoRA tuning of LLaMA base models using the OASST1 dataset. They come in 7B, 13B, 33B, and 65B parameter sizes and are intended solely for research purposes. These models are competitive with commercial chatbot systems on the Vicuna and OpenAssistant benchmarks, as evaluated by human and GPT-4 raters. However, performance may vary on tasks not covered by these benchmarks. Guanaco models facilitate inexpensive, local experimentation with high-quality chatbot systems and offer a replicable, efficient training procedure that can be adapted to new use cases. The effectiveness of 4-bit QLoRA finetuning is demonstrated in a rigorous comparison to 16-bit methods in our paper. Guanaco models feature lightweight checkpoints containing only adapter weights. The adapter weights are licensed under Apache 2, but using them requires access to the LLaMA model weights, and usage should comply with the LLaMA license.",
@@ -503,6 +561,64 @@
                     },
                     "respository": "TheBloke/MPT-7B-Storywriter-GGML",
                     "repositoryUrl": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-07-23T12:47:44.000Z",
+        "name": "Dolphin-Llama-13B",
+        "description": "This model, which is based on llama1, is designed specifically for non-commercial use and has undergone a thorough training process using an open-source implementation of Microsoft's Orca dataset. The utilized dataset, post rigorous cleaning and deduplication procedures, encompasses 842,610 instructional instances augmented with GPT-4 completions and an additional 2,625,353 instructional instances augmented with GPT-3.5 completions. The unique aspect of this model is its uncensored nature, having been meticulously filtered to remove any instances of alignment and bias. However, it is advised for users to implement their own alignment layer before deploying this model as a service. The model was trained using the comprehensive flan5m (gpt3.5 completions) dataset for 3 epochs and the flan1m (gpt4 completions) dataset for 2.5 epochs, with distinct learning rates set to preemptively avoid overfitting. This extensive training took approximately 600 hours on a setup of 8x H100s.",
+        "author": {
+            "name": "Eric Hartford",
+            "url": "https://twitter.com/erhartford",
+            "blurb": "Eric Hartford is a software engineer and entrepreneur. He specializes in alignment, uncensored models, intersection of AI and society, curating datasets and training chat and instruction tuned models."
+        },
+        "numParameters": "7B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/ehartford/dolphin-llama-13b",
+            "downloadUrl": "https://huggingface.co/TheBloke/Dolphin-Llama-13B-GGML"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "dolphin-llama-13b.ggmlv3.q4_K_S.bin"
+                },
+                "most_capable": {
+                    "name": "dolphin-llama-13b.ggmlv3.q8_0.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "dolphin-llama-13b.ggmlv3.q4_K_S.bin",
+                    "url": "https://huggingface.co/TheBloke/Dolphin-Llama-13B-GGML/resolve/main/dolphin-llama-13b.ggmlv3.q4_K_S.bin",
+                    "sizeBytes": 3791725184,
+                    "quantization": "Q4_K_S",
+                    "format": "ggml",
+                    "sha256checksum": "3a4e3eff4a0bfa1dc8a0b257ae36abbc532a4e3e09e1e27cd82958ff8addd173",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/Dolphin-Llama-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/Dolphin-Llama-13B-GGML"
+                },
+                {
+                    "name": "dolphin-llama-13b.ggmlv3.q8_0.bin",
+                    "url": "https://huggingface.co/TheBloke/Dolphin-Llama-13B-GGML/resolve/main/dolphin-llama-13b.ggmlv3.q8_0.bin",
+                    "sizeBytes": 13831029888,
+                    "quantization": "q8_0",
+                    "format": "ggml",
+                    "sha256checksum": "ed05922501dfed5612d1fef01179bf98b57e0c2b46f7b0e6c58e9d8bea2d27a9",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/Dolphin-Llama-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/Dolphin-Llama-13B-GGML"
                 }
             ]
         }
