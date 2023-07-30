@@ -21,7 +21,7 @@
           "name": "nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin"
         },
         "most_capable": {
-          "name": "nous-hermes-llama2-13b.ggmlv3.q8_0.bin"
+          "name": "nous-hermes-llama2-13b.ggmlv3.q6_K.bin"
         }
       },
       "all": [
@@ -40,12 +40,12 @@
           "repositoryUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
         },
         {
-          "name": "nous-hermes-llama2-13b.ggmlv3.q8_0.bin",
-          "url": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML/resolve/main/nous-hermes-llama2-13b.ggmlv3.q8_0.bin",
-          "sizeBytes": 13831378592,
-          "quantization": "q8_0",
+          "name": "nous-hermes-llama2-13b.ggmlv3.q6_K.bin",
+          "url": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML/resolve/main/nous-hermes-llama2-13b.ggmlv3.q6_K.bin",
+          "sizeBytes": 10830311072,
+          "quantization": "Q6_K",
           "format": "ggml",
-          "sha256checksum": "c4e151dd08ffefbbb65cb8db4c2c2e06ab476895ab4549ceed4f47290508ed9f",
+          "sha256checksum": "02f696d0df53174cf9a3aba62d22a1b17882389a5381e68b2c7395845f87d3f5",
           "publisher": {
               "name": "TheBloke",
               "socialUrl": "https://twitter.com/TheBlokeAI"

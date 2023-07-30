@@ -21,7 +21,7 @@
           "name": "dolphin-llama-13b.ggmlv3.q4_K_S.bin"
         },
         "most_capable": {
-          "name": "dolphin-llama-13b.ggmlv3.q8_0.bin"
+          "name": "dolphin-llama-13b.ggmlv3.q6_K.bin"
         }
       },
       "all": [
@@ -40,12 +40,12 @@
           "repositoryUrl": "https://huggingface.co/TheBloke/Dolphin-Llama-13B-GGML"
         },
         {
-          "name": "dolphin-llama-13b.ggmlv3.q8_0.bin",
-          "url": "https://huggingface.co/TheBloke/Dolphin-Llama-13B-GGML/resolve/main/dolphin-llama-13b.ggmlv3.q8_0.bin",
-          "sizeBytes": 13831029888,
-          "quantization": "q8_0",
+          "name": "dolphin-llama-13b.ggmlv3.q6_K.bin",
+          "url": "https://huggingface.co/TheBloke/Dolphin-Llama-13B-GGML/resolve/main/dolphin-llama-13b.ggmlv3.q6_K.bin",
+          "sizeBytes": 10678850688,
+          "quantization": "Q6_K",
           "format": "ggml",
-          "sha256checksum": "ed05922501dfed5612d1fef01179bf98b57e0c2b46f7b0e6c58e9d8bea2d27a9",
+          "sha256checksum": "8258f8c014a939ce93519bca658eb714202dacbee8f5df05b2dee0f02472460d",
           "publisher": {
             "name": "TheBloke",
             "socialUrl": "https://twitter.com/TheBlokeAI"

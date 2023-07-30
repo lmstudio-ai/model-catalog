@@ -21,7 +21,7 @@
         "name": "mpt-7b-storywriter.ggmlv3.q4_0.bin"
       },
       "most_capable": {
-        "name": "mpt-7b-storywriter.ggmlv3.q8_0.bin"
+        "name": "mpt-7b-storywriter.ggmlv3.q5_1.bin"
       }
     },
     "all": [
@@ -40,12 +40,12 @@
         "repositoryUrl": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML"
       },
       {
-        "name": "mpt-7b-storywriter.ggmlv3.q8_0.bin",
-        "url": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML/resolve/main/mpt-7b-storywriter.ggmlv3.q8_0.bin",
-        "sizeBytes": 7066175488,
-        "quantization": "q8_0",
+        "name": "mpt-7b-storywriter.ggmlv3.q5_1.bin",
+        "url": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML/resolve/main/mpt-7b-storywriter.ggmlv3.q5_1.bin",
+        "sizeBytes": 4988356608,
+        "quantization": "q5_1",
         "format": "ggml",
-        "sha256checksum": "4350ba0c9759bfd1456f039bf2d0f6e6ee4cd97e1ee2bcbfff1e34b4e49e6dc8",
+        "sha256checksum": "3b7dd7aa7508cc8cb4e262fe4b93214826f38d18d04059075e05837457f54025",
         "publisher": {
           "name": "TheBloke",
           "socialUrl": "https://twitter.com/TheBlokeAI"

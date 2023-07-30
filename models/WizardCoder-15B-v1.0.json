@@ -22,7 +22,7 @@
         "name": "WizardCoder-15B-1.0.ggmlv3.q4_0.bin"
       },
       "most_capable": {
-        "name": "WizardCoder-15B-1.0.ggmlv3.q8_0.bin"
+        "name": "WizardCoder-15B-1.0.ggmlv3.q5_1.bin"
       }
     },
     "all": [
@@ -41,12 +41,12 @@
         "repositoryUrl": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML"
       },
       {
-        "name": "WizardCoder-15B-1.0.ggmlv3.q8_0.bin",
-        "url": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q8_0.bin",
-        "sizeBytes": 20108263065,
-        "quantization": "q8_0",
+        "name": "WizardCoder-15B-1.0.ggmlv3.q5_1.bin",
+        "url": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q5_1.bin",
+        "sizeBytes": 14257205145,
+        "quantization": "q5_1",
         "format": "ggml",
-        "sha256checksum": "54cd910ab9a21a1abd34a121b0894f116cd9d9abda1ff8369886acb7b9683df5",
+        "sha256checksum": "1219d9fc6d51901d9a1e58e3cb7f03818d02a1d0ab2d070b4cbabdefeb7d0363",
         "publisher": {
           "name": "TheBloke",
           "socialUrl": "https://twitter.com/TheBlokeAI"
