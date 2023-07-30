@@ -23,7 +23,7 @@
                     "name": "WizardCoder-15B-1.0.ggmlv3.q4_0.bin"
                 },
                 "most_capable": {
-                    "name": "WizardCoder-15B-1.0.ggmlv3.q8_0.bin"
+                    "name": "WizardCoder-15B-1.0.ggmlv3.q5_1.bin"
                 }
             },
             "all": [
@@ -42,12 +42,12 @@
                     "repositoryUrl": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML"
                 },
                 {
-                    "name": "WizardCoder-15B-1.0.ggmlv3.q8_0.bin",
-                    "url": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q8_0.bin",
-                    "sizeBytes": 20108263065,
-                    "quantization": "q8_0",
+                    "name": "WizardCoder-15B-1.0.ggmlv3.q5_1.bin",
+                    "url": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q5_1.bin",
+                    "sizeBytes": 14257205145,
+                    "quantization": "q5_1",
                     "format": "ggml",
-                    "sha256checksum": "54cd910ab9a21a1abd34a121b0894f116cd9d9abda1ff8369886acb7b9683df5",
+                    "sha256checksum": "1219d9fc6d51901d9a1e58e3cb7f03818d02a1d0ab2d070b4cbabdefeb7d0363",
                     "publisher": {
                         "name": "TheBloke",
                         "socialUrl": "https://twitter.com/TheBlokeAI"
@@ -140,7 +140,7 @@
                     "name": "nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin"
                 },
                 "most_capable": {
-                    "name": "nous-hermes-llama2-13b.ggmlv3.q8_0.bin"
+                    "name": "nous-hermes-llama2-13b.ggmlv3.q6_K.bin"
                 }
             },
             "all": [
@@ -159,12 +159,12 @@
                     "repositoryUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
                 },
                 {
-                    "name": "nous-hermes-llama2-13b.ggmlv3.q8_0.bin",
-                    "url": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML/resolve/main/nous-hermes-llama2-13b.ggmlv3.q8_0.bin",
-                    "sizeBytes": 13831378592,
-                    "quantization": "q8_0",
+                    "name": "nous-hermes-llama2-13b.ggmlv3.q6_K.bin",
+                    "url": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML/resolve/main/nous-hermes-llama2-13b.ggmlv3.q6_K.bin",
+                    "sizeBytes": 10830311072,
+                    "quantization": "Q6_K",
                     "format": "ggml",
-                    "sha256checksum": "c4e151dd08ffefbbb65cb8db4c2c2e06ab476895ab4549ceed4f47290508ed9f",
+                    "sha256checksum": "02f696d0df53174cf9a3aba62d22a1b17882389a5381e68b2c7395845f87d3f5",
                     "publisher": {
                         "name": "TheBloke",
                         "socialUrl": "https://twitter.com/TheBlokeAI"
@@ -588,7 +588,7 @@
                     "name": "mpt-7b-storywriter.ggmlv3.q4_0.bin"
                 },
                 "most_capable": {
-                    "name": "mpt-7b-storywriter.ggmlv3.q8_0.bin"
+                    "name": "mpt-7b-storywriter.ggmlv3.q5_1.bin"
                 }
             },
             "all": [
@@ -607,12 +607,12 @@
                     "repositoryUrl": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML"
                 },
                 {
-                    "name": "mpt-7b-storywriter.ggmlv3.q8_0.bin",
-                    "url": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML/resolve/main/mpt-7b-storywriter.ggmlv3.q8_0.bin",
-                    "sizeBytes": 7066175488,
-                    "quantization": "q8_0",
+                    "name": "mpt-7b-storywriter.ggmlv3.q5_1.bin",
+                    "url": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML/resolve/main/mpt-7b-storywriter.ggmlv3.q5_1.bin",
+                    "sizeBytes": 4988356608,
+                    "quantization": "q5_1",
                     "format": "ggml",
-                    "sha256checksum": "4350ba0c9759bfd1456f039bf2d0f6e6ee4cd97e1ee2bcbfff1e34b4e49e6dc8",
+                    "sha256checksum": "3b7dd7aa7508cc8cb4e262fe4b93214826f38d18d04059075e05837457f54025",
                     "publisher": {
                         "name": "TheBloke",
                         "socialUrl": "https://twitter.com/TheBlokeAI"
@@ -646,7 +646,7 @@
                     "name": "dolphin-llama-13b.ggmlv3.q4_K_S.bin"
                 },
                 "most_capable": {
-                    "name": "dolphin-llama-13b.ggmlv3.q8_0.bin"
+                    "name": "dolphin-llama-13b.ggmlv3.q6_K.bin"
                 }
             },
             "all": [
@@ -665,12 +665,12 @@
                     "repositoryUrl": "https://huggingface.co/TheBloke/Dolphin-Llama-13B-GGML"
                 },
                 {
-                    "name": "dolphin-llama-13b.ggmlv3.q8_0.bin",
-                    "url": "https://huggingface.co/TheBloke/Dolphin-Llama-13B-GGML/resolve/main/dolphin-llama-13b.ggmlv3.q8_0.bin",
-                    "sizeBytes": 13831029888,
-                    "quantization": "q8_0",
+                    "name": "dolphin-llama-13b.ggmlv3.q6_K.bin",
+                    "url": "https://huggingface.co/TheBloke/Dolphin-Llama-13B-GGML/resolve/main/dolphin-llama-13b.ggmlv3.q6_K.bin",
+                    "sizeBytes": 10678850688,
+                    "quantization": "Q6_K",
                     "format": "ggml",
-                    "sha256checksum": "ed05922501dfed5612d1fef01179bf98b57e0c2b46f7b0e6c58e9d8bea2d27a9",
+                    "sha256checksum": "8258f8c014a939ce93519bca658eb714202dacbee8f5df05b2dee0f02472460d",
                     "publisher": {
                         "name": "TheBloke",
                         "socialUrl": "https://twitter.com/TheBlokeAI"
