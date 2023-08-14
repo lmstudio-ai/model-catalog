@@ -2,7 +2,7 @@
     "_descriptorVersion": "0.0.1",
     "datePublished": "2023-08-10T20:51",
     "name": "MythoMax L2 13B",
-    "description": "An improved, potentially even perfected variant of MythoMix, MythoLogic-L2 and Huginn merge using a highly experimental tensor type merge technique. The main difference with MythoMix is that it was allowed more of Huginn to intermingle with the single tensors located at the front and end of a model, resulting in increased coherency across the entire model. This model is proficient at both roleplaying and storywriting due to its unique nature. Using MythoLogic-L2's robust understanding as its input and Huginn's extensive writing capability as its output seems to have resulted in a model that exceeds at both",
+    "description": "MythoMax-L2-13B is an exceptional creative writing model that harnesses the power of Llama2, MythoLogic-L2, and Huginn. It can craft excellent and captivating texts for various domains and audiences, using MythoLogic-L2’s vast knowledge base and Huginn’s expressive language skills. It is also proficient at roleplaying, able to adapt to different contexts and characters with flexibility and realism. This model is a superb solution for creative writing or roleplaying.",
     "author": {
       "name": "Gryphe Padar",
       "url": "https://huggingface.co/Gryphe",
@@ -28,7 +28,7 @@
         {
           "name": "mythomax-l2-13b.ggmlv3.q4_K_S.bin",
           "url": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/blob/main/mythomax-l2-13b.ggmlv3.q4_K_S.bin",
-          "sizeBytes": 7370000000,
+          "sizeBytes": 7365545088,
           "quantization": "Q4_K_S",
           "format": "ggml",
           "sha256checksum": "7b71bd39663bfde58c374319e61dbf446fefcd68393f175a628fba8d0361aec7",
@@ -42,7 +42,7 @@
         {
           "name": "mythomax-l2-13b.ggmlv3.q6_K.bin",
           "url": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/blob/main/mythomax-l2-13b.ggmlv3.q6_K.bin",
-          "sizeBytes": 10700000000,
+          "sizeBytes": 10678850688,
           "quantization": "Q6_K",
           "format": "ggml",
           "sha256checksum": "37a1ea28a3a08721d2956a8bb87a06127c6036742267174b79d9c7b83133dba0",
