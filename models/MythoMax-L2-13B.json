@@ -2,7 +2,7 @@
     "_descriptorVersion": "0.0.1",
     "datePublished": "2023-08-10T20:51",
     "name": "MythoMax L2 13B",
-    "description": "MythoMax-L2-13B is an exceptional creative writing model that harnesses the power of Llama2, MythoLogic-L2, and Huginn. It can craft excellent and captivating texts for various domains and audiences, using MythoLogic-L2’s vast knowledge base and Huginn’s expressive language skills. It is also proficient at roleplaying, able to adapt to different contexts and characters with flexibility and realism. This model is a superb solution for creative writing or roleplaying.",
+    "description": "MythoMax-L2 is a creative writing model that builds upon Llama2, MythoLogic-L2, and Huginn. It can craft captivating texts for various domains and audiences, using MythoLogic-L2’s vast knowledge base and Huginn’s expressive language skills. Specialized at creative writing, it is also proficient at roleplaying, and is able to adapt to different contexts and characters with flexibility and realism. This model is an experimental merge of several other models (MythoMix, Mythologic-L2, and Huggin).",
     "author": {
       "name": "Gryphe Padar",
       "url": "https://huggingface.co/Gryphe",
