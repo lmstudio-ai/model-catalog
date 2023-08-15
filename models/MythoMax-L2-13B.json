@@ -1,0 +1,58 @@
+{
+    "_descriptorVersion": "0.0.1",
+    "datePublished": "2023-08-10T20:51",
+    "name": "MythoMax L2 13B",
+    "description": "MythoMax-L2 is a creative writing model that builds upon Llama2, MythoLogic-L2, and Huginn. It can craft captivating texts for various domains and audiences, using MythoLogic-L2’s vast knowledge base and Huginn’s expressive language skills. Specialized at creative writing, it is also proficient at roleplaying, and is able to adapt to different contexts and characters with flexibility and realism. This model is an experimental merge of several other models (MythoMix, Mythologic-L2, and Huggin).",
+    "author": {
+      "name": "Gryphe Padar",
+      "url": "https://huggingface.co/Gryphe",
+      "blurb": "Author behind various Mytho merges, most prominent being MythoMax, MythoLogic, and MythoBoros"
+    },
+    "numParameters": "13B",
+    "resources": {
+      "canonicalUrl": "https://huggingface.co/Gryphe/MythoMax-L2-13b",
+      "downloadUrl": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML"
+    },
+    "trainedFor": "chat",
+    "arch": "llama",
+    "files": {
+      "highlighted": {
+        "economical": {
+          "name": "mythomax-l2-13b.ggmlv3.q4_K_S.bin"
+        },
+        "most_capable": {
+          "name": "mythomax-l2-13b.ggmlv3.q6_K.bin"
+        }
+      },
+      "all": [
+        {
+          "name": "mythomax-l2-13b.ggmlv3.q4_K_S.bin",
+          "url": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/blob/main/mythomax-l2-13b.ggmlv3.q4_K_S.bin",
+          "sizeBytes": 7365545088,
+          "quantization": "Q4_K_S",
+          "format": "ggml",
+          "sha256checksum": "7b71bd39663bfde58c374319e61dbf446fefcd68393f175a628fba8d0361aec7",
+          "publisher": {
+              "name": "TheBloke",
+              "socialUrl": "https://twitter.com/TheBlokeAI"
+          },
+          "respository": "TheBloke/MythoMax-L2-13B-GGML",
+          "repositoryUrl": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML"
+        },
+        {
+          "name": "mythomax-l2-13b.ggmlv3.q6_K.bin",
+          "url": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/blob/main/mythomax-l2-13b.ggmlv3.q6_K.bin",
+          "sizeBytes": 10678850688,
+          "quantization": "Q6_K",
+          "format": "ggml",
+          "sha256checksum": "37a1ea28a3a08721d2956a8bb87a06127c6036742267174b79d9c7b83133dba0",
+          "publisher": {
+              "name": "TheBloke",
+              "socialUrl": "https://twitter.com/TheBlokeAI"
+          },
+          "respository": "TheBloke/MythoMax-L2-13B-GGML",
+          "repositoryUrl": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML"
+        }
+      ]
+    }
+  }
