@@ -22,7 +22,7 @@
         "name": "openorca-platypus2-13b.ggmlv3.q4_K_S.bin"
       },
       "most_capable": {
-        "name": "openorca-platypus2-13b.ggmlv3.q4_K_S.bin"
+        "name": "openorca-platypus2-13b.ggmlv3.q6_K.bin"
       }
     },
     "all": [
@@ -41,12 +41,12 @@
         "repositoryUrl": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML"
       },
       {
-        "name": "openorca-platypus2-13b.ggmlv3.q4_K_S.bin",
-        "url": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q4_K_S.bin",
-        "sizeBytes": 7558851360,
+        "name": "openorca-platypus2-13b.ggmlv3.q6_K.bin",
+        "url": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q6_K.bin",
+        "sizeBytes": 10829916960,
         "quantization": "Q6_K",
         "format": "ggml",
-        "sha256checksum": "55318c58c22c4e4a8dd5504919cefde5f843e848b6c96cd06a3ad69f2f41365b",
+        "sha256checksum": "0487eb1a91683020cb8dc59b096b9f7e086735efdf1cf5f5ec84c842ec0a6799",
         "publisher": {
             "name": "TheBloke",
             "socialUrl": "https://twitter.com/TheBlokeAI"
