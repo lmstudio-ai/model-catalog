@@ -5,7 +5,7 @@ import os
 import subprocess
 import json
 
-# get the python path from an env variable or fallback to `python`:
+# Get the python path from an env variable or fallback to `python`:
 python = os.environ.get('PYTHON', 'python')
 
 # Get all JSON files from the models folder
