@@ -27,7 +27,7 @@
       "all": [
         {
           "name": "mythomax-l2-13b.ggmlv3.q4_K_S.bin",
-          "url": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/blob/main/mythomax-l2-13b.ggmlv3.q4_K_S.bin",
+          "url": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/resolve/main/mythomax-l2-13b.ggmlv3.q4_K_S.bin",
           "sizeBytes": 7365545088,
           "quantization": "Q4_K_S",
           "format": "ggml",
@@ -41,7 +41,7 @@
         },
         {
           "name": "mythomax-l2-13b.ggmlv3.q6_K.bin",
-          "url": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/blob/main/mythomax-l2-13b.ggmlv3.q6_K.bin",
+          "url": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/resolve/main/mythomax-l2-13b.ggmlv3.q6_K.bin",
           "sizeBytes": 10678850688,
           "quantization": "Q6_K",
           "format": "ggml",
