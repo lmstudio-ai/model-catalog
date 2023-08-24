@@ -59,6 +59,65 @@
     },
     {
         "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-08-24T21:39:59",
+        "name": "CodeLlama 7B Instruct",
+        "description": "MetaAI has released Code Llama, a comprehensive family of large language models for code. These models are based on Llama 2 and exhibit state-of-the-art performance among openly available models. They offer advanced infilling capabilities, can accommodate large input contexts, and have the ability to follow instructions for programming tasks without prior training. There are various versions available to cater to a wide array of applications: foundation models (Code Llama), Python-specific models (Code Llama - Python), and models for following instructions (Code Llama - Instruct). These versions come with 7B, 13B, and 34B parameters respectively. All models are trained on 16k token sequences and show improvements even on inputs with up to 100k tokens. The 7B and 13B models of Code Llama and Code Llama - Instruct have the ability to infill based on surrounding content. In terms of performance, Code Llama has set new standards among open models on several code benchmarks, achieving scores of up to 53% on HumanEval and 55% on MBPP. Notably, the Python version of Code Llama 7B surpasses the performance of Llama 2 70B on HumanEval and MBPP. All of MetaAI's models outperform every other publicly available model on MultiPL-E. Code Llama has been released under a permissive license that enables both research and commercial use.",
+        "author": {
+            "name": "Meta AI",
+            "url": "https://ai.meta.com",
+            "blurb": "Pushing the boundaries of AI through research, infrastructure and product innovation."
+        },
+        "numParameters": "7B",
+        "resources": {
+            "canonicalUrl": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+            "paperUrl": "https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/",
+            "downloadUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "codellama-7b-instruct.ggmlv3.Q4_K_S.bin"
+                },
+                "most_capable": {
+                    "name": "codellama-7b-instruct.ggmlv3.Q6_K.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "codellama-7b-instruct.ggmlv3.Q4_K_S.bin",
+                    "url": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML/resolve/main/codellama-7b-instruct.ggmlv3.Q4_K_S.bin",
+                    "sizeBytes": 3980309408,
+                    "quantization": "Q4_K_S",
+                    "format": "ggml",
+                    "sha256checksum": "b2e7d50d8c854c6654c780d2f3320f83ec2931d5828ebf9777cff00ab7f86fac",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/CodeLlama-7B-Instruct-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML"
+                },
+                {
+                    "name": "codellama-7b-instruct.ggmlv3.Q6_K.bin",
+                    "url": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML/resolve/main/codellama-7b-instruct.ggmlv3.Q6_K.bin",
+                    "sizeBytes": 5649904544,
+                    "quantization": "Q6_K",
+                    "format": "ggml",
+                    "sha256checksum": "abdf0ed996933cce5caee27e0be7ec0734add65bd28d7e235a7eab4b3ec3d762",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/CodeLlama-7B-Instruct-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
         "datePublished": "2023-06-03T05:34:04.000Z",
         "name": "Nous-Hermes-13b",
         "description": "Nous-Hermes-13b is a state-of-the-art language model fine-tuned on over 300,000 instructions. This model was fine-tuned by Nous Research, with Teknium and Karan4D leading the fine tuning process and dataset curation, Redmond AI sponsoring the compute, and several other contributors. The result is an enhanced Llama 13b model that rivals GPT-3.5-turbo in performance across a variety of tasks. This model stands out for its long responses, low hallucination rate, and absence of OpenAI censorship mechanisms. The fine-tuning process was performed with a 2000 sequence length on an 8x a100 80GB DGX machine for over 50 hours.",
