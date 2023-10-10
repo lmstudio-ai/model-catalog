@@ -1,0 +1,59 @@
+{
+  "_descriptorVersion": "0.0.1",  
+  "datePublished": "2023-09-27T16:12:57",
+  "name": "Mistral-7B-Instruct-v0.1-GGUF",
+  "description": "The Mistral-7B-Instruct-v0.1 is a Large Language Model (LLM) developed by Mistral AI. This LLM is an instruct fine-tuned version of a generative text model, leveraging a variety of publicly available conversation datasets. The model's architecture is based on a transformer model, featuring Grouped-Query Attention, Sliding-Window Attention, and a Byte-fallback BPE tokenizer. To utilize the instruction fine-tuning capabilities, prompts should be enclosed within [INST] and [/INST] tokens. The initial instruction should commence with a beginning-of-sentence id, whereas subsequent instructions should not. The generation process by the assistant will terminate with the end-of-sentence token id. For detailed information about this model, refer to the release blog posts by Mistral AI.",
+  "author": {
+    "name": "Mistral AI",
+    "url": "https://mistral.ai/",
+    "blurb": "Mistral AI's mission is to spearhead the revolution of open models."
+  },
+  "numParameters": "7B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
+    "paperUrl": "https://mistral.ai/news/announcing-mistral-7b/",
+    "downloadUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
+  },
+  "trainedFor": "chat",
+  "arch": "llama",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "mistral-7b-instruct-v0.1.Q4_K_S.gguf"
+      },
+      "most_capable": {
+        "name": "mistral-7b-instruct-v0.1.Q6_K.gguf"
+      }
+    },
+    "all": [
+      {
+        "name": "mistral-7b-instruct-v0.1.Q4_K_S.gguf",
+        "url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_S.gguf",
+        "sizeBytes": 4140373664,
+        "quantization": "Q4_K_S",
+        "format": "gguf",
+        "sha256checksum": "f1b7f1885029080be49aff49c83f87333449ef727089546e0d887e2f17f0d02e",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
+      },
+      {
+        "name": "mistral-7b-instruct-v0.1.Q6_K.gguf",
+        "url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q6_K.gguf",
+        "sizeBytes": 5942064800,
+        "quantization": "Q6_K",
+        "format": "gguf",
+        "sha256checksum": "dfb053cb8d5f56abde8f56899ffe0d23e1285a423df0b65ea3f3adbb263b22c2",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
+      }
+    ]
+  }
+}
