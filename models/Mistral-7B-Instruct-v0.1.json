@@ -1,7 +1,7 @@
 {
   "_descriptorVersion": "0.0.1",  
   "datePublished": "2023-09-27T16:12:57",
-  "name": "Mistral-7B-Instruct-v0.1-GGUF",
+  "name": "Mistral 7B Instruct v0.1",
   "description": "The Mistral-7B-Instruct-v0.1 is a Large Language Model (LLM) developed by Mistral AI. This LLM is an instruct fine-tuned version of a generative text model, leveraging a variety of publicly available conversation datasets. The model's architecture is based on a transformer model, featuring Grouped-Query Attention, Sliding-Window Attention, and a Byte-fallback BPE tokenizer. To utilize the instruction fine-tuning capabilities, prompts should be enclosed within [INST] and [/INST] tokens. The initial instruction should commence with a beginning-of-sentence id, whereas subsequent instructions should not. The generation process by the assistant will terminate with the end-of-sentence token id. For detailed information about this model, refer to the release blog posts by Mistral AI.",
   "author": {
     "name": "Mistral AI",
