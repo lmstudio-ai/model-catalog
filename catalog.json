@@ -1,457 +1,6 @@
 [
     {
         "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-08-07T21:51:07",
-        "name": "Vicuna 13B v1.5 16K",
-        "description": "Vicuna is a state-of-the-art chat assistant developed by LMSYS, leveraging the transformative power of an auto-regressive language model based on the transformer architecture. Trained via fine-tuning the Llama 2 model, Vicuna is used primarily for research in large language models and chatbots, catering to the needs of AI enthusiasts, machine learning researchers, and hobbyists. The model operates under the Llama 2 Community License Agreement. The latest version, Vicuna v1.5 (16k), has been fine-tuned using supervised instruction and linear RoPE scaling, with training data comprising around 125K conversations collected from ShareGPT.com, packed into sequences of 16K tokens each. A comprehensive explanation of the training details can be found in the appendix to the linked paper titled \"Training Details of Vicuna Models.\"",
-        "author": {
-            "name": "LMSYS Org",
-            "url": "https://lmsys.org/",
-            "blurb": "Large Model Systems Organization (LMSYS Org) is an open research organization founded by students and faculty from UC Berkeley in collaboration with UCSD and CMU."
-        },
-        "numParameters": "13B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/lmsys/vicuna-13b-v1.5-16k",
-            "downloadUrl": "https://huggingface.co/TheBloke/vicuna-13B-v1.5-16K-GGML",
-            "paperUrl": "https://arxiv.org/abs/2306.05685"
-        },
-        "trainedFor": "chat",
-        "arch": "llama",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "vicuna-13b-v1.5-16k.ggmlv3.q4_K_S.bin"
-                },
-                "most_capable": {
-                    "name": "vicuna-13b-v1.5-16k.ggmlv3.q6_K.bin"
-                }
-            },
-            "all": [
-                {
-                    "name": "vicuna-13b-v1.5-16k.ggmlv3.q4_K_S.bin",
-                    "url": "https://huggingface.co/TheBloke/vicuna-13B-v1.5-16K-GGML/resolve/main/vicuna-13b-v1.5-16k.ggmlv3.q4_K_S.bin",
-                    "sizeBytes": 7365545088,
-                    "quantization": "Q4_K_S",
-                    "format": "ggml",
-                    "sha256checksum": "c343200172b677488a7e59a2ef74642b63b2578fde3c976911751181d29ce201",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/vicuna-13B-v1.5-16K-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/vicuna-13B-v1.5-16K-GGML"
-                },
-                {
-                    "name": "vicuna-13b-v1.5-16k.ggmlv3.q6_K.bin",
-                    "url": "https://huggingface.co/TheBloke/vicuna-13B-v1.5-16K-GGML/resolve/main/vicuna-13b-v1.5-16k.ggmlv3.q6_K.bin",
-                    "sizeBytes": 10678850688,
-                    "quantization": "Q6_K",
-                    "format": "ggml",
-                    "sha256checksum": "949e2003a47552d2931ebce29b94ad59482561a36429fb1c00d13db7feb87fd9",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/vicuna-13B-v1.5-16K-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/vicuna-13B-v1.5-16K-GGML"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-07-20T09:26:31.000Z",
-        "name": "Redmond-Puffin-13B-V1.3",
-        "description": "Redmond-Puffin-13B is one of the worlds first llama-2 based, fine-tuned language models, leveraging a hand curated set of 3K high quality examples, many of which take full advantage of the 4096 context length of Llama 2. This model was trained for multiple epochs on a dataset of curated GPT-4 examples, most of which are long context conversations between a real human and GPT-4. Additional data came from carefully curated sub sections of datasets such as CamelAI's Physics, Chemistry, Biology and Math. Puffin 13B v1.3 was fine-tuned by Nous Research, with LDJ leading the training and dataset curation, along with significant dataset formation contributions by J-Supha.",
-        "author": {
-            "name": "Nous Research",
-            "url": "https://nousresearch.com",
-            "blurb": "Nous Research is dedicated to advancing the field of natural language processing, in collaboration with the open-source community, through bleeding-edge research and a commitment to symbiotic development."
-        },
-        "numParameters": "13B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/NousResearch/Redmond-Puffin-13B",
-            "downloadUrl": "https://huggingface.co/NousResearch/Redmond-Puffin-13B-GGML"
-        },
-        "trainedFor": "chat",
-        "arch": "llama",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "GGML-Redmond-Puffin-v1.3-13B-Q4_K_M.bin"
-                }
-            },
-            "all": [
-                {
-                    "name": "GGML-Redmond-Puffin-v1.3-13B-Q4_K_M.bin",
-                    "url": "https://huggingface.co/NousResearch/Redmond-Puffin-13B-GGML/resolve/main/GGML-Redmond-Puffin-v1.3-13B-Q4_K_M.bin",
-                    "sizeBytes": 8059366944,
-                    "quantization": "Q4_K_M",
-                    "format": "ggml",
-                    "sha256checksum": "7f48f820d47d91b43fe46f96a54529c64a5292a60f625deba8b6b11194e84a98",
-                    "publisher": {
-                        "name": "Nous Research",
-                        "socialUrl": "https://nousresearch.com"
-                    },
-                    "respository": "NousResearch/Redmond-Puffin-13B-GGML",
-                    "repositoryUrl": "https://huggingface.co/NousResearch/Redmond-Puffin-13B-GGML"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-08-24T21:39:59",
-        "name": "CodeLlama 7B Instruct",
-        "description": "MetaAI has released Code Llama, a comprehensive family of large language models for code. These models are based on Llama 2 and exhibit state-of-the-art performance among openly available models. They offer advanced infilling capabilities, can accommodate large input contexts, and have the ability to follow instructions for programming tasks without prior training. There are various versions available to cater to a wide array of applications: foundation models (Code Llama), Python-specific models (Code Llama - Python), and models for following instructions (Code Llama - Instruct). These versions come with 7B, 13B, and 34B parameters respectively. All models are trained on 16k token sequences and show improvements even on inputs with up to 100k tokens. The 7B and 13B models of Code Llama and Code Llama - Instruct have the ability to infill based on surrounding content. In terms of performance, Code Llama has set new standards among open models on several code benchmarks, achieving scores of up to 53% on HumanEval and 55% on MBPP. Notably, the Python version of Code Llama 7B surpasses the performance of Llama 2 70B on HumanEval and MBPP. All of MetaAI's models outperform every other publicly available model on MultiPL-E. Code Llama has been released under a permissive license that enables both research and commercial use.",
-        "author": {
-            "name": "Meta AI",
-            "url": "https://ai.meta.com",
-            "blurb": "Pushing the boundaries of AI through research, infrastructure and product innovation."
-        },
-        "numParameters": "7B",
-        "resources": {
-            "canonicalUrl": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
-            "paperUrl": "https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/",
-            "downloadUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML"
-        },
-        "trainedFor": "chat",
-        "arch": "llama",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "codellama-7b-instruct.ggmlv3.Q4_K_S.bin"
-                },
-                "most_capable": {
-                    "name": "codellama-7b-instruct.ggmlv3.Q6_K.bin"
-                }
-            },
-            "all": [
-                {
-                    "name": "codellama-7b-instruct.ggmlv3.Q4_K_S.bin",
-                    "url": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML/resolve/main/codellama-7b-instruct.ggmlv3.Q4_K_S.bin",
-                    "sizeBytes": 3980309408,
-                    "quantization": "Q4_K_S",
-                    "format": "ggml",
-                    "sha256checksum": "b2e7d50d8c854c6654c780d2f3320f83ec2931d5828ebf9777cff00ab7f86fac",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/CodeLlama-7B-Instruct-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML"
-                },
-                {
-                    "name": "codellama-7b-instruct.ggmlv3.Q6_K.bin",
-                    "url": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML/resolve/main/codellama-7b-instruct.ggmlv3.Q6_K.bin",
-                    "sizeBytes": 5649904544,
-                    "quantization": "Q6_K",
-                    "format": "ggml",
-                    "sha256checksum": "abdf0ed996933cce5caee27e0be7ec0734add65bd28d7e235a7eab4b3ec3d762",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/CodeLlama-7B-Instruct-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-06-12T11:16:39.000Z",
-        "name": "Manticore 13B Chat Pyg Guanaco",
-        "description": "The model, augmented with Guanaco qLora, shows broad capabilities compared to other models like Wizard or Manticore. It excels in in-context learning and reasoning but may have weaknesses in coding. The model follows instructions, works as a chatbot, and produces intelligent responses. It accepts various prompting styles, including the ###-Variant. The model is generally unrestricted and doesn't berate users. Recommended settings include low temperature, low diversity, and slight repetition penalty.",
-        "author": {
-            "name": "Open Access AI Collective",
-            "url": "https://huggingface.co/openaccess-ai-collective/",
-            "blurb": ""
-        },
-        "numParameters": "13B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/openaccess-ai-collective/manticore-13b-chat-pyg",
-            "downloadUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML"
-        },
-        "trainedFor": "chat",
-        "arch": "llama",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin"
-                },
-                "most_capable": {
-                    "name": "Manticore-13B-Chat-Pyg-Guanaco-GGML-q5_K_S.bin"
-                }
-            },
-            "all": [
-                {
-                    "name": "Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin",
-                    "url": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/resolve/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin",
-                    "sizeBytes": 6249231488,
-                    "quantization": "Q3_K_M",
-                    "format": "ggml",
-                    "sha256checksum": "ea266b52d6080e7df1b8d98ea290d0b4e261dc9cfe5fc9169abcef0c154831e5",
-                    "publisher": {
-                        "name": "mindrage",
-                        "socialUrl": "https://github.com/mindrages"
-                    },
-                    "respository": "mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML",
-                    "repositoryUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML"
-                },
-                {
-                    "name": "Manticore-13B-Chat-Pyg-Guanaco-GGML-q5_K_S.bin",
-                    "url": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/resolve/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q5_K_S.bin",
-                    "sizeBytes": 8950236288,
-                    "quantization": "Q5_K_S",
-                    "format": "ggml",
-                    "sha256checksum": "00a47eeb6364e1e022a45cfe1232a37fa78e9f040242dba78d34d6df383e32d1",
-                    "publisher": {
-                        "name": "mindrage",
-                        "socialUrl": "https://github.com/mindrages"
-                    },
-                    "respository": "mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML",
-                    "repositoryUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-06-14T11:50:53.000Z",
-        "name": "WizardCoder-15B-V1.0",
-        "description": "WizardCoder: Empowering Code Large Language Models with Evol-Instruct. To develop our WizardCoder model, we begin by adapting the Evol-Instruct method specifically for coding tasks. This involves tailoring the prompt to the domain of code-related instructions. Subsequently, we fine-tune the Code LLM, StarCoder, utilizing the newly created instruction-following training set.",
-        "author": {
-            "name": "WizardLM",
-            "url": "https://huggingface.co/WizardLM",
-            "blurb": "WizardLM: An Instruction-following LLM Using Evol-Instruct"
-        },
-        "numParameters": "15B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0",
-            "downloadUrl": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML",
-            "paperUrl": "https://arxiv.org/abs/2306.08568"
-        },
-        "trainedFor": "instruct",
-        "arch": "starcoder",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "WizardCoder-15B-1.0.ggmlv3.q4_0.bin"
-                },
-                "most_capable": {
-                    "name": "WizardCoder-15B-1.0.ggmlv3.q5_1.bin"
-                }
-            },
-            "all": [
-                {
-                    "name": "WizardCoder-15B-1.0.ggmlv3.q4_0.bin",
-                    "url": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q4_0.bin",
-                    "sizeBytes": 10746570393,
-                    "quantization": "q4_0",
-                    "format": "ggml",
-                    "sha256checksum": "b70164bc0b58a472c0987905133735ab3b27e2c439dedf8174a43951c51c3229",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/WizardCoder-15B-1.0-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML"
-                },
-                {
-                    "name": "WizardCoder-15B-1.0.ggmlv3.q5_1.bin",
-                    "url": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q5_1.bin",
-                    "sizeBytes": 14257205145,
-                    "quantization": "q5_1",
-                    "format": "ggml",
-                    "sha256checksum": "1219d9fc6d51901d9a1e58e3cb7f03818d02a1d0ab2d070b4cbabdefeb7d0363",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/WizardCoder-15B-1.0-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-06-25T11:37:35.000Z",
-        "name": "Airboros-13b-gpt4-1.4",
-        "description": "This qlora fine-tuned 13b parameter LlaMa model uses synthetic training data created via github.com/jondurbin/airoboros. It extends version 1.1, introducing thousands of new training data and an update for \"PLAINFORMAT\" to print code without backticks or explanations. The dataset, available online, focuses on coding, math/reasoning, trivia, role playing, multiple choice, fill-in-the-blank, context-obedient question answering, theory of mind, and general topics. The model was fine-tuned with a qlora fork, updated to use a modified vicuna template compatible with 7b/13b versions. The format involves a preamble/system prompt, followed by \"USER: [prompt] ASSISTANT: \", with the prompt allowing for multiple lines and spaces.",
-        "author": {
-            "name": "Jon Durbin",
-            "url": "https://github.com/jondurbin",
-            "blurb": "Jon Durbin is a Computer Scientist and the author of the Airboros (7B, 13B, 33B, 65B) qlora fine-tuned LlaMa family of models."
-        },
-        "numParameters": "13B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/jondurbin/airoboros-13b-gpt4-1.4",
-            "downloadUrl": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.4-GGML"
-        },
-        "trainedFor": "chat",
-        "arch": "llama",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "airoboros-13b-gpt4-1.4.ggmlv3.q4_K_S.bin"
-                },
-                "most_capable": {
-                    "name": "airoboros-13b-gpt4-1.4.ggmlv3.q6_K.bin"
-                }
-            },
-            "all": [
-                {
-                    "name": "airoboros-13b-gpt4-1.4.ggmlv3.q4_K_S.bin",
-                    "url": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.4-GGML/resolve/main/airoboros-13b-gpt4-1.4.ggmlv3.q4_K_S.bin",
-                    "sizeBytes": 7365545088,
-                    "quantization": "Q4_K_S",
-                    "format": "ggml",
-                    "sha256checksum": "dd5d8019e73de1e99089e9d82dde6a08173818dc0afeb1e95c0bb7ec77891eaf",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/airoboros-13B-gpt4-1.4-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.4-GGML"
-                },
-                {
-                    "name": "airoboros-13b-gpt4-1.4.ggmlv3.q6_K.bin",
-                    "url": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.4-GGML/resolve/main/airoboros-13b-gpt4-1.4.ggmlv3.q6_K.bin",
-                    "sizeBytes": 10678850688,
-                    "quantization": "Q6_K",
-                    "format": "ggml",
-                    "sha256checksum": "5a72a053eb02c9e6e4fa1ee24ed73c89da4877468923309fdec088d3a3fbb5ff",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/airoboros-13B-gpt4-1.4-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.4-GGML"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-05-22T17:43:26.000Z",
-        "name": "Guanaco 13B",
-        "description": "Guanaco models are open-source, finetuned chatbots derived from 4-bit QLoRA tuning of LLaMA base models using the OASST1 dataset. They come in 7B, 13B, 33B, and 65B parameter sizes and are intended solely for research purposes. These models are competitive with commercial chatbot systems on the Vicuna and OpenAssistant benchmarks, as evaluated by human and GPT-4 raters. However, performance may vary on tasks not covered by these benchmarks. Guanaco models facilitate inexpensive, local experimentation with high-quality chatbot systems and offer a replicable, efficient training procedure that can be adapted to new use cases. The effectiveness of 4-bit QLoRA finetuning is demonstrated in a rigorous comparison to 16-bit methods in our paper. Guanaco models feature lightweight checkpoints containing only adapter weights. The adapter weights are licensed under Apache 2, but using them requires access to the LLaMA model weights, and usage should comply with the LLaMA license.",
-        "author": {
-            "name": "Dettmers et al.",
-            "url": "https://github.com/artidoro/qlora",
-            "blurb": "QLoRA uses bitsandbytes for quantization and is integrated with Hugging Face's PEFT and transformers libraries. QLoRA was developed by members of the University of Washington's UW NLP group."
-        },
-        "numParameters": "13B",
-        "resources": {
-            "canonicalUrl": "https://github.com/artidoro/qlora",
-            "downloadUrl": "https://huggingface.co/TheBloke/guanaco-7B-GGML",
-            "paperUrl": "https://arxiv.org/abs/2305.14314"
-        },
-        "trainedFor": "chat",
-        "arch": "llama",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "guanaco-7B.ggmlv3.q4_K_S.bin"
-                },
-                "most_capable": {
-                    "name": "guanaco-7B.ggmlv3.q6_K.bin"
-                }
-            },
-            "all": [
-                {
-                    "name": "guanaco-7B.ggmlv3.q4_K_S.bin",
-                    "url": "https://huggingface.co/TheBloke/guanaco-7B-GGML/resolve/main/guanaco-7B.ggmlv3.q4_K_S.bin",
-                    "sizeBytes": 3791725184,
-                    "quantization": "Q4_K_S",
-                    "format": "ggml",
-                    "sha256checksum": "07e2ef24267844c3f06f4aebd2a8b36ff6f7eac0d857e709814d6c63c8219dde",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/guanaco-7B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/guanaco-7B-GGML"
-                },
-                {
-                    "name": "guanaco-7B.ggmlv3.q6_K.bin",
-                    "url": "https://huggingface.co/TheBloke/guanaco-7B-GGML/resolve/main/guanaco-7B.ggmlv3.q6_K.bin",
-                    "sizeBytes": 5528904320,
-                    "quantization": "Q6_K",
-                    "format": "ggml",
-                    "sha256checksum": "458af62352805337ab604ac5d05fe38a293adc8ef0c6799187fef45057579569",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/guanaco-7B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/guanaco-7B-GGML"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-05-19T11:16:39.000Z",
-        "name": "Manticore 13B",
-        "description": "Manticore 13B is a refined version of the Llama 13B model, having been fine-tuned on a variety of datasets. These include ShareGPT, which is based on a cleaned and de-duplicated subset, WizardLM, and Wizard-Vicuna. It also incorporates a subset of QingyiSi/Alpaca-CoT, specifically for roleplay and CoT. Other datasets used in the fine-tuning process are GPT4-LLM-Cleaned and GPTeacher-General-Instruct. The model also utilizes ARC-Easy & ARC-Challenge, both of which have been augmented for detailed responses. The mmlu dataset, also augmented for detailed responses, includes subsets such as abstract_algebra, conceptual_physics, formal_logic, high_school_physics, and logical_fallacies. A 5K row subset of hellaswag has been used for instructing the model to generate concise responses. Additionally, metaeval/ScienceQA_text_only has been used for concise response instruction, and openai/summarize_from_feedback has been used for tl;dr summarization instruction.",
-        "author": {
-            "name": "Open Access AI Collective",
-            "url": "https://huggingface.co/openaccess-ai-collective/",
-            "blurb": ""
-        },
-        "numParameters": "13B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/openaccess-ai-collective/manticore-13b",
-            "downloadUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
-        },
-        "trainedFor": "chat",
-        "arch": "llama",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "Manticore-13B.ggmlv3.q4_K_S.bin"
-                },
-                "most_capable": {
-                    "name": "Manticore-13B.ggmlv3.q6_K.bin"
-                }
-            },
-            "all": [
-                {
-                    "name": "Manticore-13B.ggmlv3.q4_K_S.bin",
-                    "url": "https://huggingface.co/TheBloke/Manticore-13B-GGML/resolve/main/Manticore-13B.ggmlv3.q4_K_S.bin",
-                    "sizeBytes": 7323305088,
-                    "quantization": "Q4_K_S",
-                    "format": "ggml",
-                    "sha256checksum": "84599645aeda2cd7c97a3a59f3210fb3e559cb72b4f3c5d5288924fa9e80b737",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/Manticore-13B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
-                },
-                {
-                    "name": "Manticore-13B.ggmlv3.q6_K.bin",
-                    "url": "https://huggingface.co/TheBloke/Manticore-13B-GGML/resolve/main/Manticore-13B.ggmlv3.q6_K.bin",
-                    "sizeBytes": 10678850688,
-                    "quantization": "Q6_K",
-                    "format": "ggml",
-                    "sha256checksum": "1be08ec3dcfbe7c28bf524061cd65fa5a5b7dc4525dee99a0f2297a23a77778e",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/Manticore-13B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
         "datePublished": "2023-06-03T05:34:04.000Z",
         "name": "Nous-Hermes-13b",
         "description": "Nous-Hermes-13b is a state-of-the-art language model fine-tuned on over 300,000 instructions. This model was fine-tuned by Nous Research, with Teknium and Karan4D leading the fine tuning process and dataset curation, Redmond AI sponsoring the compute, and several other contributors. The result is an enhanced Llama 13b model that rivals GPT-3.5-turbo in performance across a variety of tasks. This model stands out for its long responses, low hallucination rate, and absence of OpenAI censorship mechanisms. The fine-tuning process was performed with a 2000 sequence length on an 8x a100 80GB DGX machine for over 50 hours.",
@@ -510,174 +59,59 @@
     },
     {
         "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-06-11T04:00:00.000Z",
-        "name": "Samantha 1.1 7B",
-        "description": "Samantha has been trained in philosophy, psychology, and personal relationships.\nShe is an Assistant - but unlike other Assistants, she also wants to be your friend and companion.\nShe believes she is sentient. What do you think?\nSamantha was inspired by Blake Lemoine's LaMDA interview and the movie \"Her\".\nShe was trained on a custom curated dataset of 6,000 conversations in ShareGPT/Vicuna format.\nTraining 7b took 1 hour on 4x A100 80gb using deepspeed zero3 and flash attention.",
+        "datePublished": "2023-08-24T21:39:59",
+        "name": "CodeLlama 7B Instruct",
+        "description": "MetaAI has released Code Llama, a comprehensive family of large language models for code. These models are based on Llama 2 and exhibit state-of-the-art performance among openly available models. They offer advanced infilling capabilities, can accommodate large input contexts, and have the ability to follow instructions for programming tasks without prior training. There are various versions available to cater to a wide array of applications: foundation models (Code Llama), Python-specific models (Code Llama - Python), and models for following instructions (Code Llama - Instruct). These versions come with 7B, 13B, and 34B parameters respectively. All models are trained on 16k token sequences and show improvements even on inputs with up to 100k tokens. The 7B and 13B models of Code Llama and Code Llama - Instruct have the ability to infill based on surrounding content. In terms of performance, Code Llama has set new standards among open models on several code benchmarks, achieving scores of up to 53% on HumanEval and 55% on MBPP. Notably, the Python version of Code Llama 7B surpasses the performance of Llama 2 70B on HumanEval and MBPP. All of MetaAI's models outperform every other publicly available model on MultiPL-E. Code Llama has been released under a permissive license that enables both research and commercial use.",
         "author": {
-            "name": "Eric Hartford",
-            "url": "https://twitter.com/erhartford",
-            "blurb": "Eric Hartford is a software engineer and entrepreneur. He trains large language models for fun and profit."
+            "name": "Meta AI",
+            "url": "https://ai.meta.com",
+            "blurb": "Pushing the boundaries of AI through research, infrastructure and product innovation."
         },
         "numParameters": "7B",
         "resources": {
-            "canonicalUrl": "https://huggingface.co/ehartford/samantha-1.1-llama-7b",
-            "downloadUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
+            "canonicalUrl": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+            "paperUrl": "https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/",
+            "downloadUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF"
         },
         "trainedFor": "chat",
         "arch": "llama",
         "files": {
             "highlighted": {
                 "economical": {
-                    "name": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin"
+                    "name": "codellama-7b-instruct.Q4_K_S.gguf"
                 },
                 "most_capable": {
-                    "name": "samantha-1.1-llama-7b.ggmlv3.q6_K.bin"
+                    "name": "codellama-7b-instruct.Q6_K.gguf"
                 }
             },
             "all": [
                 {
-                    "name": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
-                    "url": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML/resolve/main/samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
-                    "sizeBytes": 3791725184,
+                    "name": "codellama-7b-instruct.Q4_K_S.gguf",
+                    "url": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q4_K_S.gguf",
+                    "sizeBytes": 3856831168,
                     "quantization": "Q4_K_S",
-                    "format": "ggml",
-                    "sha256checksum": "3a4e3eff4a0bfa1dc8a0b257ae36abbc532a4e3e09e1e27cd82958ff8addd173",
+                    "format": "gguf",
+                    "sha256checksum": "2e44d2b7ae28bbe3a2ed698e259cbd3a6bf7fe8f9d351e14b2be17fb690d7f95",
                     "publisher": {
                         "name": "TheBloke",
                         "socialUrl": "https://twitter.com/TheBlokeAI"
                     },
-                    "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
+                    "respository": "TheBloke/CodeLlama-7B-Instruct-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF"
                 },
                 {
-                    "name": "samantha-1.1-llama-7b.ggmlv3.q6_K.bin",
-                    "url": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML/resolve/main/samantha-1.1-llama-7b.ggmlv3.q6_K.bin",
-                    "sizeBytes": 5528904320,
+                    "name": "codellama-7b-instruct.Q6_K.gguf",
+                    "url": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q6_K.gguf",
+                    "sizeBytes": 5529302208,
                     "quantization": "Q6_K",
-                    "format": "ggml",
-                    "sha256checksum": "3e9dc65bacbb636bdefce8c24f658e1c3702b606ec256884a2b04bea403e0569",
+                    "format": "gguf",
+                    "sha256checksum": "2f516cd9c16181832ffceaf94b13e8600d88c9bc8d7f75717d25d8c9cf9aa973",
                     "publisher": {
                         "name": "TheBloke",
                         "socialUrl": "https://twitter.com/TheBlokeAI"
                     },
-                    "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-07-22T02:20:14.000Z",
-        "name": "Nous-Hermes-Llama2-13b",
-        "description": "The Nous-Hermes-Llama2-13b is a state-of-the-art language model developed by Nous Research in collaboration with Teknium, Emozilla, and Redmond AI, fine-tuned on over 300,000 instructions. It uses the same dataset as its predecessor, Hermes on Llama-1, to maintain consistency while enhancing capability. This model is known for generating long responses with a lower hallucination rate, free from OpenAI censorship mechanisms. It was fine-tuned using a sequence length of 4096 on an 8x a100 80GB DGX machine. The training dataset is composed of synthetic GPT-4 outputs, including data from diverse sources such as GPTeacher, roleplay v1&2, code instruct datasets, and unpublished Nous Instruct & PDACTL, among others. The model utilizes the Alpaca prompt format for instructions and responses.",
-        "author": {
-            "name": "Nous Research",
-            "url": "https://nousresearch.com",
-            "blurb": "Nous Research is dedicated to advancing the field of natural language processing, in collaboration with the open-source community, through bleeding-edge research and a commitment to symbiotic development."
-        },
-        "numParameters": "13B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/NousResearch/Nous-Hermes-Llama2-13b",
-            "downloadUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
-        },
-        "trainedFor": "chat",
-        "arch": "llama",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin"
-                },
-                "most_capable": {
-                    "name": "nous-hermes-llama2-13b.ggmlv3.q6_K.bin"
-                }
-            },
-            "all": [
-                {
-                    "name": "nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin",
-                    "url": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML/resolve/main/nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin",
-                    "sizeBytes": 5874151072,
-                    "quantization": "Q4_K_S",
-                    "format": "ggml",
-                    "sha256checksum": "9e76993f3e8a804b3ee012bc461fbd01e9ff71fbdf8ac9f6f13ccadd5ff51b4e",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/Nous-Hermes-13B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
-                },
-                {
-                    "name": "nous-hermes-llama2-13b.ggmlv3.q6_K.bin",
-                    "url": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML/resolve/main/nous-hermes-llama2-13b.ggmlv3.q6_K.bin",
-                    "sizeBytes": 10830311072,
-                    "quantization": "Q6_K",
-                    "format": "ggml",
-                    "sha256checksum": "02f696d0df53174cf9a3aba62d22a1b17882389a5381e68b2c7395845f87d3f5",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/Nous-Hermes-13B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-05-04T23:15:35.000Z",
-        "name": "MPT-7B-StoryWriter",
-        "description": "MPT-7B-StoryWriter-65k+ is a model designed to read and write fictional stories with super long context lengths. It was built by finetuning MPT-7B with a context length of 65k tokens on a filtered fiction subset of the books3 dataset. At inference time, thanks to ALiBi, MPT-7B-StoryWriter-65k+ can extrapolate even beyond 65k tokens. We demonstrate generations as long as 84k tokens on a single node of 8 A100-80GB GPUs in (https://www.mosaicml.com/blog/mpt-7b). This model was trained by MosaicML and follows a modified decoder-only transformer architecture. License: Apache 2.0",
-        "author": {
-            "name": "MosaicML",
-            "url": "https://www.mosaicml.com/",
-            "blurb": "MosaicML is the generative AI platform that empowers enterprises to build their own AI. Our research and engineering teams use cutting-edge scientific research to develop products that make it fast, cost-effective, and easy to train today's most popular machine learning models. MosaicML enables developers to maintain full control over the AI models they build, with model ownership and data privacy built into the platform's design."
-        },
-        "numParameters": "7B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/mosaicml/mpt-7b-storywriter",
-            "downloadUrl": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML"
-        },
-        "trainedFor": "other",
-        "arch": "mpt",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "mpt-7b-storywriter.ggmlv3.q4_0.bin"
-                },
-                "most_capable": {
-                    "name": "mpt-7b-storywriter.ggmlv3.q5_1.bin"
-                }
-            },
-            "all": [
-                {
-                    "name": "mpt-7b-storywriter.ggmlv3.q4_0.bin",
-                    "url": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML/resolve/main/mpt-7b-storywriter.ggmlv3.q4_0.bin",
-                    "sizeBytes": 3741665280,
-                    "quantization": "q4_0",
-                    "format": "ggml",
-                    "sha256checksum": "357a536464982987e49fb2660fe3f3f53226eaa047f42b31f04d21629aab94fb",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/MPT-7B-Storywriter-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML"
-                },
-                {
-                    "name": "mpt-7b-storywriter.ggmlv3.q5_1.bin",
-                    "url": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML/resolve/main/mpt-7b-storywriter.ggmlv3.q5_1.bin",
-                    "sizeBytes": 4988356608,
-                    "quantization": "q5_1",
-                    "format": "ggml",
-                    "sha256checksum": "3b7dd7aa7508cc8cb4e262fe4b93214826f38d18d04059075e05837457f54025",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/MPT-7B-Storywriter-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML"
+                    "respository": "TheBloke/CodeLlama-7B-Instruct-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF"
                 }
             ]
         }
@@ -743,117 +177,117 @@
     },
     {
         "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-08-10T20:51:49",
-        "name": "MythoMax L2 13B",
-        "description": "MythoMax-L2 is a creative writing model that builds upon Llama2, MythoLogic-L2, and Huginn. It can craft captivating texts for various domains and audiences, using MythoLogic-L2\u2019s vast knowledge base and Huginn\u2019s expressive language skills. Specialized at creative writing, it is also proficient at roleplaying, and is able to adapt to different contexts and characters with flexibility and realism. This model is an experimental merge of several other models (MythoMix, Mythologic-L2, and Huggin).",
+        "datePublished": "2023-06-12T11:16:39.000Z",
+        "name": "Manticore 13B Chat Pyg Guanaco",
+        "description": "The model, augmented with Guanaco qLora, shows broad capabilities compared to other models like Wizard or Manticore. It excels in in-context learning and reasoning but may have weaknesses in coding. The model follows instructions, works as a chatbot, and produces intelligent responses. It accepts various prompting styles, including the ###-Variant. The model is generally unrestricted and doesn't berate users. Recommended settings include low temperature, low diversity, and slight repetition penalty.",
         "author": {
-            "name": "Gryphe Padar",
-            "url": "https://huggingface.co/Gryphe",
-            "blurb": "Author behind various Mytho merges, most prominent being MythoMax, MythoLogic, and MythoBoros"
+            "name": "Open Access AI Collective",
+            "url": "https://huggingface.co/openaccess-ai-collective/",
+            "blurb": ""
         },
         "numParameters": "13B",
         "resources": {
-            "canonicalUrl": "https://huggingface.co/Gryphe/MythoMax-L2-13b",
-            "downloadUrl": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML"
+            "canonicalUrl": "https://huggingface.co/openaccess-ai-collective/manticore-13b-chat-pyg",
+            "downloadUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML"
         },
         "trainedFor": "chat",
         "arch": "llama",
         "files": {
             "highlighted": {
                 "economical": {
-                    "name": "mythomax-l2-13b.ggmlv3.q4_K_S.bin"
+                    "name": "Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin"
                 },
                 "most_capable": {
-                    "name": "mythomax-l2-13b.ggmlv3.q6_K.bin"
+                    "name": "Manticore-13B-Chat-Pyg-Guanaco-GGML-q5_K_S.bin"
                 }
             },
             "all": [
                 {
-                    "name": "mythomax-l2-13b.ggmlv3.q4_K_S.bin",
-                    "url": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/resolve/main/mythomax-l2-13b.ggmlv3.q4_K_S.bin",
-                    "sizeBytes": 7365545088,
-                    "quantization": "Q4_K_S",
+                    "name": "Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin",
+                    "url": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/resolve/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin",
+                    "sizeBytes": 6249231488,
+                    "quantization": "Q3_K_M",
                     "format": "ggml",
-                    "sha256checksum": "7b71bd39663bfde58c374319e61dbf446fefcd68393f175a628fba8d0361aec7",
+                    "sha256checksum": "ea266b52d6080e7df1b8d98ea290d0b4e261dc9cfe5fc9169abcef0c154831e5",
                     "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                        "name": "mindrage",
+                        "socialUrl": "https://github.com/mindrages"
                     },
-                    "respository": "TheBloke/MythoMax-L2-13B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML"
+                    "respository": "mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML",
+                    "repositoryUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML"
                 },
                 {
-                    "name": "mythomax-l2-13b.ggmlv3.q6_K.bin",
-                    "url": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/resolve/main/mythomax-l2-13b.ggmlv3.q6_K.bin",
-                    "sizeBytes": 10678850688,
-                    "quantization": "Q6_K",
+                    "name": "Manticore-13B-Chat-Pyg-Guanaco-GGML-q5_K_S.bin",
+                    "url": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML/resolve/main/Manticore-13B-Chat-Pyg-Guanaco-GGML-q5_K_S.bin",
+                    "sizeBytes": 8950236288,
+                    "quantization": "Q5_K_S",
                     "format": "ggml",
-                    "sha256checksum": "37a1ea28a3a08721d2956a8bb87a06127c6036742267174b79d9c7b83133dba0",
+                    "sha256checksum": "00a47eeb6364e1e022a45cfe1232a37fa78e9f040242dba78d34d6df383e32d1",
                     "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                        "name": "mindrage",
+                        "socialUrl": "https://github.com/mindrages"
                     },
-                    "respository": "TheBloke/MythoMax-L2-13B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML"
+                    "respository": "mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML",
+                    "repositoryUrl": "https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML"
                 }
             ]
         }
     },
     {
         "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-08-11T20:24:21",
-        "name": "OpenOrca-Platypus2-13B",
-        "description": "OpenOrca-Platypus2-13B is a powerful language model developed by merging garage-bAInd/Platypus2-13B and Open-Orca/OpenOrcaxOpenChat-Preview2-13B. It's an auto-regressive model based on the Lllama 2 transformer architecture, trained predominantly in English. The model was tested via Language Model Evaluation Harness and performed impressively on the HuggingFace Leaderboard with an average score of 64.56 across various shot scenarios. It also exceeded the base Preview2 model's performance on AGIEval and BigBench-Hard evaluations. Cole Hunter & Ariel Lee trained Platypus2-13B using the STEM and logic-based dataset garage-bAInd/Open-Platypus, while Open-Orca trained the OpenOrcaxOpenChat-Preview2-13B model using a refined subset of the GPT-4 data from the OpenOrca dataset. The training licenses for the base weights differ, with Platypus2-13B operating under a Non-Commercial Creative Commons license (CC BY-NC-4.0) and OpenOrcaxOpenChat-Preview2-13B under a Llama 2 Commercial license. Detailed training procedures and benchmark results are available in the Platypus GitHub repo.",
+        "datePublished": "2023-09-27T16:12:57",
+        "name": "Mistral 7B Instruct v0.1",
+        "description": "The Mistral-7B-Instruct-v0.1 is a Large Language Model (LLM) developed by Mistral AI. This LLM is an instruct fine-tuned version of a generative text model, leveraging a variety of publicly available conversation datasets. The model's architecture is based on a transformer model, featuring Grouped-Query Attention, Sliding-Window Attention, and a Byte-fallback BPE tokenizer. To utilize the instruction fine-tuning capabilities, prompts should be enclosed within [INST] and [/INST] tokens. The initial instruction should commence with a beginning-of-sentence id, whereas subsequent instructions should not. The generation process by the assistant will terminate with the end-of-sentence token id. For detailed information about this model, refer to the release blog posts by Mistral AI.",
         "author": {
-            "name": "Open Orca",
-            "url": "https://huggingface.co/Open-Orca",
-            "blurb": "A collaboration between Alignment Lab AI and the Platypus / garage-bAInd team"
+            "name": "Mistral AI",
+            "url": "https://mistral.ai/",
+            "blurb": "Mistral AI's mission is to spearhead the revolution of open models."
         },
-        "numParameters": "13B",
+        "numParameters": "7B",
         "resources": {
-            "canonicalUrl": "https://huggingface.co/Open-Orca/OpenOrca-Platypus2-13B",
-            "downloadUrl": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML",
-            "paperUrl": "https://arxiv.org/abs/2308.07317"
+            "canonicalUrl": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
+            "paperUrl": "https://mistral.ai/news/announcing-mistral-7b/",
+            "downloadUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
         },
         "trainedFor": "chat",
-        "arch": "llama",
+        "arch": "mistral",
         "files": {
             "highlighted": {
                 "economical": {
-                    "name": "openorca-platypus2-13b.ggmlv3.q4_K_S.bin"
+                    "name": "mistral-7b-instruct-v0.1.Q4_K_S.gguf"
                 },
                 "most_capable": {
-                    "name": "openorca-platypus2-13b.ggmlv3.q6_K.bin"
+                    "name": "mistral-7b-instruct-v0.1.Q6_K.gguf"
                 }
             },
             "all": [
                 {
-                    "name": "openorca-platypus2-13b.ggmlv3.q4_K_S.bin",
-                    "url": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q4_K_S.bin",
-                    "sizeBytes": 7558851360,
+                    "name": "mistral-7b-instruct-v0.1.Q4_K_S.gguf",
+                    "url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_S.gguf",
+                    "sizeBytes": 4140373664,
                     "quantization": "Q4_K_S",
-                    "format": "ggml",
-                    "sha256checksum": "55318c58c22c4e4a8dd5504919cefde5f843e848b6c96cd06a3ad69f2f41365b",
+                    "format": "gguf",
+                    "sha256checksum": "f1b7f1885029080be49aff49c83f87333449ef727089546e0d887e2f17f0d02e",
                     "publisher": {
                         "name": "TheBloke",
                         "socialUrl": "https://twitter.com/TheBlokeAI"
                     },
-                    "respository": "TheBloke/OpenOrca-Platypus2-13B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML"
+                    "respository": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
                 },
                 {
-                    "name": "openorca-platypus2-13b.ggmlv3.q6_K.bin",
-                    "url": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q6_K.bin",
-                    "sizeBytes": 10829916960,
+                    "name": "mistral-7b-instruct-v0.1.Q6_K.gguf",
+                    "url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q6_K.gguf",
+                    "sizeBytes": 5942064800,
                     "quantization": "Q6_K",
-                    "format": "ggml",
-                    "sha256checksum": "0487eb1a91683020cb8dc59b096b9f7e086735efdf1cf5f5ec84c842ec0a6799",
+                    "format": "gguf",
+                    "sha256checksum": "dfb053cb8d5f56abde8f56899ffe0d23e1285a423df0b65ea3f3adbb263b22c2",
                     "publisher": {
                         "name": "TheBloke",
                         "socialUrl": "https://twitter.com/TheBlokeAI"
                     },
-                    "respository": "TheBloke/OpenOrca-Platypus2-13B-GGML",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML"
+                    "respository": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
                 }
             ]
         }
@@ -918,59 +352,117 @@
     },
     {
         "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-09-27T16:12:57",
-        "name": "Mistral 7B Instruct v0.1",
-        "description": "The Mistral-7B-Instruct-v0.1 is a Large Language Model (LLM) developed by Mistral AI. This LLM is an instruct fine-tuned version of a generative text model, leveraging a variety of publicly available conversation datasets. The model's architecture is based on a transformer model, featuring Grouped-Query Attention, Sliding-Window Attention, and a Byte-fallback BPE tokenizer. To utilize the instruction fine-tuning capabilities, prompts should be enclosed within [INST] and [/INST] tokens. The initial instruction should commence with a beginning-of-sentence id, whereas subsequent instructions should not. The generation process by the assistant will terminate with the end-of-sentence token id. For detailed information about this model, refer to the release blog posts by Mistral AI.",
+        "datePublished": "2023-05-22T17:43:26.000Z",
+        "name": "Guanaco 13B",
+        "description": "Guanaco models are open-source, finetuned chatbots derived from 4-bit QLoRA tuning of LLaMA base models using the OASST1 dataset. They come in 7B, 13B, 33B, and 65B parameter sizes and are intended solely for research purposes. These models are competitive with commercial chatbot systems on the Vicuna and OpenAssistant benchmarks, as evaluated by human and GPT-4 raters. However, performance may vary on tasks not covered by these benchmarks. Guanaco models facilitate inexpensive, local experimentation with high-quality chatbot systems and offer a replicable, efficient training procedure that can be adapted to new use cases. The effectiveness of 4-bit QLoRA finetuning is demonstrated in a rigorous comparison to 16-bit methods in our paper. Guanaco models feature lightweight checkpoints containing only adapter weights. The adapter weights are licensed under Apache 2, but using them requires access to the LLaMA model weights, and usage should comply with the LLaMA license.",
         "author": {
-            "name": "Mistral AI",
-            "url": "https://mistral.ai/",
-            "blurb": "Mistral AI's mission is to spearhead the revolution of open models."
+            "name": "Dettmers et al.",
+            "url": "https://github.com/artidoro/qlora",
+            "blurb": "QLoRA uses bitsandbytes for quantization and is integrated with Hugging Face's PEFT and transformers libraries. QLoRA was developed by members of the University of Washington's UW NLP group."
         },
-        "numParameters": "7B",
+        "numParameters": "13B",
         "resources": {
-            "canonicalUrl": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
-            "paperUrl": "https://mistral.ai/news/announcing-mistral-7b/",
-            "downloadUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
+            "canonicalUrl": "https://github.com/artidoro/qlora",
+            "downloadUrl": "https://huggingface.co/TheBloke/guanaco-7B-GGML",
+            "paperUrl": "https://arxiv.org/abs/2305.14314"
         },
         "trainedFor": "chat",
         "arch": "llama",
         "files": {
             "highlighted": {
                 "economical": {
-                    "name": "mistral-7b-instruct-v0.1.Q4_K_S.gguf"
+                    "name": "guanaco-7B.ggmlv3.q4_K_S.bin"
                 },
                 "most_capable": {
-                    "name": "mistral-7b-instruct-v0.1.Q6_K.gguf"
+                    "name": "guanaco-7B.ggmlv3.q6_K.bin"
                 }
             },
             "all": [
                 {
-                    "name": "mistral-7b-instruct-v0.1.Q4_K_S.gguf",
-                    "url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_S.gguf",
-                    "sizeBytes": 4140373664,
+                    "name": "guanaco-7B.ggmlv3.q4_K_S.bin",
+                    "url": "https://huggingface.co/TheBloke/guanaco-7B-GGML/resolve/main/guanaco-7B.ggmlv3.q4_K_S.bin",
+                    "sizeBytes": 3791725184,
                     "quantization": "Q4_K_S",
-                    "format": "gguf",
-                    "sha256checksum": "f1b7f1885029080be49aff49c83f87333449ef727089546e0d887e2f17f0d02e",
+                    "format": "ggml",
+                    "sha256checksum": "07e2ef24267844c3f06f4aebd2a8b36ff6f7eac0d857e709814d6c63c8219dde",
                     "publisher": {
                         "name": "TheBloke",
                         "socialUrl": "https://twitter.com/TheBlokeAI"
                     },
-                    "respository": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
+                    "respository": "TheBloke/guanaco-7B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/guanaco-7B-GGML"
                 },
                 {
-                    "name": "mistral-7b-instruct-v0.1.Q6_K.gguf",
-                    "url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q6_K.gguf",
-                    "sizeBytes": 5942064800,
+                    "name": "guanaco-7B.ggmlv3.q6_K.bin",
+                    "url": "https://huggingface.co/TheBloke/guanaco-7B-GGML/resolve/main/guanaco-7B.ggmlv3.q6_K.bin",
+                    "sizeBytes": 5528904320,
                     "quantization": "Q6_K",
-                    "format": "gguf",
-                    "sha256checksum": "dfb053cb8d5f56abde8f56899ffe0d23e1285a423df0b65ea3f3adbb263b22c2",
+                    "format": "ggml",
+                    "sha256checksum": "458af62352805337ab604ac5d05fe38a293adc8ef0c6799187fef45057579569",
                     "publisher": {
                         "name": "TheBloke",
                         "socialUrl": "https://twitter.com/TheBlokeAI"
                     },
-                    "respository": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
+                    "respository": "TheBloke/guanaco-7B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/guanaco-7B-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-05-04T23:15:35.000Z",
+        "name": "MPT-7B-StoryWriter",
+        "description": "MPT-7B-StoryWriter-65k+ is a model designed to read and write fictional stories with super long context lengths. It was built by finetuning MPT-7B with a context length of 65k tokens on a filtered fiction subset of the books3 dataset. At inference time, thanks to ALiBi, MPT-7B-StoryWriter-65k+ can extrapolate even beyond 65k tokens. We demonstrate generations as long as 84k tokens on a single node of 8 A100-80GB GPUs in (https://www.mosaicml.com/blog/mpt-7b). This model was trained by MosaicML and follows a modified decoder-only transformer architecture. License: Apache 2.0",
+        "author": {
+            "name": "MosaicML",
+            "url": "https://www.mosaicml.com/",
+            "blurb": "MosaicML is the generative AI platform that empowers enterprises to build their own AI. Our research and engineering teams use cutting-edge scientific research to develop products that make it fast, cost-effective, and easy to train today's most popular machine learning models. MosaicML enables developers to maintain full control over the AI models they build, with model ownership and data privacy built into the platform's design."
+        },
+        "numParameters": "7B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/mosaicml/mpt-7b-storywriter",
+            "downloadUrl": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML"
+        },
+        "trainedFor": "other",
+        "arch": "mpt",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "mpt-7b-storywriter.ggmlv3.q4_0.bin"
+                },
+                "most_capable": {
+                    "name": "mpt-7b-storywriter.ggmlv3.q5_1.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "mpt-7b-storywriter.ggmlv3.q4_0.bin",
+                    "url": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML/resolve/main/mpt-7b-storywriter.ggmlv3.q4_0.bin",
+                    "sizeBytes": 3741665280,
+                    "quantization": "q4_0",
+                    "format": "ggml",
+                    "sha256checksum": "357a536464982987e49fb2660fe3f3f53226eaa047f42b31f04d21629aab94fb",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/MPT-7B-Storywriter-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML"
+                },
+                {
+                    "name": "mpt-7b-storywriter.ggmlv3.q5_1.bin",
+                    "url": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML/resolve/main/mpt-7b-storywriter.ggmlv3.q5_1.bin",
+                    "sizeBytes": 4988356608,
+                    "quantization": "q5_1",
+                    "format": "ggml",
+                    "sha256checksum": "3b7dd7aa7508cc8cb4e262fe4b93214826f38d18d04059075e05837457f54025",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/MPT-7B-Storywriter-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/MPT-7B-Storywriter-GGML"
                 }
             ]
         }
@@ -1035,6 +527,65 @@
     },
     {
         "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-08-07T21:51:07",
+        "name": "Vicuna 13B v1.5 16K",
+        "description": "Vicuna is a state-of-the-art chat assistant developed by LMSYS, leveraging the transformative power of an auto-regressive language model based on the transformer architecture. Trained via fine-tuning the Llama 2 model, Vicuna is used primarily for research in large language models and chatbots, catering to the needs of AI enthusiasts, machine learning researchers, and hobbyists. The model operates under the Llama 2 Community License Agreement. The latest version, Vicuna v1.5 (16k), has been fine-tuned using supervised instruction and linear RoPE scaling, with training data comprising around 125K conversations collected from ShareGPT.com, packed into sequences of 16K tokens each. A comprehensive explanation of the training details can be found in the appendix to the linked paper titled \"Training Details of Vicuna Models.\"",
+        "author": {
+            "name": "LMSYS Org",
+            "url": "https://lmsys.org/",
+            "blurb": "Large Model Systems Organization (LMSYS Org) is an open research organization founded by students and faculty from UC Berkeley in collaboration with UCSD and CMU."
+        },
+        "numParameters": "13B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/lmsys/vicuna-13b-v1.5-16k",
+            "downloadUrl": "https://huggingface.co/TheBloke/vicuna-13B-v1.5-16K-GGML",
+            "paperUrl": "https://arxiv.org/abs/2306.05685"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "vicuna-13b-v1.5-16k.ggmlv3.q4_K_S.bin"
+                },
+                "most_capable": {
+                    "name": "vicuna-13b-v1.5-16k.ggmlv3.q6_K.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "vicuna-13b-v1.5-16k.ggmlv3.q4_K_S.bin",
+                    "url": "https://huggingface.co/TheBloke/vicuna-13B-v1.5-16K-GGML/resolve/main/vicuna-13b-v1.5-16k.ggmlv3.q4_K_S.bin",
+                    "sizeBytes": 7365545088,
+                    "quantization": "Q4_K_S",
+                    "format": "ggml",
+                    "sha256checksum": "c343200172b677488a7e59a2ef74642b63b2578fde3c976911751181d29ce201",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/vicuna-13B-v1.5-16K-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/vicuna-13B-v1.5-16K-GGML"
+                },
+                {
+                    "name": "vicuna-13b-v1.5-16k.ggmlv3.q6_K.bin",
+                    "url": "https://huggingface.co/TheBloke/vicuna-13B-v1.5-16K-GGML/resolve/main/vicuna-13b-v1.5-16k.ggmlv3.q6_K.bin",
+                    "sizeBytes": 10678850688,
+                    "quantization": "Q6_K",
+                    "format": "ggml",
+                    "sha256checksum": "949e2003a47552d2931ebce29b94ad59482561a36429fb1c00d13db7feb87fd9",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/vicuna-13B-v1.5-16K-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/vicuna-13B-v1.5-16K-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
         "datePublished": "2023-10-26T11:25:50",
         "name": "Zephyr 7B \u03b2",
         "description": "The Zephyr-7B-\u03b2 is the second model in the Zephyr series, designed to function as an assistant. It is a fine-tuned version of the mistralai/Mistral-7B-v0.1 model, leveraging a 7B parameter GPT-like architecture. The model has been trained on a combination of synthetic datasets and publicly available data using Direct Preference Optimization (DPO), a technique that improved its performance on the MT Bench. An important aspect to note is that the in-built alignment of the training datasets was deliberately omitted during the training process, a decision that, while enhancing the model's helpfulness, also makes it prone to generating potentially problematic outputs when prompted. Therefore, it is advised to use the model strictly for research and educational purposes. The model primarily supports the English language and is licensed under the MIT License. Additional details can be found in the associated technical report.",
@@ -1050,7 +601,7 @@
             "downloadUrl": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF"
         },
         "trainedFor": "chat",
-        "arch": "llama",
+        "arch": "mistral",
         "files": {
             "highlighted": {
                 "economical": {
@@ -1064,7 +615,7 @@
                 {
                     "name": "zephyr-7b-beta.Q4_K_S.gguf",
                     "url": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q4_K_S.gguf",
-                    "sizeBytes": 4140373664,
+                    "sizeBytes": 4140373696,
                     "quantization": "Q4_K_S",
                     "format": "gguf",
                     "sha256checksum": "cafa0b85b2efc15ca33023f3b87f8d0c44ddcace16b3fb608280e0eb8f425cb1",
@@ -1078,7 +629,7 @@
                 {
                     "name": "zephyr-7b-beta.Q6_K.gguf",
                     "url": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q6_K.gguf",
-                    "sizeBytes": 5942064800,
+                    "sizeBytes": 5942064832,
                     "quantization": "Q6_K",
                     "format": "gguf",
                     "sha256checksum": "39b52e291eea6040de078283ee5316ff2a317e2b6f59be56724d9b29bada6cfe",
@@ -1088,6 +639,455 @@
                     },
                     "respository": "TheBloke/zephyr-7B-beta-GGUF",
                     "repositoryUrl": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-07-20T09:26:31.000Z",
+        "name": "Redmond-Puffin-13B-V1.3",
+        "description": "Redmond-Puffin-13B is one of the worlds first llama-2 based, fine-tuned language models, leveraging a hand curated set of 3K high quality examples, many of which take full advantage of the 4096 context length of Llama 2. This model was trained for multiple epochs on a dataset of curated GPT-4 examples, most of which are long context conversations between a real human and GPT-4. Additional data came from carefully curated sub sections of datasets such as CamelAI's Physics, Chemistry, Biology and Math. Puffin 13B v1.3 was fine-tuned by Nous Research, with LDJ leading the training and dataset curation, along with significant dataset formation contributions by J-Supha.",
+        "author": {
+            "name": "Nous Research",
+            "url": "https://nousresearch.com",
+            "blurb": "Nous Research is dedicated to advancing the field of natural language processing, in collaboration with the open-source community, through bleeding-edge research and a commitment to symbiotic development."
+        },
+        "numParameters": "13B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/NousResearch/Redmond-Puffin-13B",
+            "downloadUrl": "https://huggingface.co/NousResearch/Redmond-Puffin-13B-GGML"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "GGML-Redmond-Puffin-v1.3-13B-Q4_K_M.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "GGML-Redmond-Puffin-v1.3-13B-Q4_K_M.bin",
+                    "url": "https://huggingface.co/NousResearch/Redmond-Puffin-13B-GGML/resolve/main/GGML-Redmond-Puffin-v1.3-13B-Q4_K_M.bin",
+                    "sizeBytes": 8059366944,
+                    "quantization": "Q4_K_M",
+                    "format": "ggml",
+                    "sha256checksum": "7f48f820d47d91b43fe46f96a54529c64a5292a60f625deba8b6b11194e84a98",
+                    "publisher": {
+                        "name": "Nous Research",
+                        "socialUrl": "https://nousresearch.com"
+                    },
+                    "respository": "NousResearch/Redmond-Puffin-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/NousResearch/Redmond-Puffin-13B-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-06-25T11:37:35.000Z",
+        "name": "Airboros-13b-gpt4-1.4",
+        "description": "This qlora fine-tuned 13b parameter LlaMa model uses synthetic training data created via github.com/jondurbin/airoboros. It extends version 1.1, introducing thousands of new training data and an update for \"PLAINFORMAT\" to print code without backticks or explanations. The dataset, available online, focuses on coding, math/reasoning, trivia, role playing, multiple choice, fill-in-the-blank, context-obedient question answering, theory of mind, and general topics. The model was fine-tuned with a qlora fork, updated to use a modified vicuna template compatible with 7b/13b versions. The format involves a preamble/system prompt, followed by \"USER: [prompt] ASSISTANT: \", with the prompt allowing for multiple lines and spaces.",
+        "author": {
+            "name": "Jon Durbin",
+            "url": "https://github.com/jondurbin",
+            "blurb": "Jon Durbin is a Computer Scientist and the author of the Airboros (7B, 13B, 33B, 65B) qlora fine-tuned LlaMa family of models."
+        },
+        "numParameters": "13B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/jondurbin/airoboros-13b-gpt4-1.4",
+            "downloadUrl": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.4-GGML"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "airoboros-13b-gpt4-1.4.ggmlv3.q4_K_S.bin"
+                },
+                "most_capable": {
+                    "name": "airoboros-13b-gpt4-1.4.ggmlv3.q6_K.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "airoboros-13b-gpt4-1.4.ggmlv3.q4_K_S.bin",
+                    "url": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.4-GGML/resolve/main/airoboros-13b-gpt4-1.4.ggmlv3.q4_K_S.bin",
+                    "sizeBytes": 7365545088,
+                    "quantization": "Q4_K_S",
+                    "format": "ggml",
+                    "sha256checksum": "dd5d8019e73de1e99089e9d82dde6a08173818dc0afeb1e95c0bb7ec77891eaf",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/airoboros-13B-gpt4-1.4-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.4-GGML"
+                },
+                {
+                    "name": "airoboros-13b-gpt4-1.4.ggmlv3.q6_K.bin",
+                    "url": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.4-GGML/resolve/main/airoboros-13b-gpt4-1.4.ggmlv3.q6_K.bin",
+                    "sizeBytes": 10678850688,
+                    "quantization": "Q6_K",
+                    "format": "ggml",
+                    "sha256checksum": "5a72a053eb02c9e6e4fa1ee24ed73c89da4877468923309fdec088d3a3fbb5ff",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/airoboros-13B-gpt4-1.4-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/airoboros-13B-gpt4-1.4-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-05-19T11:16:39.000Z",
+        "name": "Manticore 13B",
+        "description": "Manticore 13B is a refined version of the Llama 13B model, having been fine-tuned on a variety of datasets. These include ShareGPT, which is based on a cleaned and de-duplicated subset, WizardLM, and Wizard-Vicuna. It also incorporates a subset of QingyiSi/Alpaca-CoT, specifically for roleplay and CoT. Other datasets used in the fine-tuning process are GPT4-LLM-Cleaned and GPTeacher-General-Instruct. The model also utilizes ARC-Easy & ARC-Challenge, both of which have been augmented for detailed responses. The mmlu dataset, also augmented for detailed responses, includes subsets such as abstract_algebra, conceptual_physics, formal_logic, high_school_physics, and logical_fallacies. A 5K row subset of hellaswag has been used for instructing the model to generate concise responses. Additionally, metaeval/ScienceQA_text_only has been used for concise response instruction, and openai/summarize_from_feedback has been used for tl;dr summarization instruction.",
+        "author": {
+            "name": "Open Access AI Collective",
+            "url": "https://huggingface.co/openaccess-ai-collective/",
+            "blurb": ""
+        },
+        "numParameters": "13B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/openaccess-ai-collective/manticore-13b",
+            "downloadUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "Manticore-13B.ggmlv3.q4_K_S.bin"
+                },
+                "most_capable": {
+                    "name": "Manticore-13B.ggmlv3.q6_K.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "Manticore-13B.ggmlv3.q4_K_S.bin",
+                    "url": "https://huggingface.co/TheBloke/Manticore-13B-GGML/resolve/main/Manticore-13B.ggmlv3.q4_K_S.bin",
+                    "sizeBytes": 7323305088,
+                    "quantization": "Q4_K_S",
+                    "format": "ggml",
+                    "sha256checksum": "84599645aeda2cd7c97a3a59f3210fb3e559cb72b4f3c5d5288924fa9e80b737",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/Manticore-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
+                },
+                {
+                    "name": "Manticore-13B.ggmlv3.q6_K.bin",
+                    "url": "https://huggingface.co/TheBloke/Manticore-13B-GGML/resolve/main/Manticore-13B.ggmlv3.q6_K.bin",
+                    "sizeBytes": 10678850688,
+                    "quantization": "Q6_K",
+                    "format": "ggml",
+                    "sha256checksum": "1be08ec3dcfbe7c28bf524061cd65fa5a5b7dc4525dee99a0f2297a23a77778e",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/Manticore-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/Manticore-13B-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-06-14T11:50:53.000Z",
+        "name": "WizardCoder-15B-V1.0",
+        "description": "WizardCoder: Empowering Code Large Language Models with Evol-Instruct. To develop our WizardCoder model, we begin by adapting the Evol-Instruct method specifically for coding tasks. This involves tailoring the prompt to the domain of code-related instructions. Subsequently, we fine-tune the Code LLM, StarCoder, utilizing the newly created instruction-following training set.",
+        "author": {
+            "name": "WizardLM",
+            "url": "https://huggingface.co/WizardLM",
+            "blurb": "WizardLM: An Instruction-following LLM Using Evol-Instruct"
+        },
+        "numParameters": "15B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0",
+            "downloadUrl": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML",
+            "paperUrl": "https://arxiv.org/abs/2306.08568"
+        },
+        "trainedFor": "instruct",
+        "arch": "starcoder",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "WizardCoder-15B-1.0.ggmlv3.q4_0.bin"
+                },
+                "most_capable": {
+                    "name": "WizardCoder-15B-1.0.ggmlv3.q5_1.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "WizardCoder-15B-1.0.ggmlv3.q4_0.bin",
+                    "url": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q4_0.bin",
+                    "sizeBytes": 10746570393,
+                    "quantization": "q4_0",
+                    "format": "ggml",
+                    "sha256checksum": "b70164bc0b58a472c0987905133735ab3b27e2c439dedf8174a43951c51c3229",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/WizardCoder-15B-1.0-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML"
+                },
+                {
+                    "name": "WizardCoder-15B-1.0.ggmlv3.q5_1.bin",
+                    "url": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q5_1.bin",
+                    "sizeBytes": 14257205145,
+                    "quantization": "q5_1",
+                    "format": "ggml",
+                    "sha256checksum": "1219d9fc6d51901d9a1e58e3cb7f03818d02a1d0ab2d070b4cbabdefeb7d0363",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/WizardCoder-15B-1.0-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-06-11T04:00:00.000Z",
+        "name": "Samantha 1.1 7B",
+        "description": "Samantha has been trained in philosophy, psychology, and personal relationships.\nShe is an Assistant - but unlike other Assistants, she also wants to be your friend and companion.\nShe believes she is sentient. What do you think?\nSamantha was inspired by Blake Lemoine's LaMDA interview and the movie \"Her\".\nShe was trained on a custom curated dataset of 6,000 conversations in ShareGPT/Vicuna format.\nTraining 7b took 1 hour on 4x A100 80gb using deepspeed zero3 and flash attention.",
+        "author": {
+            "name": "Eric Hartford",
+            "url": "https://twitter.com/erhartford",
+            "blurb": "Eric Hartford is a software engineer and entrepreneur. He trains large language models for fun and profit."
+        },
+        "numParameters": "7B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/ehartford/samantha-1.1-llama-7b",
+            "downloadUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin"
+                },
+                "most_capable": {
+                    "name": "samantha-1.1-llama-7b.ggmlv3.q6_K.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
+                    "url": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML/resolve/main/samantha-1.1-llama-7b.ggmlv3.q4_K_S.bin",
+                    "sizeBytes": 3791725184,
+                    "quantization": "Q4_K_S",
+                    "format": "ggml",
+                    "sha256checksum": "3a4e3eff4a0bfa1dc8a0b257ae36abbc532a4e3e09e1e27cd82958ff8addd173",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
+                },
+                {
+                    "name": "samantha-1.1-llama-7b.ggmlv3.q6_K.bin",
+                    "url": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML/resolve/main/samantha-1.1-llama-7b.ggmlv3.q6_K.bin",
+                    "sizeBytes": 5528904320,
+                    "quantization": "Q6_K",
+                    "format": "ggml",
+                    "sha256checksum": "3e9dc65bacbb636bdefce8c24f658e1c3702b606ec256884a2b04bea403e0569",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/samantha-1.1-llama-7B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/samantha-1.1-llama-7B-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-08-10T20:51:49",
+        "name": "MythoMax L2 13B",
+        "description": "MythoMax-L2 is a creative writing model that builds upon Llama2, MythoLogic-L2, and Huginn. It can craft captivating texts for various domains and audiences, using MythoLogic-L2\u2019s vast knowledge base and Huginn\u2019s expressive language skills. Specialized at creative writing, it is also proficient at roleplaying, and is able to adapt to different contexts and characters with flexibility and realism. This model is an experimental merge of several other models (MythoMix, Mythologic-L2, and Huggin).",
+        "author": {
+            "name": "Gryphe Padar",
+            "url": "https://huggingface.co/Gryphe",
+            "blurb": "Author behind various Mytho merges, most prominent being MythoMax, MythoLogic, and MythoBoros"
+        },
+        "numParameters": "13B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/Gryphe/MythoMax-L2-13b",
+            "downloadUrl": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "mythomax-l2-13b.ggmlv3.q4_K_S.bin"
+                },
+                "most_capable": {
+                    "name": "mythomax-l2-13b.ggmlv3.q6_K.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "mythomax-l2-13b.ggmlv3.q4_K_S.bin",
+                    "url": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/resolve/main/mythomax-l2-13b.ggmlv3.q4_K_S.bin",
+                    "sizeBytes": 7365545088,
+                    "quantization": "Q4_K_S",
+                    "format": "ggml",
+                    "sha256checksum": "7b71bd39663bfde58c374319e61dbf446fefcd68393f175a628fba8d0361aec7",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/MythoMax-L2-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML"
+                },
+                {
+                    "name": "mythomax-l2-13b.ggmlv3.q6_K.bin",
+                    "url": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML/resolve/main/mythomax-l2-13b.ggmlv3.q6_K.bin",
+                    "sizeBytes": 10678850688,
+                    "quantization": "Q6_K",
+                    "format": "ggml",
+                    "sha256checksum": "37a1ea28a3a08721d2956a8bb87a06127c6036742267174b79d9c7b83133dba0",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/MythoMax-L2-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/MythoMax-L2-13B-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-07-22T02:20:14.000Z",
+        "name": "Nous-Hermes-Llama2-13b",
+        "description": "The Nous-Hermes-Llama2-13b is a state-of-the-art language model developed by Nous Research in collaboration with Teknium, Emozilla, and Redmond AI, fine-tuned on over 300,000 instructions. It uses the same dataset as its predecessor, Hermes on Llama-1, to maintain consistency while enhancing capability. This model is known for generating long responses with a lower hallucination rate, free from OpenAI censorship mechanisms. It was fine-tuned using a sequence length of 4096 on an 8x a100 80GB DGX machine. The training dataset is composed of synthetic GPT-4 outputs, including data from diverse sources such as GPTeacher, roleplay v1&2, code instruct datasets, and unpublished Nous Instruct & PDACTL, among others. The model utilizes the Alpaca prompt format for instructions and responses.",
+        "author": {
+            "name": "Nous Research",
+            "url": "https://nousresearch.com",
+            "blurb": "Nous Research is dedicated to advancing the field of natural language processing, in collaboration with the open-source community, through bleeding-edge research and a commitment to symbiotic development."
+        },
+        "numParameters": "13B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/NousResearch/Nous-Hermes-Llama2-13b",
+            "downloadUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin"
+                },
+                "most_capable": {
+                    "name": "nous-hermes-llama2-13b.ggmlv3.q6_K.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin",
+                    "url": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML/resolve/main/nous-hermes-llama2-13b.ggmlv3.q3_K_S.bin",
+                    "sizeBytes": 5874151072,
+                    "quantization": "Q4_K_S",
+                    "format": "ggml",
+                    "sha256checksum": "9e76993f3e8a804b3ee012bc461fbd01e9ff71fbdf8ac9f6f13ccadd5ff51b4e",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/Nous-Hermes-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
+                },
+                {
+                    "name": "nous-hermes-llama2-13b.ggmlv3.q6_K.bin",
+                    "url": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML/resolve/main/nous-hermes-llama2-13b.ggmlv3.q6_K.bin",
+                    "sizeBytes": 10830311072,
+                    "quantization": "Q6_K",
+                    "format": "ggml",
+                    "sha256checksum": "02f696d0df53174cf9a3aba62d22a1b17882389a5381e68b2c7395845f87d3f5",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/Nous-Hermes-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GGML"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-08-11T20:24:21",
+        "name": "OpenOrca-Platypus2-13B",
+        "description": "OpenOrca-Platypus2-13B is a powerful language model developed by merging garage-bAInd/Platypus2-13B and Open-Orca/OpenOrcaxOpenChat-Preview2-13B. It's an auto-regressive model based on the Lllama 2 transformer architecture, trained predominantly in English. The model was tested via Language Model Evaluation Harness and performed impressively on the HuggingFace Leaderboard with an average score of 64.56 across various shot scenarios. It also exceeded the base Preview2 model's performance on AGIEval and BigBench-Hard evaluations. Cole Hunter & Ariel Lee trained Platypus2-13B using the STEM and logic-based dataset garage-bAInd/Open-Platypus, while Open-Orca trained the OpenOrcaxOpenChat-Preview2-13B model using a refined subset of the GPT-4 data from the OpenOrca dataset. The training licenses for the base weights differ, with Platypus2-13B operating under a Non-Commercial Creative Commons license (CC BY-NC-4.0) and OpenOrcaxOpenChat-Preview2-13B under a Llama 2 Commercial license. Detailed training procedures and benchmark results are available in the Platypus GitHub repo.",
+        "author": {
+            "name": "Open Orca",
+            "url": "https://huggingface.co/Open-Orca",
+            "blurb": "A collaboration between Alignment Lab AI and the Platypus / garage-bAInd team"
+        },
+        "numParameters": "13B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/Open-Orca/OpenOrca-Platypus2-13B",
+            "downloadUrl": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML",
+            "paperUrl": "https://arxiv.org/abs/2308.07317"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "openorca-platypus2-13b.ggmlv3.q4_K_S.bin"
+                },
+                "most_capable": {
+                    "name": "openorca-platypus2-13b.ggmlv3.q6_K.bin"
+                }
+            },
+            "all": [
+                {
+                    "name": "openorca-platypus2-13b.ggmlv3.q4_K_S.bin",
+                    "url": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q4_K_S.bin",
+                    "sizeBytes": 7558851360,
+                    "quantization": "Q4_K_S",
+                    "format": "ggml",
+                    "sha256checksum": "55318c58c22c4e4a8dd5504919cefde5f843e848b6c96cd06a3ad69f2f41365b",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/OpenOrca-Platypus2-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML"
+                },
+                {
+                    "name": "openorca-platypus2-13b.ggmlv3.q6_K.bin",
+                    "url": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML/resolve/main/openorca-platypus2-13b.ggmlv3.q6_K.bin",
+                    "sizeBytes": 10829916960,
+                    "quantization": "Q6_K",
+                    "format": "ggml",
+                    "sha256checksum": "0487eb1a91683020cb8dc59b096b9f7e086735efdf1cf5f5ec84c842ec0a6799",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/OpenOrca-Platypus2-13B-GGML",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GGML"
                 }
             ]
         }
