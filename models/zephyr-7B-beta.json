@@ -1,0 +1,59 @@
+{
+  "_descriptorVersion": "0.0.1",  
+  "datePublished": "2023-10-26T11:25:50",
+  "name": "Zephyr 7B β",
+  "description": "The Zephyr-7B-β is the second model in the Zephyr series, designed to function as an assistant. It is a fine-tuned version of the mistralai/Mistral-7B-v0.1 model, leveraging a 7B parameter GPT-like architecture. The model has been trained on a combination of synthetic datasets and publicly available data using Direct Preference Optimization (DPO), a technique that improved its performance on the MT Bench. An important aspect to note is that the in-built alignment of the training datasets was deliberately omitted during the training process, a decision that, while enhancing the model's helpfulness, also makes it prone to generating potentially problematic outputs when prompted. Therefore, it is advised to use the model strictly for research and educational purposes. The model primarily supports the English language and is licensed under the MIT License. Additional details can be found in the associated technical report.",
+  "author": {
+    "name": "Hugging Face H4",
+    "url": "https://huggingface.co/HuggingFaceH4",
+    "blurb": "Hugging Face H4 team, focused on aligning language models to be helpful, honest, harmless, and huggy 🤗"
+  },
+  "numParameters": "7B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
+    "paperUrl": "https://arxiv.org/abs/2310.16944",
+    "downloadUrl": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF"
+  },
+  "trainedFor": "chat",
+  "arch": "llama",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "zephyr-7b-beta.Q4_K_S.gguf"
+      },
+      "most_capable": {
+        "name": "zephyr-7b-beta.Q6_K.gguf"
+      }
+    },
+    "all": [
+      {
+        "name": "zephyr-7b-beta.Q4_K_S.gguf",
+        "url": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q4_K_S.gguf",
+        "sizeBytes": 4140373664,
+        "quantization": "Q4_K_S",
+        "format": "gguf",
+        "sha256checksum": "cafa0b85b2efc15ca33023f3b87f8d0c44ddcace16b3fb608280e0eb8f425cb1",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/zephyr-7B-beta-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF"
+      },
+      {
+        "name": "zephyr-7b-beta.Q6_K.gguf",
+        "url": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q6_K.gguf",
+        "sizeBytes": 5942064800,
+        "quantization": "Q6_K",
+        "format": "gguf",
+        "sha256checksum": "39b52e291eea6040de078283ee5316ff2a317e2b6f59be56724d9b29bada6cfe",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/zephyr-7B-beta-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF"
+      }
+    ]
+  }
+}
