@@ -15,7 +15,7 @@
     "downloadUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
   },
   "trainedFor": "chat",
-  "arch": "llama",
+  "arch": "mistral",
   "files": {
     "highlighted": {
       "economical": {

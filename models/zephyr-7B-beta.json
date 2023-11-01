@@ -15,7 +15,7 @@
     "downloadUrl": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF"
   },
   "trainedFor": "chat",
-  "arch": "llama",
+  "arch": "mistral",
   "files": {
     "highlighted": {
       "economical": {
@@ -29,7 +29,7 @@
       {
         "name": "zephyr-7b-beta.Q4_K_S.gguf",
         "url": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q4_K_S.gguf",
-        "sizeBytes": 4140373664,
+        "sizeBytes": 4140373696,
         "quantization": "Q4_K_S",
         "format": "gguf",
         "sha256checksum": "cafa0b85b2efc15ca33023f3b87f8d0c44ddcace16b3fb608280e0eb8f425cb1",
@@ -43,7 +43,7 @@
       {
         "name": "zephyr-7b-beta.Q6_K.gguf",
         "url": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q6_K.gguf",
-        "sizeBytes": 5942064800,
+        "sizeBytes": 5942064832,
         "quantization": "Q6_K",
         "format": "gguf",
         "sha256checksum": "39b52e291eea6040de078283ee5316ff2a317e2b6f59be56724d9b29bada6cfe",
