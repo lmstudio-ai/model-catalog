@@ -59,7 +59,7 @@
       },
       "arch": {
         "type": "string",
-        "enum": ["llama", "pythia", "gpt_neo_x", "gpt_j", "mpt", "replit", "starcoder", "falcon"]
+        "enum": ["llama", "pythia", "gpt-neo-x", "gpt-j", "mpt", "replit", "starcoder", "falcon", "mistral"]
       },
       "description": {
         "type": "string"

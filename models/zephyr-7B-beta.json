@@ -15,7 +15,7 @@
     "downloadUrl": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF"
   },
   "trainedFor": "chat",
-  "arch": "llama",
+  "arch": "mistral",
   "files": {
     "highlighted": {
       "economical": {

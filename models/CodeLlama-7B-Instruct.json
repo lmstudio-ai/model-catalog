@@ -12,47 +12,47 @@
   "resources": {
     "canonicalUrl": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
     "paperUrl": "https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/",
-    "downloadUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML"
+    "downloadUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF"
   },
   "trainedFor": "chat",
   "arch": "llama",
   "files": {
     "highlighted": {
       "economical": {
-        "name": "codellama-7b-instruct.ggmlv3.Q4_K_S.bin"
+        "name": "codellama-7b-instruct.Q4_K_S.gguf"
       },
       "most_capable": {
-        "name": "codellama-7b-instruct.ggmlv3.Q6_K.bin"
+        "name": "codellama-7b-instruct.Q6_K.gguf"
       }
     },
     "all": [
       {
-        "name": "codellama-7b-instruct.ggmlv3.Q4_K_S.bin",
-        "url": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML/resolve/main/codellama-7b-instruct.ggmlv3.Q4_K_S.bin",
-        "sizeBytes": 3980309408,
+        "name": "codellama-7b-instruct.Q4_K_S.gguf",
+        "url": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q4_K_S.gguf",
+        "sizeBytes": 3856831168,
         "quantization": "Q4_K_S",
-        "format": "ggml",
-        "sha256checksum": "b2e7d50d8c854c6654c780d2f3320f83ec2931d5828ebf9777cff00ab7f86fac",
+        "format": "gguf",
+        "sha256checksum": "2e44d2b7ae28bbe3a2ed698e259cbd3a6bf7fe8f9d351e14b2be17fb690d7f95",
         "publisher": {
           "name": "TheBloke",
           "socialUrl": "https://twitter.com/TheBlokeAI"
         },
-        "respository": "TheBloke/CodeLlama-7B-Instruct-GGML",
-        "repositoryUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML"
+        "respository": "TheBloke/CodeLlama-7B-Instruct-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF"
       },
       {
-        "name": "codellama-7b-instruct.ggmlv3.Q6_K.bin",
-        "url": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML/resolve/main/codellama-7b-instruct.ggmlv3.Q6_K.bin",
-        "sizeBytes": 5649904544,
+        "name": "codellama-7b-instruct.Q6_K.gguf",
+        "url": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q6_K.gguf",
+        "sizeBytes": 5529302208,
         "quantization": "Q6_K",
-        "format": "ggml",
-        "sha256checksum": "abdf0ed996933cce5caee27e0be7ec0734add65bd28d7e235a7eab4b3ec3d762",
+        "format": "gguf",
+        "sha256checksum": "2f516cd9c16181832ffceaf94b13e8600d88c9bc8d7f75717d25d8c9cf9aa973",
         "publisher": {
           "name": "TheBloke",
           "socialUrl": "https://twitter.com/TheBlokeAI"
         },
-        "respository": "TheBloke/CodeLlama-7B-Instruct-GGML",
-        "repositoryUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGML"
+        "respository": "TheBloke/CodeLlama-7B-Instruct-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF"
       }
     ]
   }
