@@ -1,0 +1,86 @@
+{
+  "_descriptorVersion": "0.0.1",  
+  "datePublished": "2023-10-22T03:04:42",
+  "name": "falcon-40b-instruct",
+  "description": "Falcon-40B-Instruct, based on Falcon-40B, has been fine-tuned on chat and instruct datasets. It offers outstanding performance and is an excellent choice for chat and instruct applications. Falcon-7B-Instruct is part of the Falcon family of language models, known for their exceptional capabilities and openness.",
+  "author": {
+    "name": "Maddes8cht",
+    "url": "https://huggingface.co/maddes8cht",
+    "blurb": "Maddes8cht Passionate about Open Source and AI. On Hugging Face he is advocating for real open source AI models with OSI compliant licenses"
+  },
+  "numParameters": "40B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/tiiuae/falcon-40b-instruct",
+    "downloadUrl": "https://huggingface.co/maddes8cht/tiiuae-falcon-40b-instruct-gguf"
+  },
+  "trainedFor": "chat",
+  "arch": "falcon",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "tiiuae-falcon-40b-Q4_K_M.gguf"
+      },
+      "most_capable": {
+        "name": "tiiuae-falcon-40b-Q6_K.gguf"
+      }
+    },
+    "all": [
+      {
+        "name": "tiiuae-falcon-40b-instruct-Q2_K.gguf",
+        "url": "https://huggingface.co/maddes8cht/tiiuae-falcon-40b-instruct-gguf/blob/main/tiiuae-falcon-40b-instruct-Q2_K.gguf",
+        "sizeBytes": 17400024800,
+        "quantization": "Q2_K",
+        "format": "gguf",
+        "sha256checksum": "93551752b87a1b265c43dbbf3b1cdf47d4ff4d92122fa44ea12e3b0c6f7d1981",
+        "publisher": {
+          "name": "maddes8cht",
+          "socialUrl": "https://twitter.com/maddes1966"
+        },
+        "respository": "maddes8cht/tiiuae-falcon-40b-instruct-gguf",
+        "repositoryUrl": "https://huggingface.co/maddes8cht/tiiuae-falcon-40b-instruct-gguf"
+      },
+      {
+        "name": "tiiuae-falcon-40b-instruct-Q4_K_M.gguf",
+        "url": "https://huggingface.co/maddes8cht/tiiuae-falcon-40b-instruct-gguf/blob/main/tiiuae-falcon-40b-instruct-Q4_K_M.gguf",
+        "sizeBytes": 25452629728,
+        "quantization": "Q4_K_M",
+        "format": "gguf",
+        "sha256checksum": "ff140febf094721f656568250eb6f288ac8dfa49b5b4483139078761a9515cbb",
+        "publisher": {
+          "name": "maddes8cht",
+          "socialUrl": "https://twitter.com/maddes1966"
+        },
+        "respository": "maddes8cht/tiiuae-falcon-40b-instruct-gguf",
+        "repositoryUrl": "https://huggingface.co/maddes8cht/tiiuae-falcon-40b-instruct-gguf"
+      },
+      {
+        "name": "tiiuae-falcon-40b-instruct-Q5_K_M.gguf",
+        "url": "https://huggingface.co/maddes8cht/tiiuae-falcon-40b-instruct-gguf/blob/main/tiiuae-falcon-40b-instruct-Q5_K_M.gguf",
+        "sizeBytes": 30642294496,
+        "quantization": "Q5_K_M",
+        "format": "gguf",
+        "sha256checksum": "fe39d1fc51d35039da996e3d2ed262617d1a70b3d9d0a7762571c749103cba39",
+        "publisher": {
+          "name": "maddes8cht",
+          "socialUrl": "https://twitter.com/maddes1966"
+        },
+        "respository": "maddes8cht/tiiuae-falcon-7b-instruct-gguf",
+        "repositoryUrl": "https://huggingface.co/maddes8cht/tiiuae-falcon-40b-instruct-gguf"
+      },
+      {
+        "name": "tiiuae-falcon-40b-instruct-Q6_K.gguf",
+        "url": "https://huggingface.co/maddes8cht/tiiuae-falcon-7b-instruct-gguf/blob/main/tiiuae-falcon-7b-instruct-Q6_K.gguf",
+        "sizeBytes": 34456456928,
+        "quantization": "Q6_K",
+        "format": "gguf",
+        "sha256checksum": "5c2a9c95dfcb72d34acb09ac304625847a1f3de307984f559e71f7414345a4e9",
+        "publisher": {
+          "name": "maddes8cht",
+          "socialUrl": "https://twitter.com/maddes1966"
+        },
+        "respository": "maddes8cht/tiiuae-falcon-7b-instruct-gguf",
+        "repositoryUrl": "https://huggingface.co/maddes8cht/tiiuae-falcon-40b-instruct-gguf"
+      }
+    ]
+  }
+}
