@@ -53,7 +53,35 @@
         },
         "respository": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
         "repositoryUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
-      }
+      },
+      {
+        "name": "ggml-model-q4_0.gguf",
+        "url": "https://huggingface.co/baghelz/OpenHermes-2.5-neural-chat-v3-3-Slerp/resolve/main/ggml-model-q4_0.gguf",
+        "sizeBytes": 4108916352,
+        "quantization": "q4_0",
+        "format": "gguf",
+        "sha256checksum": "0d82f9d0e9d1757c81ffe6cc5f7cf47a772e87d0e7e24c8e742417e7e97646af",
+        "publisher": {
+          "name": "baghelz",
+          "socialUrl": "https://twitter.com/ManishBaghelz"
+        },
+        "respository": "baghelz/OpenHermes-2.5-neural-chat-v3-3-Slerp",
+        "repositoryUrl": "https://huggingface.co/baghelz/OpenHermes-2.5-neural-chat-v3-3-Slerp"
+      },
+      {
+        "name": "ggml-model-q8_0-v2.gguf",
+        "url": "https://huggingface.co/baghelz/OpenHermes-2.5-neural-chat-v3-3-Slerp/resolve/main/ggml-model-q8_0-v2.gguf",
+        "sizeBytes": 7695857280,
+        "quantization": "q8_0",
+        "format": "gguf",
+        "sha256checksum": "aeff45c3bb4cbac4dd2adf19e1564235152e952725d9f15f527b333b40944d2e",
+        "publisher": {
+          "name": "baghelz",
+          "socialUrl": "https://twitter.com/ManishBaghelz"
+        },
+        "respository": "baghelz/OpenHermes-2.5-neural-chat-v3-3-Slerp",
+        "repositoryUrl": "https://huggingface.co/baghelz/OpenHermes-2.5-neural-chat-v3-3-Slerp"
+     }
     ]
   }
 }
