@@ -5,8 +5,8 @@
   "description": "OpenHermes 2.5 Mistral 7B is an advanced iteration of the OpenHermes 2 language model, enhanced by training on a significant proportion of code datasets. This additional training improved performance across several benchmarks, notably TruthfulQA, AGIEval, and the GPT4All suite, while slightly decreasing the BigBench score. Notably, the model's ability to handle code-related tasks, measured by the humaneval score, increased from 43% to 50.7%. The training data consisted of one million entries, primarily sourced from GPT-4 outputs and other high-quality open datasets. This data was rigorously filtered and standardized to the ShareGPT format and subsequently processed using ChatML by the axolotl tool.",
   "author": {
     "name": "Teknium",
-    "url": "https://huggingface.co/teknium",
-    "blurb": ""
+    "url": "https://twitter.com/Teknium1",
+    "blurb": "Creator of numerous chart topping fine-tunes and a Co-founder of NousResearch"
   },
   "numParameters": "7B",
   "resources": {
