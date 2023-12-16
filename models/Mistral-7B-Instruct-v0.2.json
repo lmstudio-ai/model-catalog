@@ -1,0 +1,59 @@
+{
+    "_descriptorVersion": "0.0.1",  
+    "datePublished": "2023-12-12T10:12:59",
+    "name": "Mistral 7B Instruct v0.2",
+    "description": "The Mistral-7B-Instruct-v0.2 Large Language Model (LLM) is an improved instruct fine-tuned version of Mistral-7B-Instruct-v0.1. For full details of this model read MistralAI's blog post and paper.",
+    "author": {
+      "name": "Mistral AI",
+      "url": "https://mistral.ai/",
+      "blurb": "Mistral AI's mission is to spearhead the revolution of open models."
+    },
+    "numParameters": "7B",
+    "resources": {
+      "canonicalUrl": "https://mistral.ai/news/la-plateforme/",
+      "paperUrl": "https://arxiv.org/abs/2310.06825",
+      "downloadUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF"
+    },
+    "trainedFor": "chat",
+    "arch": "mistral",
+    "files": {
+      "highlighted": {
+        "economical": {
+          "name": "mistral-7b-instruct-v0.2.Q4_K_S.gguf"
+        },
+        "most_capable": {
+          "name": "mistral-7b-instruct-v0.2.Q6_K.gguf"
+        }
+      },
+      "all": [
+        {
+          "name": "mistral-7b-instruct-v0.2.Q4_K_S.gguf",
+          "url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_S.gguf",
+          "sizeBytes": 4140374304,
+          "quantization": "Q4_K_S",
+          "format": "gguf",
+          "sha256checksum": "1213e19b3e103932fdfdc82e3b6dee765f57ad5756e0f673e7d36514a5b60d0a",
+          "publisher": {
+            "name": "TheBloke",
+            "socialUrl": "https://twitter.com/TheBlokeAI"
+          },
+          "respository": "TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+          "repositoryUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF"
+        },
+        {
+          "name": "mistral-7b-instruct-v0.2.Q6_K.gguf",
+          "url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q6_K.gguf",
+          "sizeBytes": 5942065440,
+          "quantization": "Q6_K",
+          "format": "gguf",
+          "sha256checksum": "a4643671c92f47eb6027d0eff50b9875562e8e172128a4b10b2be250bb4264de",
+          "publisher": {
+            "name": "TheBloke",
+            "socialUrl": "https://twitter.com/TheBlokeAI"
+          },
+          "respository": "TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+          "repositoryUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF"
+        }
+      ]
+    }
+  }
