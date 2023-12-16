@@ -1,0 +1,58 @@
+{
+    "_descriptorVersion": "0.0.1",  
+    "datePublished": "2023-12-11T06:26:58",
+    "name": "NexusRaven-V2-13B",
+    "description": "NexusRaven-V2 accepts a list of python functions. These python functions can do anything (e.g. sending GET/POST requests to external APIs). The two requirements include the python function signature and the appropriate docstring to generate the function call. *** Follow NexusRaven's prompting guide found on the model's Hugging Face page. ***",
+    "author": {
+      "name": "Nexusflow",
+      "url": "https://nexusflow.ai",
+      "blurb": "Nexusflow is democratizing Cyber Intelligence with Generative AI, fully on top of open-source large language models (LLMs)"
+    },
+    "numParameters": "13B",
+    "resources": {
+      "canonicalUrl": "https://huggingface.co/Nexusflow/NexusRaven-V2-13B",
+      "downloadUrl": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF"
+    },
+    "trainedFor": "other",
+    "arch": "llama",
+    "files": {
+      "highlighted": {
+        "economical": {
+          "name": "nexusraven-v2-13b.Q4_K_S.gguf"
+        },
+        "most_capable": {
+          "name": "nexusraven-v2-13b.Q6_K.gguf"
+        }
+      },
+      "all": [
+        {
+          "name": "nexusraven-v2-13b.Q4_K_S.gguf",
+          "url": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF/resolve/main/nexusraven-v2-13b.Q4_K_S.gguf",
+          "sizeBytes": 7414501952,
+          "quantization": "Q4_K_S",
+          "format": "gguf",
+          "sha256checksum": "bc2e1ce9fa064e675690d4c6f2c441d922f24241764241aa013d0ca8a87ecbfe",
+          "publisher": {
+            "name": "TheBloke",
+            "socialUrl": "https://twitter.com/TheBlokeAI"
+          },
+          "respository": "TheBloke/NexusRaven-V2-13B-GGUF",
+          "repositoryUrl": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF"
+        },
+        {
+          "name": "nexusraven-v2-13b.Q6_K.gguf",
+          "url": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF/resolve/main/nexusraven-v2-13b.Q6_K.gguf",
+          "sizeBytes": 10679342592,
+          "quantization": "Q6_K",
+          "format": "gguf",
+          "sha256checksum": "556ae244f4c69c603b7cda762d003d09f68058c671f304c2e011214ce754acb4",
+          "publisher": {
+            "name": "TheBloke",
+            "socialUrl": "https://twitter.com/TheBlokeAI"
+          },
+          "respository": "TheBloke/NexusRaven-V2-13B-GGUF",
+          "repositoryUrl": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF"
+        }
+      ]
+    }
+  }
