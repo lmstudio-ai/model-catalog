@@ -51,7 +51,7 @@
       },
       "numParameters": {
         "type": "string",
-        "enum": ["3B", "7B", "13B", "15B", "30B", "65B", "unknown"]
+        "enum": ["3B", "6.7B", "7B", "13B", "15B", "30B", "65B", "unknown"]
       },
       "trainedFor": {
         "type": "string",
@@ -59,7 +59,7 @@
       },
       "arch": {
         "type": "string",
-        "enum": ["llama", "pythia", "gpt-neo-x", "gpt-j", "mpt", "replit", "starcoder", "falcon", "mistral"]
+        "enum": ["llama", "pythia", "gpt-neo-x", "gpt-j", "mpt", "replit", "starcoder", "falcon", "mistral", "stablelm"]
       },
       "description": {
         "type": "string"
