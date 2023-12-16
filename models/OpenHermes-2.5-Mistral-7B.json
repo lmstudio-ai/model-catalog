@@ -1,0 +1,58 @@
+{
+  "_descriptorVersion": "0.0.1",  
+  "datePublished": "2023-10-29T21:27:30",
+  "name": "OpenHermes 2.5 Mistral 7B",
+  "description": "OpenHermes 2.5 Mistral 7B is an advanced iteration of the OpenHermes 2 language model, enhanced by training on a significant proportion of code datasets. This additional training improved performance across several benchmarks, notably TruthfulQA, AGIEval, and the GPT4All suite, while slightly decreasing the BigBench score. Notably, the model's ability to handle code-related tasks, measured by the humaneval score, increased from 43% to 50.7%. The training data consisted of one million entries, primarily sourced from GPT-4 outputs and other high-quality open datasets. This data was rigorously filtered and standardized to the ShareGPT format and subsequently processed using ChatML by the axolotl tool.",
+  "author": {
+    "name": "Teknium",
+    "url": "https://twitter.com/Teknium1",
+    "blurb": "Creator of numerous chart topping fine-tunes and a Co-founder of NousResearch"
+  },
+  "numParameters": "7B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B",
+    "downloadUrl": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF"
+  },
+  "trainedFor": "chat",
+  "arch": "mistral",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "openhermes-2.5-mistral-7b.Q4_K_S.gguf"
+      },
+      "most_capable": {
+        "name": "openhermes-2.5-mistral-7b.Q6_K.gguf"
+      }
+    },
+    "all": [
+      {
+        "name": "openhermes-2.5-mistral-7b.Q4_K_S.gguf",
+        "url": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF/resolve/main/openhermes-2.5-mistral-7b.Q4_K_S.gguf",
+        "sizeBytes": 4140385024,
+        "quantization": "Q4_K_S",
+        "format": "gguf",
+        "sha256checksum": "5ae9c3c11ce520a2360dcfca1f4e38392dc0b7a49413ce6695857a5148a71d35",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/OpenHermes-2.5-Mistral-7B-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF"
+      },
+      {
+        "name": "openhermes-2.5-mistral-7b.Q6_K.gguf",
+        "url": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF/resolve/main/openhermes-2.5-mistral-7b.Q6_K.gguf",
+        "sizeBytes": 5942078272,
+        "quantization": "Q6_K",
+        "format": "gguf",
+        "sha256checksum": "cd4caa42229e973636e9d4c8db50a89593353c521e0342ca615756ded2b977a2",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/OpenHermes-2.5-Mistral-7B-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF"
+      }
+    ]
+  }
+}

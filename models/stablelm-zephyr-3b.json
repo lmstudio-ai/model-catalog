@@ -1,0 +1,58 @@
+{
+  "_descriptorVersion": "0.0.1",  
+  "datePublished": "2023-11-21T16:28:30",
+  "name": "StableLM Zephyr 3B",
+  "description": "StableLM Zephyr 3B is an English-language, auto-regressive language model with 3 billion parameters, developed by Stability AI. It's an instruction-tuned model influenced by HuggingFace's Zephyr 7B training approach and is built on transformer decoder architecture. It was trained using a mix of public and synthetic datasets, including SFT and Preference Datasets from the HuggingFace Hub with Direct Preference Optimization (DPO). Its performance has been evaluated using the MT Bench and Alpaca Benchmark, achieving a score of 6.64 and a win rate of 76% respectively. For fine-tuning, it utilizes the StabilityAI's stablelm-3b-4e1t model and is available under the StabilityAI Non-Commercial Research Community License. Commercial use requires contacting Stability AI for more information. The model was trained on a Stability AI cluster with 8 nodes, each equipped with 8 A100 80GB GPUs, using internal scripts for SFT steps and HuggingFace's Alignment Handbook scripts for DPO training.",
+  "author": {
+    "name": "Stability AI",
+    "url": "https://stability.ai/",
+    "blurb": "Stability AI is developing cutting-edge open AI models for Image, Language, Audio, Video, 3D and Biology."
+  },
+  "numParameters": "3B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/stabilityai/stablelm-zephyr-3b",
+    "downloadUrl": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF"
+  },
+  "trainedFor": "chat",
+  "arch": "stablelm",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "stablelm-zephyr-3b.Q4_K_S.gguf"
+      },
+      "most_capable": {
+        "name": "stablelm-zephyr-3b.Q6_K.gguf"
+      }
+    },
+    "all": [
+      {
+        "name": "stablelm-zephyr-3b.Q4_K_S.gguf",
+        "url": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF/resolve/main/stablelm-zephyr-3b.Q4_K_S.gguf",
+        "sizeBytes": 1620695488,
+        "quantization": "Q4_K_S",
+        "format": "gguf",
+        "sha256checksum": "748f9fa7b893df8383467c7f28affef3489e20f2da351441b0dd112c43ddb587",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/stablelm-zephyr-3b-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF"
+      },
+      {
+        "name": "stablelm-zephyr-3b.Q6_K.gguf",
+        "url": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF/resolve/main/stablelm-zephyr-3b.Q6_K.gguf",
+        "sizeBytes": 2295985088,
+        "quantization": "Q6_K",
+        "format": "gguf",
+        "sha256checksum": "d51685399c77b1dfe2dafa53ac7e6272b414bbc529c0f3bf0bdd15f90559c049",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/stablelm-zephyr-3b-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF"
+      }
+    ]
+  }
+}
