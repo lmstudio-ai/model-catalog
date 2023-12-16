@@ -1,0 +1,58 @@
+{
+  "_descriptorVersion": "0.0.1",  
+  "datePublished": "2023-10-29T11:30:13",
+  "name": "Deepseek Coder",
+  "description": "Deepseek Coder is a collection of code language models with sizes ranging from 1B to 33B parameters, trained on a dataset comprising 2 trillion tokens (87% code, 13% natural language in English and Chinese). It is designed for project-level code completion and infilling, utilizing a 16K token window size and an additional fill-in-the-blank task. The models demonstrate leading performance on several programming benchmarks. The 6.7B parameter variant, deepseek-coder-6.7b-instruct, is fine-tuned on 2 billion tokens of instructional data. The code repository is MIT licensed, and the models support commercial use under the Model License.",
+  "author": {
+    "name": "DeepSeek",
+    "url": "https://huggingface.co/deepseek-ai",
+    "blurb": "DeepSeek (深度求索), founded in 2023, is a Chinese company dedicated to making AGI a reality"
+  },
+  "numParameters": "6.7B",
+  "resources": {
+    "canonicalUrl": "https://github.com/deepseek-ai/deepseek-coder",
+    "downloadUrl": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF"
+  },
+  "trainedFor": "chat",
+  "arch": "llama",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "deepseek-coder-6.7b-instruct.Q4_K_S.gguf"
+      },
+      "most_capable": {
+        "name": "deepseek-coder-6.7b-instruct.Q6_K.gguf"
+      }
+    },
+    "all": [
+      {
+        "name": "deepseek-coder-6.7b-instruct.Q4_K_S.gguf",
+        "url": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q4_K_S.gguf",
+        "sizeBytes": 3858751712,
+        "quantization": "Q4_K_S",
+        "format": "gguf",
+        "sha256checksum": "d5d4b757645ce359a52d25584d29f1ff0d89580075edc35d87a20b89e65a5313",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF"
+      },
+      {
+        "name": "deepseek-coder-6.7b-instruct.Q6_K.gguf",
+        "url": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q6_K.gguf",
+        "sizeBytes": 5531476192,
+        "quantization": "Q6_K",
+        "format": "gguf",
+        "sha256checksum": "113fba500e4feb1313ce80d72cf381330b51460d265a7719bba626d6a461f9eb",
+        "publisher": {
+          "name": "TheBloke",
+          "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF"
+      }
+    ]
+  }
+}
