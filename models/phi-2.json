@@ -1,0 +1,59 @@
+{
+    "_descriptorVersion": "0.0.1",  
+    "datePublished": "2023-12-13T21:22:37",
+    "name": "Phi 2",
+    "description": "Phi-2 is a 2.7 billion parameter Transformer model, an extension of Phi-1.5, with additional training data including synthetic NLP texts and curated web content. It demonstrates near state-of-the-art performance in benchmarks for common sense, language understanding, and logical reasoning within its parameter class. Phi-2 has not undergone reinforcement learning fine-tuning and is open-source, aimed at enabling safety research like toxicity reduction and bias understanding. It is designed for QA, chat, and code formats and has a context length of 2048 tokens. The model was trained on 250 billion tokens from a dataset combining AOAI GPT-3.5 synthetic data and filtered web data, using 1.4 trillion training tokens. It utilized 96xA100-80G GPUs over a span of 14 days. Phi-2 is intended solely for research use.",
+    "author": {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/",
+      "blurb": "Advancing science and technology to benefit humanity"
+    },
+    "numParameters": "3B",
+    "resources": {
+      "canonicalUrl": "https://huggingface.co/microsoft/phi-2",
+      "paperUrl": "https://arxiv.org/abs/2309.05463",
+      "downloadUrl": "https://huggingface.co/TheBloke/phi-2-GGUF"
+    },
+    "trainedFor": "chat",
+    "arch": "phi2",
+    "files": {
+      "highlighted": {
+        "economical": {
+          "name": "phi-2.Q4_K_S.gguf"
+        },
+        "most_capable": {
+          "name": "phi-2.Q6_K.gguf"
+        }
+      },
+      "all": [
+        {
+          "name": "phi-2.Q4_K_S.gguf",
+          "url": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q4_K_S.gguf",
+          "sizeBytes": 1615568736,
+          "quantization": "Q4_K_S",
+          "format": "gguf",
+          "sha256checksum": "67df519f789817dee8c9b927227e7795ac07e1b20b58eb21fe109a2af328928a",
+          "publisher": {
+            "name": "TheBloke",
+            "socialUrl": "https://twitter.com/TheBlokeAI"
+          },
+          "respository": "TheBloke/phi-2-GGUF",
+          "repositoryUrl": "https://huggingface.co/TheBloke/phi-2-GGUF"
+        },
+        {
+          "name": "phi-2.Q6_K.gguf",
+          "url": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q6_K.gguf",
+          "sizeBytes": 2285059936,
+          "quantization": "Q6_K",
+          "format": "gguf",
+          "sha256checksum": "9a654a17bee234d85b726bbdaec8e9a3365bbc187238998bc4f84c89afb046d6",
+          "publisher": {
+            "name": "TheBloke",
+            "socialUrl": "https://twitter.com/TheBlokeAI"
+          },
+          "respository": "TheBloke/phi-2-GGUF",
+          "repositoryUrl": "https://huggingface.co/TheBloke/phi-2-GGUF"
+        }
+      ]
+    }
+  }
