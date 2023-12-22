@@ -15,7 +15,7 @@
       "downloadUrl": "https://huggingface.co/TheBloke/phi-2-GGUF"
     },
     "trainedFor": "chat",
-    "arch": "phi-2",
+    "arch": "phi2",
     "files": {
       "highlighted": {
         "economical": {
