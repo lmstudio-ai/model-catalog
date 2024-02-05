@@ -20,9 +20,6 @@
       "highlighted": {
         "most_capable": {
           "name": "qwen1_5-7b-chat-q5_k_m.gguf"
-        },
-        "economical": {
-          "name": "qwen2-beta-0_5b-chat-q8_0.gguf"
         }
       },
       "all": [
@@ -39,20 +36,6 @@
           },
           "respository": "Qwen/Qwen1.5-7B-Chat-GGUF",
           "repositoryUrl": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF"
-        },
-        {
-          "name": "qwen2-beta-0_5b-chat-q8_0.gguf",
-          "url": "https://huggingface.co/Qwen/Qwen1.5-0.5B-Chat-GGUF/resolve/main/phi-2.Q6_K.gguf",
-          "sizeBytes": 664602400,
-          "quantization": "Q8_0",
-          "format": "gguf",
-          "sha256checksum": "8373c4479c0bf038b8000eb2f560906c5f81ad78a3662af2748e6a90c3d9727b",
-          "publisher": {
-            "name": "Qwen",
-            "socialUrl": "https://huggingface.co/Qwen"
-          },
-          "respository": "Qwen/Qwen1.5-0.5B-Chat-GGUF",
-          "repositoryUrl": "https://huggingface.co/Qwen/Qwen1.5-0.5B-Chat-GGUF"
         }
       ]
     }
