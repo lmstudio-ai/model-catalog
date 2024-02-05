@@ -1,0 +1,42 @@
+{
+    "_descriptorVersion": "0.0.1",  
+    "datePublished": "2024-02-03T11:59:54",
+    "name": "Qwen 1.5",
+    "description": "Qwen1.5 is the large language model series developed by Qwen Team, Alibaba Group. It is a transformer-based decoder-only language model pretrained on large-scale multilingual data covering a wide range of domains and it is aligned with human preferences.",
+    "author": {
+      "name": "Qwen Team, Alibaba Group",
+      "url": "https://huggingface.co/Qwen",
+      "blurb": "Qwen (abbr. for Tongyi Qianwen 通义千问) refers to the large language model family built by Alibaba Cloud"
+    },
+    "numParameters": "3B",
+    "resources": {
+      "canonicalUrl": "https://github.com/QwenLM/Qwen1.5",
+      "paperUrl": "https://qwenlm.github.io/blog/qwen1.5/",
+      "downloadUrl": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF"
+    },
+    "trainedFor": "chat",
+    "arch": "qwen2",
+    "files": {
+      "highlighted": {
+        "most_capable": {
+          "name": "qwen1_5-7b-chat-q5_k_m.gguf"
+        }
+      },
+      "all": [
+        {
+          "name": "qwen1_5-7b-chat-q5_k_m.gguf",
+          "url": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF/resolve/main/qwen1_5-7b-chat-q5_k_m.gguf",
+          "sizeBytes": 5530664096,
+          "quantization": "Q5_K_M",
+          "format": "gguf",
+          "sha256checksum": "758799c9db5ab1cf2ab56f6bd0b529463d9dd0067f8cb594b853cc4053270aa1",
+          "publisher": {
+            "name": "Qwen",
+            "socialUrl": "https://huggingface.co/Qwen"
+          },
+          "respository": "Qwen/Qwen1.5-7B-Chat-GGUF",
+          "repositoryUrl": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF"
+        }
+      ]
+    }
+  }
