@@ -8,7 +8,7 @@
       "url": "https://huggingface.co/Qwen",
       "blurb": "Qwen (abbr. for Tongyi Qianwen 通义千问) refers to the large language model family built by Alibaba Cloud"
     },
-    "numParameters": "3B",
+    "numParameters": "7B",
     "resources": {
       "canonicalUrl": "https://github.com/QwenLM/Qwen1.5",
       "paperUrl": "https://qwenlm.github.io/blog/qwen1.5/",
