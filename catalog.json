@@ -320,10 +320,10 @@
                 {
                     "name": "qwen1_5-7b-chat-q5_k_m.gguf",
                     "url": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF/resolve/main/qwen1_5-7b-chat-q5_k_m.gguf",
-                    "sizeBytes": 5530664096,
+                    "sizeBytes": 5530664160,
                     "quantization": "Q5_K_M",
                     "format": "gguf",
-                    "sha256checksum": "758799c9db5ab1cf2ab56f6bd0b529463d9dd0067f8cb594b853cc4053270aa1",
+                    "sha256checksum": "06ab8a96c4da98f2e692c8b376cf8e9d34a7365259ae7a78cbc4218b5a5b35ae",
                     "publisher": {
                         "name": "Qwen",
                         "socialUrl": "https://huggingface.co/Qwen"
