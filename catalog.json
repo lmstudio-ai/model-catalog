@@ -1,6 +1,48 @@
 [
     {
         "_descriptorVersion": "0.0.1",
+        "datePublished": "2024-02-21T16:54:57.000Z",
+        "name": "Google's Gemma 2B Instruct",
+        "description": "** Requires LM Studio 0.2.15 or newer ** Gemma is a family of lightweight LLMs built from the same research and technology Google used to create the Gemini models. Gemma models are available in two sizes, 2 billion and 7 billion parameters. These models are trained on up to 6T tokens of primarily English web documents, mathematics, and code, using a transformer architecture with enhancements like Multi-Query Attention, RoPE Embeddings, GeGLU Activations, and advanced normalization techniques.",
+        "author": {
+            "name": "Google DeepMind",
+            "url": "https://deepmind.google",
+            "blurb": "We\u2019re a team of scientists, engineers, ethicists and more, working to build the next generation of AI systems safely and responsibly."
+        },
+        "numParameters": "2B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/google/gemma-2b-it",
+            "paperUrl": "https://blog.google/technology/developers/gemma-open-models/",
+            "downloadUrl": "https://huggingface.co/lmstudio-ai/gemma-2b-it-GGUF"
+        },
+        "trainedFor": "chat",
+        "arch": "gemma",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "gemma-2b-it-q8_0.gguf"
+                }
+            },
+            "all": [
+                {
+                    "name": "gemma-2b-it-q8_0.gguf",
+                    "url": "https://huggingface.co/lmstudio-ai/gemma-2b-it-GGUF/resolve/main/gemma-2b-it-q8_0.gguf",
+                    "sizeBytes": 2669351840,
+                    "quantization": "Q8_0",
+                    "format": "gguf",
+                    "sha256checksum": "ec68b50d23469882716782da8b680402246356c3f984e9a3b9bcc5bc15273140",
+                    "publisher": {
+                        "name": "LM Studio",
+                        "socialUrl": "https://twitter.com/LMStudioAI"
+                    },
+                    "respository": "lmstudio-ai/gemma-2b-it-GGUF",
+                    "repositoryUrl": "https://huggingface.co/lmstudio-ai/gemma-2b-it-GGUF"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
         "datePublished": "2023-12-12T10:12:59",
         "name": "Mistral 7B Instruct v0.2",
         "description": "The Mistral-7B-Instruct-v0.2 Large Language Model (LLM) is an improved instruct fine-tuned version of Mistral-7B-Instruct-v0.1. For full details of this model read MistralAI's blog post and paper.",
@@ -294,7 +336,7 @@
     },
     {
         "_descriptorVersion": "0.0.1",
-        "datePublished": "2024-02-03T11:59:54",
+        "datePublished": "2024-02-03T16:59:54.000Z",
         "name": "Qwen 1.5",
         "description": "Qwen1.5 is the large language model series developed by Qwen Team, Alibaba Group. It is a transformer-based decoder-only language model pretrained on large-scale multilingual data covering a wide range of domains and it is aligned with human preferences.",
         "author": {
