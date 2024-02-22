@@ -1,6 +1,6 @@
 {
     "_descriptorVersion": "0.0.1",  
-    "datePublished": "2024-02-03T11:59:54",
+    "datePublished": "2024-02-03T16:59:54.000Z",
     "name": "Qwen 1.5",
     "description": "Qwen1.5 is the large language model series developed by Qwen Team, Alibaba Group. It is a transformer-based decoder-only language model pretrained on large-scale multilingual data covering a wide range of domains and it is aligned with human preferences.",
     "author": {
