@@ -1,0 +1,42 @@
+{
+  "_descriptorVersion": "0.0.1",  
+  "datePublished": "2024-03-20T00:31:49.000Z",
+  "name": "Stable Code Instruct 3B ",
+  "description": "Stable Code Instruct 3B is a decoder-only language model with 2.7 billion parameters, developed from the stable-code-3b. It has been trained on a combination of publicly available and synthetic datasets, with the latter generated through Direct Preference Optimization (DPO). This model has shown competitive performance in comparison to other models of similar size, as evidenced by its results on the MultiPL-E metrics across various programming languages using the BigCode Evaluation Harness, and on code-related tasks in MT Bench. It is fine-tuned for use in general code/software engineering conversations and SQL query generation and discussion.",
+  "author": {
+    "name": "Stability AI",
+    "url": "https://stability.ai/",
+    "blurb": "Stability AI is developing cutting-edge open AI models for Image, Language, Audio, Video, 3D and Biology."
+  },
+  "numParameters": "3B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/stabilityai/stable-code-instruct-3b",
+    "downloadUrl": "https://huggingface.co/bartowski/stable-code-instruct-3b-GGUF",
+    "paperUrl": "https://drive.google.com/file/d/16-DGsR5-qwoPztZ6HcM7KSRUxIXrjlSm/view"
+  },
+  "trainedFor": "instruct",
+  "arch": "stablelm",
+  "files": {
+    "highlighted": {
+      "most_capable": {
+        "name": "stable-code-instruct-3b-Q8_0.gguf"
+      }
+    },
+    "all": [
+      {
+        "name": "stable-code-instruct-3b-Q8_0.gguf",
+        "url": "https://huggingface.co/bartowski/stable-code-instruct-3b-GGUF/resolve/main/stable-code-instruct-3b-Q8_0.gguf",
+        "sizeBytes": 2972926176,
+        "quantization": "Q8_0",
+        "format": "gguf",
+        "sha256checksum": "2ffc06aacad9b90fe633c3920d3784618d7419e5704151e9ab7087a5958a3c63",
+        "publisher": {
+          "name": "Bartowski",
+          "socialUrl": "https://huggingface.co/bartowski"
+        },
+        "respository": "bartowski/stable-code-instruct-3b-GGUF",
+        "repositoryUrl": "https://huggingface.co/bartowski/stable-code-instruct-3b-GGUF"
+      }
+    ]
+  }
+}
