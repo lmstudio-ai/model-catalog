@@ -1,0 +1,41 @@
+{
+  "_descriptorVersion": "0.0.1",  
+  "datePublished": "2024-03-12T06:52:19.000Z",
+  "name": "Hermes 2 Pro Mistral 7B",
+  "description": "Hermes 2 Pro, an updated version of Nous Hermes 2, incorporates an enhanced and cleaned OpenHermes 2.5 Dataset alongside a new in-house developed dataset for Function Calling and JSON Mode. This version retains its robust performance in general tasks and conversations while showing notable improvements in Function Calling, JSON Structured Outputs, achieving a 90% score in function calling evaluation conducted with Fireworks.AI, and 84% in structured JSON Output evaluation. It introduces a special system prompt and a multi-turn function calling structure, incorporating a chatml role to streamline and simplify function calling.",
+  "author": {
+    "name": "NousResearch",
+    "url": "https://twitter.com/NousResearch",
+    "blurb": "We are dedicated to advancing the field of natural language processing, in collaboration with the open-source community, through bleeding-edge research and a commitment to symbiotic development."
+  },
+  "numParameters": "7B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B",
+    "downloadUrl": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B-GGUF"
+  },
+  "trainedFor": "chat",
+  "arch": "mistral",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "Hermes-2-Pro-Mistral-7B.Q4_0.gguf"
+      }
+    },
+    "all": [
+      {
+        "name": "Hermes-2-Pro-Mistral-7B.Q4_0.gguf",
+        "url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B-GGUF/resolve/main/Hermes-2-Pro-Mistral-7B.Q4_0.gguf",
+        "sizeBytes": 4109098752,
+        "quantization": "q4_0",
+        "format": "gguf",
+        "sha256checksum": "f446c3125026f7af6757dd097dda02280adc85e908c058bd6f1c41a118354745",
+        "publisher": {
+          "name": "NousResearch",
+          "socialUrl": "https://twitter.com/NousResearch"
+        },
+        "respository": "NousResearch/Hermes-2-Pro-Mistral-7B-GGUF",
+        "repositoryUrl": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B-GGUF"
+      }
+    ]
+  }
+}

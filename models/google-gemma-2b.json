@@ -2,7 +2,7 @@
     "_descriptorVersion": "0.0.1",  
     "datePublished": "2024-02-21T16:54:57.000Z",
     "name": "Google's Gemma 2B Instruct",
-    "description": "** Requires LM Studio 0.2.15 or newer ** Gemma is a family of lightweight LLMs built from the same research and technology Google used to create the Gemini models. Gemma models are available in two sizes, 2 billion and 7 billion parameters. These models are trained on up to 6T tokens of primarily English web documents, mathematics, and code, using a transformer architecture with enhancements like Multi-Query Attention, RoPE Embeddings, GeGLU Activations, and advanced normalization techniques.",
+    "description": "Gemma is a family of lightweight LLMs built from the same research and technology Google used to create the Gemini models. Gemma models are available in two sizes, 2 billion and 7 billion parameters. These models are trained on up to 6T tokens of primarily English web documents, mathematics, and code, using a transformer architecture with enhancements like Multi-Query Attention, RoPE Embeddings, GeGLU Activations, and advanced normalization techniques.",
     "author": {
       "name": "Google DeepMind",
       "url": "https://deepmind.google",
