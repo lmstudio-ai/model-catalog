@@ -8,7 +8,7 @@
     "url": "https://nexusflow.ai/",
     "blurb": "Democratize GenAI Agents for Enterprise Workflows."
   },
-  "numParameters": "3B",
+  "numParameters": "7B",
   "resources": {
     "canonicalUrl": "https://huggingface.co/Nexusflow/Starling-LM-7B-beta",
     "downloadUrl": "https://huggingface.co/bartowski/Starling-LM-7B-beta-GGUF",
