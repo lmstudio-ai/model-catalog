@@ -1,7 +1,7 @@
 {
   "_descriptorVersion": "0.0.1",  
   "datePublished": "2024-03-20T00:31:49.000Z",
-  "name": "Stable Code Instruct 3B ",
+  "name": "Stable Code Instruct 3B",
   "description": "Stable Code Instruct 3B is a decoder-only language model with 2.7 billion parameters, developed from the stable-code-3b. It has been trained on a combination of publicly available and synthetic datasets, with the latter generated through Direct Preference Optimization (DPO). This model has shown competitive performance in comparison to other models of similar size, as evidenced by its results on the MultiPL-E metrics across various programming languages using the BigCode Evaluation Harness, and on code-related tasks in MT Bench. It is fine-tuned for use in general code/software engineering conversations and SQL query generation and discussion.",
   "author": {
     "name": "Stability AI",
