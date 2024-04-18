@@ -1,0 +1,42 @@
+{
+  "_descriptorVersion": "0.0.1",  
+  "datePublished": "2024-04-19T01:00:31.000Z",
+  "name": "Llama 3 - 8B Instruct",
+  "description": "MetaAI's latest Llama model is here. Llama 3 comes in two sizes: 8B and 70B. Llama 3 is pretrained on over 15T tokens that were all collected from publicly available sources. Meta's training dataset is seven times larger than that used for Llama 2, and it includes four times more code.",
+  "author": {
+    "name": "Meta AI",
+    "url": "https://ai.meta.com",
+    "blurb": "Pushing the boundaries of AI through research, infrastructure and product innovation."
+  },
+  "numParameters": "7B",
+  "resources": {
+    "canonicalUrl": "https://llama.meta.com/llama3/",
+    "paperUrl": "https://ai.meta.com/blog/meta-llama-3/",
+    "downloadUrl": "https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF"
+  },
+  "trainedFor": "chat",
+  "arch": "llama",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf"
+      }
+    },
+    "all": [
+      {
+        "name": "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+        "url": "https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+        "sizeBytes": 4920733888,
+        "quantization": "Q4_K_S",
+        "format": "gguf",
+        "sha256checksum": "ab9e4eec7e80892fd78f74d9a15d0299f1e22121cea44efd68a7a02a3fe9a1da",
+        "publisher": {
+          "name": "LM Studio Community",
+          "socialUrl": "https://huggingface.co/lmstudio-community"
+        },
+        "respository": "lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF",
+        "repositoryUrl": "https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF"
+      }
+    ]
+  }
+}
