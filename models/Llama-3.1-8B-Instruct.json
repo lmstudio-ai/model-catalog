@@ -2,7 +2,7 @@
   "_descriptorVersion": "0.0.1",  
   "datePublished": "2024-07-23T21:29:44.000Z",
   "name": "Llama 3.1 8B Instruct",
-  "description": "MetaAI's latest Llama model is here. Llama 3 comes in two sizes: 8B and 70B. Llama 3 is pretrained on over 15T tokens that were all collected from publicly available sources. Meta's training dataset is seven times larger than that used for Llama 2, and it includes four times more code.",
+  "description": "Llama 3.1 is a dense Transformer with 8B, 70B, or 405B parameters and a context window of up to 128K tokens trained by Meta.",
   "author": {
     "name": "Meta AI",
     "url": "https://ai.meta.com",
