@@ -30,7 +30,7 @@
           "format": "gguf",
           "sha256checksum": "bb076f8f9e6c188a8251c626e4d89442c291215c82b2cb06e1efed0941fc443a",
           "publisher": {
-            "name": "LM Studio Community",
+            "name": "lmstudio-community",
             "socialUrl": "https://twitter.com/LMStudioAI"
           },
           "respository": "lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF",
