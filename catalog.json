@@ -1,90 +1,6 @@
 [
     {
         "_descriptorVersion": "0.0.1",
-        "datePublished": "2024-02-03T16:59:54.000Z",
-        "name": "Qwen 1.5",
-        "description": "Qwen1.5 is the large language model series developed by Qwen Team, Alibaba Group. It is a transformer-based decoder-only language model pretrained on large-scale multilingual data covering a wide range of domains and it is aligned with human preferences.",
-        "author": {
-            "name": "Qwen Team, Alibaba Group",
-            "url": "https://huggingface.co/Qwen",
-            "blurb": "Qwen (abbr. for Tongyi Qianwen \u901a\u4e49\u5343\u95ee) refers to the large language model family built by Alibaba Cloud"
-        },
-        "numParameters": "7B",
-        "resources": {
-            "canonicalUrl": "https://github.com/QwenLM/Qwen1.5",
-            "paperUrl": "https://qwenlm.github.io/blog/qwen1.5/",
-            "downloadUrl": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF"
-        },
-        "trainedFor": "chat",
-        "arch": "qwen2",
-        "files": {
-            "highlighted": {
-                "most_capable": {
-                    "name": "qwen1_5-7b-chat-q5_k_m.gguf"
-                }
-            },
-            "all": [
-                {
-                    "name": "qwen1_5-7b-chat-q5_k_m.gguf",
-                    "url": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF/resolve/main/qwen1_5-7b-chat-q5_k_m.gguf",
-                    "sizeBytes": 5530664160,
-                    "quantization": "Q5_K_M",
-                    "format": "gguf",
-                    "sha256checksum": "06ab8a96c4da98f2e692c8b376cf8e9d34a7365259ae7a78cbc4218b5a5b35ae",
-                    "publisher": {
-                        "name": "Qwen",
-                        "socialUrl": "https://huggingface.co/Qwen"
-                    },
-                    "respository": "Qwen/Qwen1.5-7B-Chat-GGUF",
-                    "repositoryUrl": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2024-03-20T00:31:49.000Z",
-        "name": "Stable Code Instruct 3B",
-        "description": "Stable Code Instruct 3B is a decoder-only language model with 2.7 billion parameters, developed from the stable-code-3b. It has been trained on a combination of publicly available and synthetic datasets, with the latter generated through Direct Preference Optimization (DPO). This model has shown competitive performance in comparison to other models of similar size, as evidenced by its results on the MultiPL-E metrics across various programming languages using the BigCode Evaluation Harness, and on code-related tasks in MT Bench. It is fine-tuned for use in general code/software engineering conversations and SQL query generation and discussion.",
-        "author": {
-            "name": "Stability AI",
-            "url": "https://stability.ai/",
-            "blurb": "Stability AI is developing cutting-edge open AI models for Image, Language, Audio, Video, 3D and Biology."
-        },
-        "numParameters": "3B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/stabilityai/stable-code-instruct-3b",
-            "downloadUrl": "https://huggingface.co/bartowski/stable-code-instruct-3b-GGUF",
-            "paperUrl": "https://drive.google.com/file/d/16-DGsR5-qwoPztZ6HcM7KSRUxIXrjlSm/view"
-        },
-        "trainedFor": "instruct",
-        "arch": "stablelm",
-        "files": {
-            "highlighted": {
-                "most_capable": {
-                    "name": "stable-code-instruct-3b-Q8_0.gguf"
-                }
-            },
-            "all": [
-                {
-                    "name": "stable-code-instruct-3b-Q8_0.gguf",
-                    "url": "https://huggingface.co/bartowski/stable-code-instruct-3b-GGUF/resolve/main/stable-code-instruct-3b-Q8_0.gguf",
-                    "sizeBytes": 2972926176,
-                    "quantization": "Q8_0",
-                    "format": "gguf",
-                    "sha256checksum": "2ffc06aacad9b90fe633c3920d3784618d7419e5704151e9ab7087a5958a3c63",
-                    "publisher": {
-                        "name": "Bartowski",
-                        "socialUrl": "https://huggingface.co/bartowski"
-                    },
-                    "respository": "bartowski/stable-code-instruct-3b-GGUF",
-                    "repositoryUrl": "https://huggingface.co/bartowski/stable-code-instruct-3b-GGUF"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
         "datePublished": "2023-09-27T16:12:57",
         "name": "Mistral 7B Instruct v0.1",
         "description": "The Mistral-7B-Instruct-v0.1 is a Large Language Model (LLM) developed by Mistral AI. This LLM is an instruct fine-tuned version of a generative text model, leveraging a variety of publicly available conversation datasets. The model's architecture is based on a transformer model, featuring Grouped-Query Attention, Sliding-Window Attention, and a Byte-fallback BPE tokenizer. To utilize the instruction fine-tuning capabilities, prompts should be enclosed within [INST] and [/INST] tokens. The initial instruction should commence with a beginning-of-sentence id, whereas subsequent instructions should not. The generation process by the assistant will terminate with the end-of-sentence token id. For detailed information about this model, refer to the release blog posts by Mistral AI.",
@@ -138,281 +54,6 @@
                     },
                     "respository": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
                     "repositoryUrl": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-10-29T11:30:13",
-        "name": "Deepseek Coder",
-        "description": "Deepseek Coder is a collection of code language models with sizes ranging from 1B to 33B parameters, trained on a dataset comprising 2 trillion tokens (87% code, 13% natural language in English and Chinese). It is designed for project-level code completion and infilling, utilizing a 16K token window size and an additional fill-in-the-blank task. The models demonstrate leading performance on several programming benchmarks. The 6.7B parameter variant, deepseek-coder-6.7b-instruct, is fine-tuned on 2 billion tokens of instructional data. The code repository is MIT licensed, and the models support commercial use under the Model License.",
-        "author": {
-            "name": "DeepSeek",
-            "url": "https://huggingface.co/deepseek-ai",
-            "blurb": "DeepSeek (\u6df1\u5ea6\u6c42\u7d22), founded in 2023, is a Chinese company dedicated to making AGI a reality"
-        },
-        "numParameters": "6.7B",
-        "resources": {
-            "canonicalUrl": "https://github.com/deepseek-ai/deepseek-coder",
-            "downloadUrl": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF"
-        },
-        "trainedFor": "chat",
-        "arch": "llama",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "deepseek-coder-6.7b-instruct.Q4_K_S.gguf"
-                },
-                "most_capable": {
-                    "name": "deepseek-coder-6.7b-instruct.Q6_K.gguf"
-                }
-            },
-            "all": [
-                {
-                    "name": "deepseek-coder-6.7b-instruct.Q4_K_S.gguf",
-                    "url": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q4_K_S.gguf",
-                    "sizeBytes": 3858751712,
-                    "quantization": "Q4_K_S",
-                    "format": "gguf",
-                    "sha256checksum": "d5d4b757645ce359a52d25584d29f1ff0d89580075edc35d87a20b89e65a5313",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF"
-                },
-                {
-                    "name": "deepseek-coder-6.7b-instruct.Q6_K.gguf",
-                    "url": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q6_K.gguf",
-                    "sizeBytes": 5531476192,
-                    "quantization": "Q6_K",
-                    "format": "gguf",
-                    "sha256checksum": "113fba500e4feb1313ce80d72cf381330b51460d265a7719bba626d6a461f9eb",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-11-21T16:28:30",
-        "name": "StableLM Zephyr 3B",
-        "description": "StableLM Zephyr 3B is an English-language, auto-regressive language model with 3 billion parameters, developed by Stability AI. It's an instruction-tuned model influenced by HuggingFace's Zephyr 7B training approach and is built on transformer decoder architecture. It was trained using a mix of public and synthetic datasets, including SFT and Preference Datasets from the HuggingFace Hub with Direct Preference Optimization (DPO). Its performance has been evaluated using the MT Bench and Alpaca Benchmark, achieving a score of 6.64 and a win rate of 76% respectively. For fine-tuning, it utilizes the StabilityAI's stablelm-3b-4e1t model and is available under the StabilityAI Non-Commercial Research Community License. Commercial use requires contacting Stability AI for more information. The model was trained on a Stability AI cluster with 8 nodes, each equipped with 8 A100 80GB GPUs, using internal scripts for SFT steps and HuggingFace's Alignment Handbook scripts for DPO training.",
-        "author": {
-            "name": "Stability AI",
-            "url": "https://stability.ai/",
-            "blurb": "Stability AI is developing cutting-edge open AI models for Image, Language, Audio, Video, 3D and Biology."
-        },
-        "numParameters": "3B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/stabilityai/stablelm-zephyr-3b",
-            "downloadUrl": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF"
-        },
-        "trainedFor": "chat",
-        "arch": "stablelm",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "stablelm-zephyr-3b.Q4_K_S.gguf"
-                },
-                "most_capable": {
-                    "name": "stablelm-zephyr-3b.Q6_K.gguf"
-                }
-            },
-            "all": [
-                {
-                    "name": "stablelm-zephyr-3b.Q4_K_S.gguf",
-                    "url": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF/resolve/main/stablelm-zephyr-3b.Q4_K_S.gguf",
-                    "sizeBytes": 1620695488,
-                    "quantization": "Q4_K_S",
-                    "format": "gguf",
-                    "sha256checksum": "748f9fa7b893df8383467c7f28affef3489e20f2da351441b0dd112c43ddb587",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/stablelm-zephyr-3b-GGUF",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF"
-                },
-                {
-                    "name": "stablelm-zephyr-3b.Q6_K.gguf",
-                    "url": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF/resolve/main/stablelm-zephyr-3b.Q6_K.gguf",
-                    "sizeBytes": 2295985088,
-                    "quantization": "Q6_K",
-                    "format": "gguf",
-                    "sha256checksum": "d51685399c77b1dfe2dafa53ac7e6272b414bbc529c0f3bf0bdd15f90559c049",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/stablelm-zephyr-3b-GGUF",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-10-29T21:27:30",
-        "name": "OpenHermes 2.5 Mistral 7B",
-        "description": "OpenHermes 2.5 Mistral 7B is an advanced iteration of the OpenHermes 2 language model, enhanced by training on a significant proportion of code datasets. This additional training improved performance across several benchmarks, notably TruthfulQA, AGIEval, and the GPT4All suite, while slightly decreasing the BigBench score. Notably, the model's ability to handle code-related tasks, measured by the humaneval score, increased from 43% to 50.7%. The training data consisted of one million entries, primarily sourced from GPT-4 outputs and other high-quality open datasets. This data was rigorously filtered and standardized to the ShareGPT format and subsequently processed using ChatML by the axolotl tool.",
-        "author": {
-            "name": "Teknium",
-            "url": "https://twitter.com/Teknium1",
-            "blurb": "Creator of numerous chart topping fine-tunes and a Co-founder of NousResearch"
-        },
-        "numParameters": "7B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B",
-            "downloadUrl": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF"
-        },
-        "trainedFor": "chat",
-        "arch": "mistral",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "openhermes-2.5-mistral-7b.Q4_K_S.gguf"
-                },
-                "most_capable": {
-                    "name": "openhermes-2.5-mistral-7b.Q6_K.gguf"
-                }
-            },
-            "all": [
-                {
-                    "name": "openhermes-2.5-mistral-7b.Q4_K_S.gguf",
-                    "url": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF/resolve/main/openhermes-2.5-mistral-7b.Q4_K_S.gguf",
-                    "sizeBytes": 4140385024,
-                    "quantization": "Q4_K_S",
-                    "format": "gguf",
-                    "sha256checksum": "5ae9c3c11ce520a2360dcfca1f4e38392dc0b7a49413ce6695857a5148a71d35",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/OpenHermes-2.5-Mistral-7B-GGUF",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF"
-                },
-                {
-                    "name": "openhermes-2.5-mistral-7b.Q6_K.gguf",
-                    "url": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF/resolve/main/openhermes-2.5-mistral-7b.Q6_K.gguf",
-                    "sizeBytes": 5942078272,
-                    "quantization": "Q6_K",
-                    "format": "gguf",
-                    "sha256checksum": "cd4caa42229e973636e9d4c8db50a89593353c521e0342ca615756ded2b977a2",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/OpenHermes-2.5-Mistral-7B-GGUF",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2024-04-19T01:00:31.000Z",
-        "name": "Llama 3 - 8B Instruct",
-        "description": "MetaAI's latest Llama model is here. Llama 3 comes in two sizes: 8B and 70B. Llama 3 is pretrained on over 15T tokens that were all collected from publicly available sources. Meta's training dataset is seven times larger than that used for Llama 2, and it includes four times more code.",
-        "author": {
-            "name": "Meta AI",
-            "url": "https://ai.meta.com",
-            "blurb": "Pushing the boundaries of AI through research, infrastructure and product innovation."
-        },
-        "numParameters": "7B",
-        "resources": {
-            "canonicalUrl": "https://llama.meta.com/llama3/",
-            "paperUrl": "https://ai.meta.com/blog/meta-llama-3/",
-            "downloadUrl": "https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF"
-        },
-        "trainedFor": "chat",
-        "arch": "llama",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf"
-                }
-            },
-            "all": [
-                {
-                    "name": "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
-                    "url": "https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
-                    "sizeBytes": 4920733888,
-                    "quantization": "Q4_K_S",
-                    "format": "gguf",
-                    "sha256checksum": "ab9e4eec7e80892fd78f74d9a15d0299f1e22121cea44efd68a7a02a3fe9a1da",
-                    "publisher": {
-                        "name": "LM Studio Community",
-                        "socialUrl": "https://huggingface.co/lmstudio-community"
-                    },
-                    "respository": "lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF",
-                    "repositoryUrl": "https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-10-26T11:25:50",
-        "name": "Zephyr 7B \u03b2",
-        "description": "The Zephyr-7B-\u03b2 is the second model in the Zephyr series, designed to function as an assistant. It is a fine-tuned version of the mistralai/Mistral-7B-v0.1 model, leveraging a 7B parameter GPT-like architecture. The model has been trained on a combination of synthetic datasets and publicly available data using Direct Preference Optimization (DPO), a technique that improved its performance on the MT Bench. An important aspect to note is that the in-built alignment of the training datasets was deliberately omitted during the training process, a decision that, while enhancing the model's helpfulness, also makes it prone to generating potentially problematic outputs when prompted. Therefore, it is advised to use the model strictly for research and educational purposes. The model primarily supports the English language and is licensed under the MIT License. Additional details can be found in the associated technical report.",
-        "author": {
-            "name": "Hugging Face H4",
-            "url": "https://huggingface.co/HuggingFaceH4",
-            "blurb": "Hugging Face H4 team, focused on aligning language models to be helpful, honest, harmless, and huggy \ud83e\udd17"
-        },
-        "numParameters": "7B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
-            "paperUrl": "https://arxiv.org/abs/2310.16944",
-            "downloadUrl": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF"
-        },
-        "trainedFor": "chat",
-        "arch": "mistral",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "zephyr-7b-beta.Q4_K_S.gguf"
-                },
-                "most_capable": {
-                    "name": "zephyr-7b-beta.Q6_K.gguf"
-                }
-            },
-            "all": [
-                {
-                    "name": "zephyr-7b-beta.Q4_K_S.gguf",
-                    "url": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q4_K_S.gguf",
-                    "sizeBytes": 4140373696,
-                    "quantization": "Q4_K_S",
-                    "format": "gguf",
-                    "sha256checksum": "cafa0b85b2efc15ca33023f3b87f8d0c44ddcace16b3fb608280e0eb8f425cb1",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/zephyr-7B-beta-GGUF",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF"
-                },
-                {
-                    "name": "zephyr-7b-beta.Q6_K.gguf",
-                    "url": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q6_K.gguf",
-                    "sizeBytes": 5942064832,
-                    "quantization": "Q6_K",
-                    "format": "gguf",
-                    "sha256checksum": "39b52e291eea6040de078283ee5316ff2a317e2b6f59be56724d9b29bada6cfe",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/zephyr-7B-beta-GGUF",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF"
                 }
             ]
         }
@@ -478,99 +119,84 @@
     },
     {
         "_descriptorVersion": "0.0.1",
-        "datePublished": "2023-12-11T06:26:58",
-        "name": "NexusRaven-V2-13B",
-        "description": "NexusRaven-V2 accepts a list of python functions. These python functions can do anything (e.g. sending GET/POST requests to external APIs). The two requirements include the python function signature and the appropriate docstring to generate the function call. *** Follow NexusRaven's prompting guide found on the model's Hugging Face page. ***",
+        "datePublished": "2024-04-19T01:00:31.000Z",
+        "name": "Llama 3 - 8B Instruct",
+        "description": "MetaAI's latest Llama model is here. Llama 3 comes in two sizes: 8B and 70B. Llama 3 is pretrained on over 15T tokens that were all collected from publicly available sources. Meta's training dataset is seven times larger than that used for Llama 2, and it includes four times more code.",
         "author": {
-            "name": "Nexusflow",
-            "url": "https://nexusflow.ai",
-            "blurb": "Nexusflow is democratizing Cyber Intelligence with Generative AI, fully on top of open-source large language models (LLMs)"
+            "name": "Meta AI",
+            "url": "https://ai.meta.com",
+            "blurb": "Pushing the boundaries of AI through research, infrastructure and product innovation."
         },
-        "numParameters": "13B",
+        "numParameters": "7B",
         "resources": {
-            "canonicalUrl": "https://huggingface.co/Nexusflow/NexusRaven-V2-13B",
-            "downloadUrl": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF"
+            "canonicalUrl": "https://llama.meta.com/llama3/",
+            "paperUrl": "https://ai.meta.com/blog/meta-llama-3/",
+            "downloadUrl": "https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF"
         },
-        "trainedFor": "other",
+        "trainedFor": "chat",
         "arch": "llama",
         "files": {
             "highlighted": {
                 "economical": {
-                    "name": "nexusraven-v2-13b.Q4_K_S.gguf"
-                },
-                "most_capable": {
-                    "name": "nexusraven-v2-13b.Q6_K.gguf"
+                    "name": "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf"
                 }
             },
             "all": [
                 {
-                    "name": "nexusraven-v2-13b.Q4_K_S.gguf",
-                    "url": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF/resolve/main/nexusraven-v2-13b.Q4_K_S.gguf",
-                    "sizeBytes": 7414501952,
+                    "name": "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+                    "url": "https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+                    "sizeBytes": 4920733888,
                     "quantization": "Q4_K_S",
                     "format": "gguf",
-                    "sha256checksum": "bc2e1ce9fa064e675690d4c6f2c441d922f24241764241aa013d0ca8a87ecbfe",
+                    "sha256checksum": "ab9e4eec7e80892fd78f74d9a15d0299f1e22121cea44efd68a7a02a3fe9a1da",
                     "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                        "name": "lmstudio-community",
+                        "socialUrl": "https://huggingface.co/lmstudio-community"
                     },
-                    "respository": "TheBloke/NexusRaven-V2-13B-GGUF",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF"
-                },
-                {
-                    "name": "nexusraven-v2-13b.Q6_K.gguf",
-                    "url": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF/resolve/main/nexusraven-v2-13b.Q6_K.gguf",
-                    "sizeBytes": 10679342592,
-                    "quantization": "Q6_K",
-                    "format": "gguf",
-                    "sha256checksum": "556ae244f4c69c603b7cda762d003d09f68058c671f304c2e011214ce754acb4",
-                    "publisher": {
-                        "name": "TheBloke",
-                        "socialUrl": "https://twitter.com/TheBlokeAI"
-                    },
-                    "respository": "TheBloke/NexusRaven-V2-13B-GGUF",
-                    "repositoryUrl": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF"
+                    "respository": "lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF",
+                    "repositoryUrl": "https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF"
                 }
             ]
         }
     },
     {
         "_descriptorVersion": "0.0.1",
-        "datePublished": "2024-03-12T06:52:19.000Z",
-        "name": "Hermes 2 Pro Mistral 7B",
-        "description": "Hermes 2 Pro, an updated version of Nous Hermes 2, incorporates an enhanced and cleaned OpenHermes 2.5 Dataset alongside a new in-house developed dataset for Function Calling and JSON Mode. This version retains its robust performance in general tasks and conversations while showing notable improvements in Function Calling, JSON Structured Outputs, achieving a 90% score in function calling evaluation conducted with Fireworks.AI, and 84% in structured JSON Output evaluation. It introduces a special system prompt and a multi-turn function calling structure, incorporating a chatml role to streamline and simplify function calling.",
+        "datePublished": "2024-03-19T11:04:50.000Z",
+        "name": "Starling LM 7B Beta",
+        "description": "Starling-LM-7B-beta is a language model fine-tuned through Reinforcement Learning with Human Feedback (RLHF) and AI Feedback (RLAIF), developed by Banghua Zhu, Evan Frick, Tianhao Wu, Hanlin Zhu, Karthik Ganesan, Wei-Lin Chiang, Jian Zhang, and Jiantao Jiao. It is available under an Apache-2.0 license, provided it's not used in competition against OpenAI. Originating from Openchat-3.5-0106, which is based on Mistral-7B-v0.1, Starling-LM-7B-beta employs a new reward model, Nexusflow/Starling-RM-34B, and a policy optimization method, Fine-Tuning Language Models from Human Preferences (PPO). Utilizing the berkeley-nest/Nectar ranking dataset, the enhanced Starling-RM-34B reward model, and a novel reward training and policy tuning pipeline, Starling-LM-7B-beta achieves a score of 8.12 in MT Bench, with GPT-4 serving as the evaluator.",
         "author": {
-            "name": "NousResearch",
-            "url": "https://twitter.com/NousResearch",
-            "blurb": "We are dedicated to advancing the field of natural language processing, in collaboration with the open-source community, through bleeding-edge research and a commitment to symbiotic development."
+            "name": "Nexusflow",
+            "url": "https://nexusflow.ai/",
+            "blurb": "Democratize GenAI Agents for Enterprise Workflows."
         },
         "numParameters": "7B",
         "resources": {
-            "canonicalUrl": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B",
-            "downloadUrl": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B-GGUF"
+            "canonicalUrl": "https://huggingface.co/Nexusflow/Starling-LM-7B-beta",
+            "downloadUrl": "https://huggingface.co/bartowski/Starling-LM-7B-beta-GGUF",
+            "paperUrl": "https://starling.cs.berkeley.edu/"
         },
-        "trainedFor": "chat",
+        "trainedFor": "instruct",
         "arch": "mistral",
         "files": {
             "highlighted": {
                 "economical": {
-                    "name": "Hermes-2-Pro-Mistral-7B.Q4_0.gguf"
+                    "name": "Starling-LM-7B-beta-IQ4_XS.gguf"
                 }
             },
             "all": [
                 {
-                    "name": "Hermes-2-Pro-Mistral-7B.Q4_0.gguf",
-                    "url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B-GGUF/resolve/main/Hermes-2-Pro-Mistral-7B.Q4_0.gguf",
-                    "sizeBytes": 4109098752,
-                    "quantization": "q4_0",
+                    "name": "Starling-LM-7B-beta-IQ4_XS.gguf",
+                    "url": "https://huggingface.co/bartowski/Starling-LM-7B-beta-GGUF/resolve/main/Starling-LM-7B-beta-IQ4_XS.gguf",
+                    "sizeBytes": 3944399776,
+                    "quantization": "IQ4_XS",
                     "format": "gguf",
-                    "sha256checksum": "f446c3125026f7af6757dd097dda02280adc85e908c058bd6f1c41a118354745",
+                    "sha256checksum": "8320f28768b95e42240c079a265550cb52975002a3cc48616d1eac1b25ecb666",
                     "publisher": {
-                        "name": "NousResearch",
-                        "socialUrl": "https://twitter.com/NousResearch"
+                        "name": "Bartowski",
+                        "socialUrl": "https://huggingface.co/bartowski"
                     },
-                    "respository": "NousResearch/Hermes-2-Pro-Mistral-7B-GGUF",
-                    "repositoryUrl": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B-GGUF"
+                    "respository": "bartowski/Starling-LM-7B-beta-GGUF",
+                    "repositoryUrl": "https://huggingface.co/bartowski/Starling-LM-7B-beta-GGUF"
                 }
             ]
         }
@@ -636,6 +262,64 @@
     },
     {
         "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-10-29T11:30:13",
+        "name": "Deepseek Coder",
+        "description": "Deepseek Coder is a collection of code language models with sizes ranging from 1B to 33B parameters, trained on a dataset comprising 2 trillion tokens (87% code, 13% natural language in English and Chinese). It is designed for project-level code completion and infilling, utilizing a 16K token window size and an additional fill-in-the-blank task. The models demonstrate leading performance on several programming benchmarks. The 6.7B parameter variant, deepseek-coder-6.7b-instruct, is fine-tuned on 2 billion tokens of instructional data. The code repository is MIT licensed, and the models support commercial use under the Model License.",
+        "author": {
+            "name": "DeepSeek",
+            "url": "https://huggingface.co/deepseek-ai",
+            "blurb": "DeepSeek (\u6df1\u5ea6\u6c42\u7d22), founded in 2023, is a Chinese company dedicated to making AGI a reality"
+        },
+        "numParameters": "6.7B",
+        "resources": {
+            "canonicalUrl": "https://github.com/deepseek-ai/deepseek-coder",
+            "downloadUrl": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF"
+        },
+        "trainedFor": "chat",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "deepseek-coder-6.7b-instruct.Q4_K_S.gguf"
+                },
+                "most_capable": {
+                    "name": "deepseek-coder-6.7b-instruct.Q6_K.gguf"
+                }
+            },
+            "all": [
+                {
+                    "name": "deepseek-coder-6.7b-instruct.Q4_K_S.gguf",
+                    "url": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q4_K_S.gguf",
+                    "sizeBytes": 3858751712,
+                    "quantization": "Q4_K_S",
+                    "format": "gguf",
+                    "sha256checksum": "d5d4b757645ce359a52d25584d29f1ff0d89580075edc35d87a20b89e65a5313",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF"
+                },
+                {
+                    "name": "deepseek-coder-6.7b-instruct.Q6_K.gguf",
+                    "url": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q6_K.gguf",
+                    "sizeBytes": 5531476192,
+                    "quantization": "Q6_K",
+                    "format": "gguf",
+                    "sha256checksum": "113fba500e4feb1313ce80d72cf381330b51460d265a7719bba626d6a461f9eb",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
         "datePublished": "2023-08-24T21:39:59",
         "name": "CodeLlama 7B Instruct",
         "description": "MetaAI has released Code Llama, a comprehensive family of large language models for code. These models are based on Llama 2 and exhibit state-of-the-art performance among openly available models. They offer advanced infilling capabilities, can accommodate large input contexts, and have the ability to follow instructions for programming tasks without prior training. There are various versions available to cater to a wide array of applications: foundation models (Code Llama), Python-specific models (Code Llama - Python), and models for following instructions (Code Llama - Instruct). These versions come with 7B, 13B, and 34B parameters respectively. All models are trained on 16k token sequences and show improvements even on inputs with up to 100k tokens. The 7B and 13B models of Code Llama and Code Llama - Instruct have the ability to infill based on surrounding content. In terms of performance, Code Llama has set new standards among open models on several code benchmarks, achieving scores of up to 53% on HumanEval and 55% on MBPP. Notably, the Python version of Code Llama 7B surpasses the performance of Llama 2 70B on HumanEval and MBPP. All of MetaAI's models outperform every other publicly available model on MultiPL-E. Code Llama has been released under a permissive license that enables both research and commercial use.",
@@ -689,6 +373,264 @@
                     },
                     "respository": "TheBloke/CodeLlama-7B-Instruct-GGUF",
                     "repositoryUrl": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-10-26T11:25:50",
+        "name": "Zephyr 7B \u03b2",
+        "description": "The Zephyr-7B-\u03b2 is the second model in the Zephyr series, designed to function as an assistant. It is a fine-tuned version of the mistralai/Mistral-7B-v0.1 model, leveraging a 7B parameter GPT-like architecture. The model has been trained on a combination of synthetic datasets and publicly available data using Direct Preference Optimization (DPO), a technique that improved its performance on the MT Bench. An important aspect to note is that the in-built alignment of the training datasets was deliberately omitted during the training process, a decision that, while enhancing the model's helpfulness, also makes it prone to generating potentially problematic outputs when prompted. Therefore, it is advised to use the model strictly for research and educational purposes. The model primarily supports the English language and is licensed under the MIT License. Additional details can be found in the associated technical report.",
+        "author": {
+            "name": "Hugging Face H4",
+            "url": "https://huggingface.co/HuggingFaceH4",
+            "blurb": "Hugging Face H4 team, focused on aligning language models to be helpful, honest, harmless, and huggy \ud83e\udd17"
+        },
+        "numParameters": "7B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
+            "paperUrl": "https://arxiv.org/abs/2310.16944",
+            "downloadUrl": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF"
+        },
+        "trainedFor": "chat",
+        "arch": "mistral",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "zephyr-7b-beta.Q4_K_S.gguf"
+                },
+                "most_capable": {
+                    "name": "zephyr-7b-beta.Q6_K.gguf"
+                }
+            },
+            "all": [
+                {
+                    "name": "zephyr-7b-beta.Q4_K_S.gguf",
+                    "url": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q4_K_S.gguf",
+                    "sizeBytes": 4140373696,
+                    "quantization": "Q4_K_S",
+                    "format": "gguf",
+                    "sha256checksum": "cafa0b85b2efc15ca33023f3b87f8d0c44ddcace16b3fb608280e0eb8f425cb1",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/zephyr-7B-beta-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF"
+                },
+                {
+                    "name": "zephyr-7b-beta.Q6_K.gguf",
+                    "url": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q6_K.gguf",
+                    "sizeBytes": 5942064832,
+                    "quantization": "Q6_K",
+                    "format": "gguf",
+                    "sha256checksum": "39b52e291eea6040de078283ee5316ff2a317e2b6f59be56724d9b29bada6cfe",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/zephyr-7B-beta-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2024-02-03T16:59:54.000Z",
+        "name": "Qwen 1.5",
+        "description": "Qwen1.5 is the large language model series developed by Qwen Team, Alibaba Group. It is a transformer-based decoder-only language model pretrained on large-scale multilingual data covering a wide range of domains and it is aligned with human preferences.",
+        "author": {
+            "name": "Qwen Team, Alibaba Group",
+            "url": "https://huggingface.co/Qwen",
+            "blurb": "Qwen (abbr. for Tongyi Qianwen \u901a\u4e49\u5343\u95ee) refers to the large language model family built by Alibaba Cloud"
+        },
+        "numParameters": "7B",
+        "resources": {
+            "canonicalUrl": "https://github.com/QwenLM/Qwen1.5",
+            "paperUrl": "https://qwenlm.github.io/blog/qwen1.5/",
+            "downloadUrl": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF"
+        },
+        "trainedFor": "chat",
+        "arch": "qwen2",
+        "files": {
+            "highlighted": {
+                "most_capable": {
+                    "name": "qwen1_5-7b-chat-q5_k_m.gguf"
+                }
+            },
+            "all": [
+                {
+                    "name": "qwen1_5-7b-chat-q5_k_m.gguf",
+                    "url": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF/resolve/main/qwen1_5-7b-chat-q5_k_m.gguf",
+                    "sizeBytes": 5530664160,
+                    "quantization": "Q5_K_M",
+                    "format": "gguf",
+                    "sha256checksum": "06ab8a96c4da98f2e692c8b376cf8e9d34a7365259ae7a78cbc4218b5a5b35ae",
+                    "publisher": {
+                        "name": "Qwen",
+                        "socialUrl": "https://huggingface.co/Qwen"
+                    },
+                    "respository": "Qwen/Qwen1.5-7B-Chat-GGUF",
+                    "repositoryUrl": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2024-06-28T05:10:58.000Z",
+        "name": "Gemma 2 9B Instruct",
+        "description": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models",
+        "author": {
+            "name": "Google DeepMind",
+            "url": "https://deepmind.google",
+            "blurb": "We\u2019re a team of scientists, engineers, ethicists and more, working to build the next generation of AI systems safely and responsibly."
+        },
+        "numParameters": "9B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/google/gemma-2-9b-it",
+            "downloadUrl": "https://huggingface.co/lmstudio-community/gemma-2-9b-it-GGUF"
+        },
+        "trainedFor": "chat",
+        "arch": "gemma2",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "gemma-2-9b-it-Q4_K_M.gguf"
+                }
+            },
+            "all": [
+                {
+                    "name": "gemma-2-9b-it-Q4_K_M.gguf",
+                    "url": "https://huggingface.co/lmstudio-community/gemma-2-9b-it-GGUF/resolve/main/gemma-2-9b-it-Q4_K_M.gguf",
+                    "sizeBytes": 5761057728,
+                    "quantization": "Q4_K_M",
+                    "format": "gguf",
+                    "sha256checksum": "13b2a7b4115bbd0900162edcebe476da1ba1fc24e718e8b40d32f6e300f56dfe",
+                    "publisher": {
+                        "name": "lmstudio-community",
+                        "socialUrl": "https://twitter.com/LMStudioAI"
+                    },
+                    "respository": "lmstudio-community/gemma-2-9b-it-GGUF",
+                    "repositoryUrl": "https://huggingface.co/lmstudio-community/gemma-2-9b-it-GGUF"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-10-29T21:27:30",
+        "name": "OpenHermes 2.5 Mistral 7B",
+        "description": "OpenHermes 2.5 Mistral 7B is an advanced iteration of the OpenHermes 2 language model, enhanced by training on a significant proportion of code datasets. This additional training improved performance across several benchmarks, notably TruthfulQA, AGIEval, and the GPT4All suite, while slightly decreasing the BigBench score. Notably, the model's ability to handle code-related tasks, measured by the humaneval score, increased from 43% to 50.7%. The training data consisted of one million entries, primarily sourced from GPT-4 outputs and other high-quality open datasets. This data was rigorously filtered and standardized to the ShareGPT format and subsequently processed using ChatML by the axolotl tool.",
+        "author": {
+            "name": "Teknium",
+            "url": "https://twitter.com/Teknium1",
+            "blurb": "Creator of numerous chart topping fine-tunes and a Co-founder of NousResearch"
+        },
+        "numParameters": "7B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B",
+            "downloadUrl": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF"
+        },
+        "trainedFor": "chat",
+        "arch": "mistral",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "openhermes-2.5-mistral-7b.Q4_K_S.gguf"
+                },
+                "most_capable": {
+                    "name": "openhermes-2.5-mistral-7b.Q6_K.gguf"
+                }
+            },
+            "all": [
+                {
+                    "name": "openhermes-2.5-mistral-7b.Q4_K_S.gguf",
+                    "url": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF/resolve/main/openhermes-2.5-mistral-7b.Q4_K_S.gguf",
+                    "sizeBytes": 4140385024,
+                    "quantization": "Q4_K_S",
+                    "format": "gguf",
+                    "sha256checksum": "5ae9c3c11ce520a2360dcfca1f4e38392dc0b7a49413ce6695857a5148a71d35",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/OpenHermes-2.5-Mistral-7B-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF"
+                },
+                {
+                    "name": "openhermes-2.5-mistral-7b.Q6_K.gguf",
+                    "url": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF/resolve/main/openhermes-2.5-mistral-7b.Q6_K.gguf",
+                    "sizeBytes": 5942078272,
+                    "quantization": "Q6_K",
+                    "format": "gguf",
+                    "sha256checksum": "cd4caa42229e973636e9d4c8db50a89593353c521e0342ca615756ded2b977a2",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/OpenHermes-2.5-Mistral-7B-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2023-12-11T06:26:58",
+        "name": "NexusRaven-V2-13B",
+        "description": "NexusRaven-V2 accepts a list of python functions. These python functions can do anything (e.g. sending GET/POST requests to external APIs). The two requirements include the python function signature and the appropriate docstring to generate the function call. *** Follow NexusRaven's prompting guide found on the model's Hugging Face page. ***",
+        "author": {
+            "name": "Nexusflow",
+            "url": "https://nexusflow.ai",
+            "blurb": "Nexusflow is democratizing Cyber Intelligence with Generative AI, fully on top of open-source large language models (LLMs)"
+        },
+        "numParameters": "13B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/Nexusflow/NexusRaven-V2-13B",
+            "downloadUrl": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF"
+        },
+        "trainedFor": "other",
+        "arch": "llama",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "nexusraven-v2-13b.Q4_K_S.gguf"
+                },
+                "most_capable": {
+                    "name": "nexusraven-v2-13b.Q6_K.gguf"
+                }
+            },
+            "all": [
+                {
+                    "name": "nexusraven-v2-13b.Q4_K_S.gguf",
+                    "url": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF/resolve/main/nexusraven-v2-13b.Q4_K_S.gguf",
+                    "sizeBytes": 7414501952,
+                    "quantization": "Q4_K_S",
+                    "format": "gguf",
+                    "sha256checksum": "bc2e1ce9fa064e675690d4c6f2c441d922f24241764241aa013d0ca8a87ecbfe",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/NexusRaven-V2-13B-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF"
+                },
+                {
+                    "name": "nexusraven-v2-13b.Q6_K.gguf",
+                    "url": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF/resolve/main/nexusraven-v2-13b.Q6_K.gguf",
+                    "sizeBytes": 10679342592,
+                    "quantization": "Q6_K",
+                    "format": "gguf",
+                    "sha256checksum": "556ae244f4c69c603b7cda762d003d09f68058c671f304c2e011214ce754acb4",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/NexusRaven-V2-13B-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/NexusRaven-V2-13B-GGUF"
                 }
             ]
         }
@@ -754,6 +696,89 @@
     },
     {
         "_descriptorVersion": "0.0.1",
+        "datePublished": "2024-07-02T14:09:26",
+        "name": "Phi 3",
+        "description": "The Phi-3-Mini-4K-Instruct is a 3.8B parameters, lightweight, state-of-the-art open model trained with the Phi-3 datasets that includes both synthetic data and the filtered publicly available websites data with a focus on high-quality and reasoning dense properties.",
+        "author": {
+            "name": "Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/",
+            "blurb": "Advancing science and technology to benefit humanity"
+        },
+        "numParameters": "3B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+            "downloadUrl": "https://huggingface.co/lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF"
+        },
+        "trainedFor": "chat",
+        "arch": "phi3",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "Phi-3.1-mini-4k-instruct-Q5_K_M.gguf"
+                }
+            },
+            "all": [
+                {
+                    "name": "Phi-3.1-mini-4k-instruct-Q5_K_M.gguf",
+                    "url": "https://huggingface.co/lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF/resolve/main/Phi-3.1-mini-4k-instruct-Q5_K_M.gguf",
+                    "sizeBytes": 2815275232,
+                    "quantization": "Q5_K_M",
+                    "format": "gguf",
+                    "sha256checksum": "bb076f8f9e6c188a8251c626e4d89442c291215c82b2cb06e1efed0941fc443a",
+                    "publisher": {
+                        "name": "lmstudio-community",
+                        "socialUrl": "https://twitter.com/LMStudioAI"
+                    },
+                    "respository": "lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF",
+                    "repositoryUrl": "https://huggingface.co/lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2024-03-20T00:31:49.000Z",
+        "name": "Stable Code Instruct 3B",
+        "description": "Stable Code Instruct 3B is a decoder-only language model with 2.7 billion parameters, developed from the stable-code-3b. It has been trained on a combination of publicly available and synthetic datasets, with the latter generated through Direct Preference Optimization (DPO). This model has shown competitive performance in comparison to other models of similar size, as evidenced by its results on the MultiPL-E metrics across various programming languages using the BigCode Evaluation Harness, and on code-related tasks in MT Bench. It is fine-tuned for use in general code/software engineering conversations and SQL query generation and discussion.",
+        "author": {
+            "name": "Stability AI",
+            "url": "https://stability.ai/",
+            "blurb": "Stability AI is developing cutting-edge open AI models for Image, Language, Audio, Video, 3D and Biology."
+        },
+        "numParameters": "3B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/stabilityai/stable-code-instruct-3b",
+            "downloadUrl": "https://huggingface.co/bartowski/stable-code-instruct-3b-GGUF",
+            "paperUrl": "https://drive.google.com/file/d/16-DGsR5-qwoPztZ6HcM7KSRUxIXrjlSm/view"
+        },
+        "trainedFor": "instruct",
+        "arch": "stablelm",
+        "files": {
+            "highlighted": {
+                "most_capable": {
+                    "name": "stable-code-instruct-3b-Q8_0.gguf"
+                }
+            },
+            "all": [
+                {
+                    "name": "stable-code-instruct-3b-Q8_0.gguf",
+                    "url": "https://huggingface.co/bartowski/stable-code-instruct-3b-GGUF/resolve/main/stable-code-instruct-3b-Q8_0.gguf",
+                    "sizeBytes": 2972926176,
+                    "quantization": "Q8_0",
+                    "format": "gguf",
+                    "sha256checksum": "2ffc06aacad9b90fe633c3920d3784618d7419e5704151e9ab7087a5958a3c63",
+                    "publisher": {
+                        "name": "Bartowski",
+                        "socialUrl": "https://huggingface.co/bartowski"
+                    },
+                    "respository": "bartowski/stable-code-instruct-3b-GGUF",
+                    "repositoryUrl": "https://huggingface.co/bartowski/stable-code-instruct-3b-GGUF"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
         "datePublished": "2024-02-21T16:54:57.000Z",
         "name": "Google's Gemma 2B Instruct",
         "description": "Gemma is a family of lightweight LLMs built from the same research and technology Google used to create the Gemini models. Gemma models are available in two sizes, 2 billion and 7 billion parameters. These models are trained on up to 6T tokens of primarily English web documents, mathematics, and code, using a transformer architecture with enhancements like Multi-Query Attention, RoPE Embeddings, GeGLU Activations, and advanced normalization techniques.",
@@ -796,42 +821,99 @@
     },
     {
         "_descriptorVersion": "0.0.1",
-        "datePublished": "2024-03-19T11:04:50.000Z",
-        "name": "Starling LM 7B Beta",
-        "description": "Starling-LM-7B-beta is a language model fine-tuned through Reinforcement Learning with Human Feedback (RLHF) and AI Feedback (RLAIF), developed by Banghua Zhu, Evan Frick, Tianhao Wu, Hanlin Zhu, Karthik Ganesan, Wei-Lin Chiang, Jian Zhang, and Jiantao Jiao. It is available under an Apache-2.0 license, provided it's not used in competition against OpenAI. Originating from Openchat-3.5-0106, which is based on Mistral-7B-v0.1, Starling-LM-7B-beta employs a new reward model, Nexusflow/Starling-RM-34B, and a policy optimization method, Fine-Tuning Language Models from Human Preferences (PPO). Utilizing the berkeley-nest/Nectar ranking dataset, the enhanced Starling-RM-34B reward model, and a novel reward training and policy tuning pipeline, Starling-LM-7B-beta achieves a score of 8.12 in MT Bench, with GPT-4 serving as the evaluator.",
+        "datePublished": "2023-11-21T16:28:30",
+        "name": "StableLM Zephyr 3B",
+        "description": "StableLM Zephyr 3B is an English-language, auto-regressive language model with 3 billion parameters, developed by Stability AI. It's an instruction-tuned model influenced by HuggingFace's Zephyr 7B training approach and is built on transformer decoder architecture. It was trained using a mix of public and synthetic datasets, including SFT and Preference Datasets from the HuggingFace Hub with Direct Preference Optimization (DPO). Its performance has been evaluated using the MT Bench and Alpaca Benchmark, achieving a score of 6.64 and a win rate of 76% respectively. For fine-tuning, it utilizes the StabilityAI's stablelm-3b-4e1t model and is available under the StabilityAI Non-Commercial Research Community License. Commercial use requires contacting Stability AI for more information. The model was trained on a Stability AI cluster with 8 nodes, each equipped with 8 A100 80GB GPUs, using internal scripts for SFT steps and HuggingFace's Alignment Handbook scripts for DPO training.",
         "author": {
-            "name": "Nexusflow",
-            "url": "https://nexusflow.ai/",
-            "blurb": "Democratize GenAI Agents for Enterprise Workflows."
+            "name": "Stability AI",
+            "url": "https://stability.ai/",
+            "blurb": "Stability AI is developing cutting-edge open AI models for Image, Language, Audio, Video, 3D and Biology."
         },
-        "numParameters": "7B",
+        "numParameters": "3B",
         "resources": {
-            "canonicalUrl": "https://huggingface.co/Nexusflow/Starling-LM-7B-beta",
-            "downloadUrl": "https://huggingface.co/bartowski/Starling-LM-7B-beta-GGUF",
-            "paperUrl": "https://starling.cs.berkeley.edu/"
+            "canonicalUrl": "https://huggingface.co/stabilityai/stablelm-zephyr-3b",
+            "downloadUrl": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF"
         },
-        "trainedFor": "instruct",
-        "arch": "mistral",
+        "trainedFor": "chat",
+        "arch": "stablelm",
         "files": {
             "highlighted": {
                 "economical": {
-                    "name": "Starling-LM-7B-beta-IQ4_XS.gguf"
+                    "name": "stablelm-zephyr-3b.Q4_K_S.gguf"
+                },
+                "most_capable": {
+                    "name": "stablelm-zephyr-3b.Q6_K.gguf"
                 }
             },
             "all": [
                 {
-                    "name": "Starling-LM-7B-beta-IQ4_XS.gguf",
-                    "url": "https://huggingface.co/bartowski/Starling-LM-7B-beta-GGUF/resolve/main/Starling-LM-7B-beta-IQ4_XS.gguf",
-                    "sizeBytes": 3944399776,
-                    "quantization": "IQ4_XS",
+                    "name": "stablelm-zephyr-3b.Q4_K_S.gguf",
+                    "url": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF/resolve/main/stablelm-zephyr-3b.Q4_K_S.gguf",
+                    "sizeBytes": 1620695488,
+                    "quantization": "Q4_K_S",
                     "format": "gguf",
-                    "sha256checksum": "8320f28768b95e42240c079a265550cb52975002a3cc48616d1eac1b25ecb666",
+                    "sha256checksum": "748f9fa7b893df8383467c7f28affef3489e20f2da351441b0dd112c43ddb587",
                     "publisher": {
-                        "name": "Bartowski",
-                        "socialUrl": "https://huggingface.co/bartowski"
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
                     },
-                    "respository": "bartowski/Starling-LM-7B-beta-GGUF",
-                    "repositoryUrl": "https://huggingface.co/bartowski/Starling-LM-7B-beta-GGUF"
+                    "respository": "TheBloke/stablelm-zephyr-3b-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF"
+                },
+                {
+                    "name": "stablelm-zephyr-3b.Q6_K.gguf",
+                    "url": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF/resolve/main/stablelm-zephyr-3b.Q6_K.gguf",
+                    "sizeBytes": 2295985088,
+                    "quantization": "Q6_K",
+                    "format": "gguf",
+                    "sha256checksum": "d51685399c77b1dfe2dafa53ac7e6272b414bbc529c0f3bf0bdd15f90559c049",
+                    "publisher": {
+                        "name": "TheBloke",
+                        "socialUrl": "https://twitter.com/TheBlokeAI"
+                    },
+                    "respository": "TheBloke/stablelm-zephyr-3b-GGUF",
+                    "repositoryUrl": "https://huggingface.co/TheBloke/stablelm-zephyr-3b-GGUF"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
+        "datePublished": "2024-03-12T06:52:19.000Z",
+        "name": "Hermes 2 Pro Mistral 7B",
+        "description": "Hermes 2 Pro, an updated version of Nous Hermes 2, incorporates an enhanced and cleaned OpenHermes 2.5 Dataset alongside a new in-house developed dataset for Function Calling and JSON Mode. This version retains its robust performance in general tasks and conversations while showing notable improvements in Function Calling, JSON Structured Outputs, achieving a 90% score in function calling evaluation conducted with Fireworks.AI, and 84% in structured JSON Output evaluation. It introduces a special system prompt and a multi-turn function calling structure, incorporating a chatml role to streamline and simplify function calling.",
+        "author": {
+            "name": "NousResearch",
+            "url": "https://twitter.com/NousResearch",
+            "blurb": "We are dedicated to advancing the field of natural language processing, in collaboration with the open-source community, through bleeding-edge research and a commitment to symbiotic development."
+        },
+        "numParameters": "7B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B",
+            "downloadUrl": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B-GGUF"
+        },
+        "trainedFor": "chat",
+        "arch": "mistral",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "Hermes-2-Pro-Mistral-7B.Q4_0.gguf"
+                }
+            },
+            "all": [
+                {
+                    "name": "Hermes-2-Pro-Mistral-7B.Q4_0.gguf",
+                    "url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B-GGUF/resolve/main/Hermes-2-Pro-Mistral-7B.Q4_0.gguf",
+                    "sizeBytes": 4109098752,
+                    "quantization": "q4_0",
+                    "format": "gguf",
+                    "sha256checksum": "f446c3125026f7af6757dd097dda02280adc85e908c058bd6f1c41a118354745",
+                    "publisher": {
+                        "name": "NousResearch",
+                        "socialUrl": "https://twitter.com/NousResearch"
+                    },
+                    "respository": "NousResearch/Hermes-2-Pro-Mistral-7B-GGUF",
+                    "repositoryUrl": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B-GGUF"
                 }
             ]
         }
