@@ -1,0 +1,41 @@
+{
+    "_descriptorVersion": "0.0.1",  
+    "datePublished": "2024-06-28T05:10:58.000Z",
+    "name": "Gemma 2 9B Instruct",
+    "description": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models",
+    "author": {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google",
+      "blurb": "We’re a team of scientists, engineers, ethicists and more, working to build the next generation of AI systems safely and responsibly."
+    },
+    "numParameters": "9B",
+    "resources": {
+      "canonicalUrl": "https://huggingface.co/google/gemma-2-9b-it",
+      "downloadUrl": "https://huggingface.co/lmstudio-community/gemma-2-9b-it-GGUF"
+    },
+    "trainedFor": "chat",
+    "arch": "gemma2",
+    "files": {
+      "highlighted": {
+        "economical": {
+          "name": "gemma-2-9b-it-Q4_K_M.gguf"
+        }
+      },
+      "all": [
+        {
+          "name": "gemma-2-9b-it-Q4_K_M.gguf",
+          "url": "https://huggingface.co/lmstudio-community/gemma-2-9b-it-GGUF/resolve/main/gemma-2-9b-it-Q4_K_M.gguf",
+          "sizeBytes": 5761057728,
+          "quantization": "Q4_K_M",
+          "format": "gguf",
+          "sha256checksum": "13b2a7b4115bbd0900162edcebe476da1ba1fc24e718e8b40d32f6e300f56dfe",
+          "publisher": {
+            "name": "lmstudio-community",
+            "socialUrl": "https://twitter.com/LMStudioAI"
+          },
+          "respository": "lmstudio-community/gemma-2-9b-it-GGUF",
+          "repositoryUrl": "https://huggingface.co/lmstudio-community/gemma-2-9b-it-GGUF"
+        }
+      ]
+    }
+  }

@@ -31,7 +31,7 @@
         "format": "gguf",
         "sha256checksum": "ab9e4eec7e80892fd78f74d9a15d0299f1e22121cea44efd68a7a02a3fe9a1da",
         "publisher": {
-          "name": "LM Studio Community",
+          "name": "lmstudio-community",
           "socialUrl": "https://huggingface.co/lmstudio-community"
         },
         "respository": "lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF",
