@@ -19,17 +19,17 @@
   "files": {
     "highlighted": {
       "economical": {
-        "name": "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf"
+        "name": "Meta-Llama-3.1-8B-Instruct-Q4_K_M-take2.gguf"
       }
     },
     "all": [
       {
-        "name": "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
-        "url": "https://huggingface.co/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+        "name": "Meta-Llama-3.1-8B-Instruct-Q4_K_M-take2.gguf",
+        "url": "https://huggingface.co/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_K_M-take2.gguf",
         "sizeBytes": 4920734656,
         "quantization": "Q4_K_M",
         "format": "gguf",
-        "sha256checksum": "2a4ca64e02e7126436cfdb066dd7311f2486eb487191910d3d000fde13826a4d",
+        "sha256checksum": "431354b8f6066accf13219106f1956ecf9a212089dea1fd18b416454f28ba421",
         "publisher": {
           "name": "lmstudio-community",
           "socialUrl": "https://huggingface.co/lmstudio-community"
