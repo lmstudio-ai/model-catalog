@@ -1,8 +1,8 @@
 {
     "_descriptorVersion": "0.0.1",  
     "datePublished": "2024-07-02T14:09:26",
-    "name": "Phi 3",
-    "description": "The Phi-3-Mini-4K-Instruct is a 3.8B parameters, lightweight, state-of-the-art open model trained with the Phi-3 datasets that includes both synthetic data and the filtered publicly available websites data with a focus on high-quality and reasoning dense properties.",
+    "name": "Phi 3 mini 4k Instruct",
+    "description": "Phi-3-Mini-4K-Instruct is a 3.8B parameters, lightweight, state-of-the-art open model trained with the Phi-3 datasets that includes both synthetic data and the filtered publicly available websites data with a focus on high-quality and reasoning dense properties.",
     "author": {
       "name": "Microsoft Research",
       "url": "https://www.microsoft.com/en-us/research/",
@@ -18,17 +18,17 @@
     "files": {
       "highlighted": {
         "economical": {
-          "name": "Phi-3.1-mini-4k-instruct-Q5_K_M.gguf"
+          "name": "Phi-3.1-mini-4k-instruct-Q4_K_M.gguf"
         }
       },
       "all": [
         {
-          "name": "Phi-3.1-mini-4k-instruct-Q5_K_M.gguf",
-          "url": "https://huggingface.co/lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF/resolve/main/Phi-3.1-mini-4k-instruct-Q5_K_M.gguf",
-          "sizeBytes": 2815275232,
-          "quantization": "Q5_K_M",
+          "name": "Phi-3.1-mini-4k-instruct-Q4_K_M.gguf",
+          "url": "https://huggingface.co/lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF/resolve/main/Phi-3.1-mini-4k-instruct-Q4_K_M.gguf",
+          "sizeBytes": 2393232096,
+          "quantization": "Q4_K_M",
           "format": "gguf",
-          "sha256checksum": "bb076f8f9e6c188a8251c626e4d89442c291215c82b2cb06e1efed0941fc443a",
+          "sha256checksum": "d6d25bf078321bea4a079c727b273cb0b5a2e0b4cf3add0f7a2c8e43075c414f",
           "publisher": {
             "name": "lmstudio-community",
             "socialUrl": "https://twitter.com/LMStudioAI"
