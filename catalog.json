@@ -160,6 +160,47 @@
     },
     {
         "_descriptorVersion": "0.0.1",
+        "datePublished": "2024-07-02T14:09:26",
+        "name": "Phi 3 mini 4k Instruct",
+        "description": "Phi-3-Mini-4K-Instruct is a 3.8B parameters, lightweight, state-of-the-art open model trained with the Phi-3 datasets that includes both synthetic data and the filtered publicly available websites data with a focus on high-quality and reasoning dense properties.",
+        "author": {
+            "name": "Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/",
+            "blurb": "Advancing science and technology to benefit humanity"
+        },
+        "numParameters": "3B",
+        "resources": {
+            "canonicalUrl": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+            "downloadUrl": "https://huggingface.co/lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF"
+        },
+        "trainedFor": "chat",
+        "arch": "phi3",
+        "files": {
+            "highlighted": {
+                "economical": {
+                    "name": "Phi-3.1-mini-4k-instruct-Q4_K_M.gguf"
+                }
+            },
+            "all": [
+                {
+                    "name": "Phi-3.1-mini-4k-instruct-Q4_K_M.gguf",
+                    "url": "https://huggingface.co/lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF/resolve/main/Phi-3.1-mini-4k-instruct-Q4_K_M.gguf",
+                    "sizeBytes": 2393232096,
+                    "quantization": "Q4_K_M",
+                    "format": "gguf",
+                    "sha256checksum": "d6d25bf078321bea4a079c727b273cb0b5a2e0b4cf3add0f7a2c8e43075c414f",
+                    "publisher": {
+                        "name": "lmstudio-community",
+                        "socialUrl": "https://twitter.com/LMStudioAI"
+                    },
+                    "respository": "lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF",
+                    "repositoryUrl": "https://huggingface.co/lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF"
+                }
+            ]
+        }
+    },
+    {
+        "_descriptorVersion": "0.0.1",
         "datePublished": "2023-10-29T21:27:30",
         "name": "OpenHermes 2.5 Mistral 7B",
         "description": "OpenHermes 2.5 Mistral 7B is an advanced iteration of the OpenHermes 2 language model, enhanced by training on a significant proportion of code datasets. This additional training improved performance across several benchmarks, notably TruthfulQA, AGIEval, and the GPT4All suite, while slightly decreasing the BigBench score. Notably, the model's ability to handle code-related tasks, measured by the humaneval score, increased from 43% to 50.7%. The training data consisted of one million entries, primarily sourced from GPT-4 outputs and other high-quality open datasets. This data was rigorously filtered and standardized to the ShareGPT format and subsequently processed using ChatML by the axolotl tool.",
@@ -915,47 +956,6 @@
                     },
                     "respository": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF",
                     "repositoryUrl": "https://huggingface.co/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF"
-                }
-            ]
-        }
-    },
-    {
-        "_descriptorVersion": "0.0.1",
-        "datePublished": "2024-07-02T14:09:26",
-        "name": "Phi 3",
-        "description": "The Phi-3-Mini-4K-Instruct is a 3.8B parameters, lightweight, state-of-the-art open model trained with the Phi-3 datasets that includes both synthetic data and the filtered publicly available websites data with a focus on high-quality and reasoning dense properties.",
-        "author": {
-            "name": "Microsoft Research",
-            "url": "https://www.microsoft.com/en-us/research/",
-            "blurb": "Advancing science and technology to benefit humanity"
-        },
-        "numParameters": "3B",
-        "resources": {
-            "canonicalUrl": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
-            "downloadUrl": "https://huggingface.co/lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF"
-        },
-        "trainedFor": "chat",
-        "arch": "phi3",
-        "files": {
-            "highlighted": {
-                "economical": {
-                    "name": "Phi-3.1-mini-4k-instruct-Q5_K_M.gguf"
-                }
-            },
-            "all": [
-                {
-                    "name": "Phi-3.1-mini-4k-instruct-Q5_K_M.gguf",
-                    "url": "https://huggingface.co/lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF/resolve/main/Phi-3.1-mini-4k-instruct-Q5_K_M.gguf",
-                    "sizeBytes": 2815275232,
-                    "quantization": "Q5_K_M",
-                    "format": "gguf",
-                    "sha256checksum": "bb076f8f9e6c188a8251c626e4d89442c291215c82b2cb06e1efed0941fc443a",
-                    "publisher": {
-                        "name": "lmstudio-community",
-                        "socialUrl": "https://twitter.com/LMStudioAI"
-                    },
-                    "respository": "lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF",
-                    "repositoryUrl": "https://huggingface.co/lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF"
                 }
             ]
         }
