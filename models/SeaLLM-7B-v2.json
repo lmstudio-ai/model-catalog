@@ -1,0 +1,14 @@
+{
+    "name": "SeaLLM",
+    "inference_params": {
+      "input_prefix": "</s><|im_start|>user\n",
+      "input_suffix": "</s><|im_start|>assistant\n",
+      "antiprompt": [
+        "<|im_start|>",
+        "</s>"
+      ],
+      "pre_prompt_prefix": "<|im_start|>system\n",
+      "pre_prompt_suffix": "",
+      "pre_prompt": "You are a helpful assistant."
+    }
+  }
